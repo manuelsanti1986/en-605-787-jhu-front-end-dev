@@ -22,8 +22,9 @@ div.box {
     border-color: black;
     border-style: solid;
     background-color: #b5afae;
-    margin: 20px;
+    margin-left: 2.5%;
     width: 30%;
+    float: left;
 }
 
 div.title {
