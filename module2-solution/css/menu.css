@@ -1,34 +1,48 @@
-div {
+* {
+    box-sizing: border-box;
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 p {
     padding: 10px;
 }
+
+h1 {
+    text-align: center;
+    font-size: 150%;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
 div.box {
     border-width: 2px;
     border-color: black;
     border-style: solid;
     background-color: #b5afae;
+    margin: 20px;
+    width: 30%;
 }
+
 div.title {
     border-width: 1px;
     border-color: black;
     border-style: solid;
-    background-color: #d9a293;
-}
-div.content {
-}
-h1 {
     text-align: center;
-    font-size: 150%;
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
-p.title {
-    text-align: center;
-    color: blue;
     font-size: 28px;
 }
-p.description {
-    color: red;
+.title1 {
+    background-color: #d9a293;
+}
+
+.title2 {
+    background-color: #963121;
+    color: #ffffff;
+}
+
+.title3 {
+    background-color: #f5c676;
+
 }
