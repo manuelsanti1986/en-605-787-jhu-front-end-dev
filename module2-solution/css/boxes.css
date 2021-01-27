@@ -1,0 +1,19 @@
+div.box {
+    border-width: 2px;
+}
+div.title {
+    border-width: 1px;
+}
+p {
+    padding: 10px;
+}
+p.title {
+    color: blue;
+    font-family: courier;
+    font-size: 160%;
+}
+p.description {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+}
