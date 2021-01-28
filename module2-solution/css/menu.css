@@ -10,24 +10,31 @@ p {
     padding: 10px;
 }
 
-h1 {
+h1.title {
     text-align: center;
-    font-size: 150%;
+    font-size: 250%;
     margin-top: 30px;
     margin-bottom: 80px;
 }
 
-div.box {
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
-    background-color: #b5afae;
+div.row{
+    clear: left;
+}
+
+div.col {
     margin-left: 2.5%;
     width: 30%;
     float: left;
 }
 
-div.title {
+div.card {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: #b5afae;
+}
+
+div.card-heading {
     border-width: 1px;
     border-color: black;
     border-style: solid;
