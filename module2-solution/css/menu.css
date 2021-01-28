@@ -41,6 +41,11 @@ div.card-heading {
     text-align: center;
     font-size: 28px;
 }
+
+div.card-body {
+    background-color: #b5afae;
+}
+
 .title1 {
     background-color: #d9a293;
 }
