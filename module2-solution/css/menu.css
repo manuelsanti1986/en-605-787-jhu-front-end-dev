@@ -22,12 +22,6 @@ div.row{
     height: auto;
 }
 
-div.col {
-    margin-left: 2.5%;
-    width: 30%;
-    float: left;
-}
-
 div.card {
     border-width: 2px;
     border-color: black;
@@ -62,4 +56,31 @@ div.card-body {
 .title-orange {
     background-color: #f5c676;
 
+}
+
+/* Large Devices */
+@media(min-width: 992px){
+    div.col {
+        margin-left: 2.5%;
+        width: 30%;
+        float: left;
+    }
+}
+/* Medium Devices */
+@media(min-width: 768px) and (max-width: 991px){
+    div.col {
+        margin-top: 5%;
+        margin-left: 3%;
+        width: 44%;
+        float: left;
+    }
+}
+/* Small Devices */
+@media(max-width: 767px){
+    div.col {
+        margin-top: 5%;
+        margin-left: 3%;
+        width: 94%;
+        float: left;
+    }
 }
