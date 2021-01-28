@@ -2,10 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 p {
     padding: 10px;
 }
@@ -17,8 +13,13 @@ h1.title {
     margin-bottom: 80px;
 }
 
+div.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 div.row{
     clear: left;
+    height: auto;
 }
 
 div.col {
@@ -40,22 +41,26 @@ div.card-heading {
     border-style: solid;
     text-align: center;
     font-size: 28px;
+    width: 40%;
+    height: 20%;
+    alignment: right;
+    /*float: right;*/
 }
 
 div.card-body {
-    background-color: #b5afae;
+    font-size: 18px;
 }
 
-.title1 {
+.title-salmon {
     background-color: #d9a293;
 }
 
-.title2 {
+.title-redwine {
     background-color: #963121;
     color: #ffffff;
 }
 
-.title3 {
+.title-orange {
     background-color: #f5c676;
 
 }
