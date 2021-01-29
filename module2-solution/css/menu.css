@@ -1,28 +1,28 @@
 * {
     box-sizing: border-box;
 }
-
 p {
     padding: 10px;
 }
-
 div.container {
     font-family: Arial, Helvetica, sans-serif;
 }
-
 div.row{
     clear: left;
     width: 100%;
     height: auto;
 }
-
 div.card {
     border-width: 2px;
     border-color: black;
     border-style: solid;
     background-color: #b5afae;
+    height: 270px;
+    overflow: hidden;
 }
-
+div.card:hover {
+    overflow-y: scroll;
+}
 div.card-heading {
     border-width: 1px;
     border-color: black;
@@ -33,20 +33,16 @@ div.card-heading {
     width: 40%;
     font-size: 175%;
 }
-
 div.card-body {
     font-size: 150%;
 }
-
 .title-salmon {
     background-color: #d9a293;
 }
-
 .title-redwine {
     background-color: #963121;
     color: #ffffff;
 }
-
 .title-orange {
     background-color: #f5c676;
 
