@@ -17,21 +17,10 @@ div.card {
     border-color: black;
     border-style: solid;
     background-color: #b5afae;
-    height: 270px;
     overflow: hidden;
 }
 div.card:hover {
     overflow-y: scroll;
-}
-div.card-heading {
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    text-align: center;
-    position: relative;
-    left: 60%;
-    width: 40%;
-    font-size: 175%;
 }
 div.card-body {
     font-size: 150%;
@@ -97,7 +86,20 @@ div.card-body {
         margin-top: 30px;
         margin-bottom: 80px;
     }
-    h1.hide-lg {
+    div.card{
+        height: 270px;
+    }
+    div.card-title-lg {
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        text-align: center;
+        position: relative;
+        font-size: 175%;
+        left: 60%;
+        width: 40%;
+    }
+    .hide-lg {
         font-size: 0%;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -153,7 +155,20 @@ div.card-body {
         margin-top: 30px;
         margin-bottom: 80px;
     }
-    h1.hide-md {
+    div.card{
+        height: 250px;
+    }
+    div.card-title-md {
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        text-align: center;
+        position: relative;
+        font-size: 175%;
+        left: 60%;
+        width: 40%;
+    }
+    .hide-md {
         font-size: 0%;
         margin-top: 0px;
         margin-bottom: 0px;
@@ -210,7 +225,19 @@ div.card-body {
         margin-bottom: 75px;
         font-family: monospace;
     }
-    h1.hide-sm {
+    div.card{
+        height: 220px;
+    }
+    div.card-title-sm {
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        text-align: center;
+        position: relative;
+        font-size: 175%;
+        width: 100%;
+    }
+    .hide-sm {
         font-size: 0%;
         margin-top: 0px;
         margin-bottom: 0px;
