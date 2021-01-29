@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Welcome to Manuel's Page
 
-You can use the [editor on GitHub](https://github.com/manuelsanti1986/jhu-front-end-dev/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## EN.605.787 Front End Web App Development
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The following repository contains the assignment solutions prepared by **Manuel E. Santiago Laboy**.
 
-### Markdown
+## Assignment Solutions:
+### Assignment #1
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- **Instructions:**
+   - [Module 2 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module2)
+   - [JHU-EP-Coursera GitHub: Module 2 Assignment](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment2/Assignment-2.md)
+   
+- **Solution Link:** [Module 2 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module2-solution)
+  
+- **Description:** The first assigment was dedicated to learn the basics of the Cascading Style Sheets (CSS) language used to describe the presentation of an HTML document.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+![alt text](./module2-solution/assets/css-1200x667.webp "CSS is Cool")
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Assignment Submission Reminders
 
-**Bold** and _Italic_ and `Code` text
+1. Push up all of your work to GitHub.com. Since we wil be using GitHub pages to view the deployed assignment, make SURE to test for yourself that your assignment submission works as expected before you call it complete.
+    - The first week of the first course will explain to you how to set up your GitHub account and your development environment.
+    - Some of the GitHub UI has slightly changed since the videos were recorded. Be sure to check out the following 2 FAQ entries: Where is the Clone Link? and Where is the Launch Atomatic Page Generator?
+2. Submit the URL to your assignment on Blackboard. You can update your submission as many times as you like before the due date. Only the latest submission will count. However, submission after the due date/time will not be considered.
 
-[Link](url) and ![Image](src)
-```
+**Make sure both of these are done before the due date/time. (See info below on late submissions).**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Useful Links
+- [Course Syllabus](https://ychaikin.github.io/jhu-ajax-course/Syllabus)
+- [Coursera: HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/manuelsanti1986/jhu-front-end-dev/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Contact Information
+
+- Email: manuelsanti86@gmail.com
+- School Email: msanti16@jhu.edu
+
