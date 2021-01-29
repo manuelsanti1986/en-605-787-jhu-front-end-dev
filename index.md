@@ -11,7 +11,8 @@ The following repository contains the assignment solutions prepared by **Manuel 
    - [Module 2 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module2)
    - [JHU-EP-Coursera GitHub: Module 2 Assignment](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment2/Assignment-2.md)
    
-- **Solution Link:** [Module 2 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module2-solution)
+- **Solution Link:** 
+  - [Module 2 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module2-solution)
   
 - **Description:** The first assigment was dedicated to learn the basics of the Cascading Style Sheets (CSS) language used to describe the presentation of an HTML document.
 
