@@ -6,27 +6,40 @@
   <title>Assignment Solution for Module 3</title>
 
   <link rel="stylesheet" type="text/css" href="assets/bootstrap-4.6.0-dist/css/bootstrap.min.css" >
-  <script src="assets/bootstrap-4.6.0-dist/js/bootstrap.min.js" ></script>
-  <script src="assets/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js" ></script>
-  <script crossorigin="anonymous" src="assets/jquery_3_5_1.min.js"></script>
+  <script src="assets/jquery_3_5_1.min.js"></script>
   <script crossorigin="anonymous" src="assets/popper_1_16_1.min.js"></script>
-
-<!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">-->
-<!--  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>-->
-<!--  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
-<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>-->
+  <script src="assets/bootstrap-4.6.0-dist/js/bootstrap.min.js" ></script>
 
 </head>
 <body>
 <nav class="navbar navbar-light bg-light">
   <div class="container">
-    <div class="navbar-header">
-      <a href="index.html" class="navbar-brand">Food, LLC</a>
-      <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-              aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <p>
+      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Link with href
+      </a>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Button with data-target
       </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
     </div>
+<!--    <div class="navbar-header">-->
+<!--      <a href="index.html" class="navbar-brand">Food, LLC</a>-->
+<!--&lt;!&ndash;      <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"&ndash;&gt;-->
+<!--      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseMenu"-->
+<!--              aria-controls="collapseMenu" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--        <span class="navbar-toggler-icon"></span>-->
+<!--      </button>-->
+<!--    </div>-->
+<!--    <div class="collapse" id="collapseMenu">-->
+<!--      <div class="card card-body">-->
+<!--        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.-->
+<!--      </div>-->
+<!--    </div>-->
   </div>
 </nav>
 </body>
