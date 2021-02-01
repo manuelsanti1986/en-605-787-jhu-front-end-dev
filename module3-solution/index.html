@@ -6,6 +6,7 @@
   <title>Assignment Solution for Module 3</title>
 
   <link rel="stylesheet" type="text/css" href="assets/bootstrap-4.6.0-dist/css/bootstrap.min.css" >
+  <link rel="stylesheet" type="text/css" href="css/menu.css" >
   <script src="assets/jquery_3_5_1.min.js"></script>
   <script crossorigin="anonymous" src="assets/popper_1_16_1.min.js"></script>
   <script src="assets/bootstrap-4.6.0-dist/js/bootstrap.min.js" ></script>
@@ -13,11 +14,11 @@
 </head>
 <body>
 <nav class="navbar navbar-light bg-light">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
-      <a href="index.html" class="navbar-brand">Food, LLC</a>
+      <a href="index.html" class="navbar-brand float-left">Food, LLC</a>
 <!--      <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#collapseMenu"-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsable-nav"
+      <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#collapsable-nav"
               aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,6 +28,38 @@
         <a href="#" class="list-group-item list-group-item-action">Chicken</a>
         <a href="#" class="list-group-item list-group-item-action">Beef</a>
         <a href="#" class="list-group-item list-group-item-action">Sushi</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 card" id="item-chicken">
+        <div class="card-body">
+          <h5 class="card-title">Chicken</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 card" id="item-beef">
+        <div class="card-body">
+          <h5 class="card-title">Beef</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 card" id="item-sushi">
+        <div class="card-body">
+          <h5 class="card-title">Sushi</h5>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat.
+          </p>
+        </div>
       </div>
     </div>
 
