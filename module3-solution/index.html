@@ -14,32 +14,24 @@
 <body>
 <nav class="navbar navbar-light bg-light">
   <div class="container">
-    <p>
-      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        Link with href
-      </a>
-      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-        Button with data-target
+    <div class="navbar-header">
+      <a href="index.html" class="navbar-brand">Food, LLC</a>
+<!--      <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#collapseMenu"-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsable-nav"
+              aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-    </p>
-    <div class="collapse" id="collapseExample">
-      <div class="card card-body">
-        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    </div>
+    <div class="collapse navbar-collapse" id="collapsable-nav">
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">Chicken</a>
+        <a href="#" class="list-group-item list-group-item-action">Beef</a>
+        <a href="#" class="list-group-item list-group-item-action">Sushi</a>
       </div>
     </div>
-<!--    <div class="navbar-header">-->
-<!--      <a href="index.html" class="navbar-brand">Food, LLC</a>-->
-<!--&lt;!&ndash;      <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"&ndash;&gt;-->
-<!--      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapseMenu"-->
-<!--              aria-controls="collapseMenu" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--        <span class="navbar-toggler-icon"></span>-->
-<!--      </button>-->
-<!--    </div>-->
-<!--    <div class="collapse" id="collapseMenu">-->
-<!--      <div class="card card-body">-->
-<!--        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.-->
-<!--      </div>-->
-<!--    </div>-->
+
+
+
   </div>
 </nav>
 </body>
