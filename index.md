@@ -5,7 +5,7 @@
 The following repository contains the assignment solutions prepared by **Manuel E. Santiago Laboy**.
 
 ## Assignment Solutions:
-### Assignment #1
+### Module 2: Assignment #1 
 
 - **Instructions:**
    - [Module 2 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module2)
@@ -17,8 +17,16 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Description:** The first assigment was dedicated to learn the basics of the Cascading Style Sheets (CSS) language used to describe the presentation of an HTML document.
 
 
-![alt text](./module2-solution/assets/css-1200x667.webp "CSS is Cool")
+### Module 3: Assignment #2 
 
+- **Instructions:**
+    - [Module 3 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module3)
+    - [JHU-EP-Coursera GitHub: Module 3 Assignment](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md)
+
+- **Solution Link:**
+    - [Module 3 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module3-solution)
+
+- **Description:** The first assigment was dedicated to learn the basics of the Cascading Style Sheets (CSS) language used to describe the presentation of an HTML document.
 
 ### Assignment Submission Reminders
 
