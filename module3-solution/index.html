@@ -12,20 +12,24 @@
 <header>
   <nav class="navbar navbar-light bg-light">
     <div class="container-fluid" id="navbar">
-        <a href="index.html" class="navbar-brand">Food, LLC</a>
+        <div class="navbar-brand">
+          <a href="index.html" class="navbar-brand">Food, LLC</a>
+        </div>
         <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#collapsable-nav"
                 aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      <div class="collapse navbar-collapse" id="collapsable-nav">
-        <div class="list-group">
-          <a href="#" class="list-group-item list-group-item-action">Chicken</a>
-          <a href="#" class="list-group-item list-group-item-action">Beef</a>
-          <a href="#" class="list-group-item list-group-item-action">Sushi</a>
-        </div><!--.list-group-->
-      </div><!--.collapse .navbar-collapse-->
     </div><!-- .container-fluid-->
   </nav><!-- .navbar-->
+
+  <div class="navbar-light bg-light collapse navbar-collapse" id="collapsable-nav">
+    <div class="navbar-nav">
+      <a href="#" class="nav-link list-group-item">Chicken</a>
+      <a href="#" class="nav-link list-group-item">Beef</a>
+      <a href="#" class="nav-link list-group-item">Sushi</a>
+    </div><!--.list-group-->
+  </div><!--.collapse .navbar-collapse-->
+
 </header>
 
 <div class="container-fluid" id="main-content">
