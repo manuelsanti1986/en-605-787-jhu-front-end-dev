@@ -26,7 +26,18 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Solution Link:**
     - [Module 3 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module3-solution)
 
-- **Description:** The first assigment was dedicated to learn the basics of the Cascading Style Sheets (CSS) language used to describe the presentation of an HTML document.
+- **Description:** The second assigment was dedicated to learn the basics of the using Bootstrap for styling a static website.
+
+### Module 4: Assignment #3
+
+- **Instructions:**
+    - [Module 4 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module4)
+    - [JHU-EP-Coursera GitHub: Module 4 Assignment](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/Assignment-4.md)
+
+- **Solution Link:**
+    - [Module 4 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module4-solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using JavaScript to add interaction to the static website.
 
 ### Assignment Submission Reminders
 
@@ -46,7 +57,5 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 
 ### Contact Information
-
-- Email: manuelsanti86@gmail.com
 - School Email: msanti16@jhu.edu
 
