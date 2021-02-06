@@ -1,10 +1,14 @@
-const speak = (name) => {
-  let speakWord = "Hello";
-  console.log(speakWord + " " + name);
-}
+const speak = (greeting) => {
+  console.log(greeting);
+};
+
+const speakSimple = (name) => {
+  return "Hello " + name;
+};
 
 let helloSpeaker = {
-  speak
+  speak,
+  speakSimple
 };
 
 export default helloSpeaker;

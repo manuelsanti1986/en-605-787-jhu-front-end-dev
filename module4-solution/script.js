@@ -21,13 +21,23 @@ Good Bye Jim
 import helloSpeaker from './SpeakHello.js';
 import byeSpeaker from './SpeakGoodBye.js';
 
+let separateNames = (name) => {
+  let firstChar = name.charAt(0).toLowerCase();
+  return (firstChar === 'j')?
+      byeSpeaker.speak(byeSpeaker.speakSimple(name)) : helloSpeaker.speak(helloSpeaker.speakSimple(name));
+};
+
 let sayHello = () => {
   let names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+  /** Using forEach **/
   names.forEach(name => {
     let firstChar = name.charAt(0).toLowerCase();
-    // console.log(firstChar)
-    (firstChar === 'j')? byeSpeaker.speak(name) : helloSpeaker.speak(name);
+    (firstChar === 'j')?
+        byeSpeaker.speak(byeSpeaker.speakSimple(name)) : helloSpeaker.speak(helloSpeaker.speakSimple(name));
   });
+
+  /** Using map **/
+  names.map(separateNames);
 
 }
 
