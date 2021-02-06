@@ -39,6 +39,27 @@ let sayHello = () => {
   /** Using map **/
   names.map(separateNames);
 
+  /** Using reduce **/
+  let initialValue = {
+    hello: [],
+    bye: []
+  };
+
+  let reduced = names.reduce((accumulator, currentValue, currentIndex, array) => {
+    let firstChar = currentValue.charAt(0).toLowerCase();
+    let hello = accumulator.hello;
+    let bye = accumulator.bye;
+    if(firstChar === 'j'){
+      bye.push(byeSpeaker.speakSimple(currentValue));
+    }else{
+      hello.push(helloSpeaker.speakSimple(currentValue));
+    }
+    return {hello, bye};
+  }, initialValue);
+
+  reduced.bye.forEach(greeting => byeSpeaker.speak(greeting));
+  reduced.hello.forEach(greeting => helloSpeaker.speak(greeting));
+
 }
 
 sayHello();
