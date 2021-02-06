@@ -26,14 +26,26 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Solution Link:**
     - [Module 3 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module3-solution)
 
-- **Description:** The first assigment was dedicated to learn the basics of the Cascading Style Sheets (CSS) language used to describe the presentation of an HTML document.
+- **Description:** The second assigment was dedicated to learn the basics of the using Bootstrap for styling a static website.
+
+### Module 4: Assignment #3
+
+- **Instructions:**
+    - [Module 4 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module4)
+    - [JHU-EP-Coursera GitHub: Module 4 Assignment](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/Assignment-4.md)
+
+- **Solution Link:**
+    - [Module 4 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module4-solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using JavaScript to add interaction to the static website.
 
 ### Assignment Submission Reminders
 
-1. Push up all of your work to GitHub.com. Since we wil be using GitHub pages to view the deployed assignment, make SURE to test for yourself that your assignment submission works as expected before you call it complete.
-    - The first week of the first course will explain to you how to set up your GitHub account and your development environment.
-    - Some of the GitHub UI has slightly changed since the videos were recorded. Be sure to check out the following 2 FAQ entries: Where is the Clone Link? and Where is the Launch Atomatic Page Generator?
-2. Submit the URL to your assignment on Blackboard. You can update your submission as many times as you like before the due date. Only the latest submission will count. However, submission after the due date/time will not be considered.
+1. Submit the assignment here on Blackboard with the following information:
+
+    - Unordered sub-list. GitHub.com link to your repository (do NOT share this link or your GitHub username with the class)
+    - GitHub.io link to the deployed solution.
+    - Make sure to check that your deployed assignment works as you intended it to.
 
 **Make sure both of these are done before the due date/time. (See info below on late submissions).**
 
@@ -46,7 +58,5 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 
 ### Contact Information
-
-- Email: manuelsanti86@gmail.com
 - School Email: msanti16@jhu.edu
 
