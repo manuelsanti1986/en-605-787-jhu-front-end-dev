@@ -43,7 +43,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 1. Submit the assignment here on Blackboard with the following information:
 
-    - Unordered sub-list. GitHub.com link to your repository (do NOT share this link or your GitHub username with the class)
+    - GitHub.com link to your repository (do NOT share this link or your GitHub username with the class)
     - GitHub.io link to the deployed solution.
     - Make sure to check that your deployed assignment works as you intended it to.
 
