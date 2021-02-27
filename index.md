@@ -48,7 +48,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Solution Link:**
     - [Module 5 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module5-solution)
 
-- **Description:** This assigment was dedicated to learn the basics of using JavaScript to manipulate the DOM (Document Object Model).
+- **Description:** This assigment was dedicated to learn the basics of using JavaScript to manipulate the DOM (Document Object Model) and using Ajax.
 
 ### Assignment Submission Reminders
 
