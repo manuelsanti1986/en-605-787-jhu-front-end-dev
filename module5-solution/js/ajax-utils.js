@@ -1,6 +1,7 @@
 ((global) => {
     let ajaxUtils = {};
 
+
     let getRequestObject = () => {
         if(window.XMLHttpRequest) {
             return (new XMLHttpRequest());
@@ -12,10 +13,13 @@
         }
     }
 
+    let request = getRequestObject();
+    let myResponseHandler = null;
+
     ajaxUtils.sendGetRequest =
         (requestUrl, responseHandler) => {
-            let request = getRequestObject();
-            request.onreadystatechange = () => handleResponse(request, responseHandler);
+            myResponseHandler = responseHandler;
+            request.onreadystatechange = handleResponse;
             request.open("GET", requestUrl, true);
             request.send(null); // Only used on POST requests
         };
