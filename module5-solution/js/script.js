@@ -2,11 +2,14 @@ document.addEventListener("DOMContentLoaded",
     event => {
         document.querySelector("#btnSayHello")
             .addEventListener("click", () => {
-                // $ajaxUtils.sendGetRequest("/jhu-front-end-dev/module5-solution/data/name.txt", (request) => {
-                $ajaxUtils.sendGetRequest("/jhu-front-end-dev/module5-solution/data/name.txt", (request) => {
-                    let name = request.responseText;
+                $ajaxUtils.sendGetRequest("/jhu-front-end-dev/module5-solution/data/name.json",
+                    (res) => {
+                    let message = res.firstName + " " + res.lastName;
+                    message += (res.isRagu) ? " is Ragu" : " is not Ragu";
+                    message += " and has " + res.numberOfSeeds + " seeds"
+
                     document.querySelector("#content")
-                        .innerHTML = "<h2>Hello " + name + "!";
+                        .innerHTML = "<h2>" + message + "</h2>";
                 });
             });
     });
