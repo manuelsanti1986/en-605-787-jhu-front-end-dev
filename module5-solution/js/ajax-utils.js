@@ -12,18 +12,19 @@
         }
     }
 
-    ajaxUtils.sendGetRequest =
-        (requestUrl, responseHandler) => {
+    ajaxUtils.sendGetRequest = (requestUrl, responseHandler) => {
             let request = getRequestObject();
             request.onreadystatechange = () => handleResponse(requestUrl, responseHandler);
             request.open("GET", requestUrl, true);
             request.send(null); // Only used on POST requests
         };
 
-    handleResponse = (request, responseHandler) => {
+    let handleResponse = (request, responseHandler) => {
         if(request.readyState == 4 && request.status == 200) {
             responseHandler(request);
         }
     }
+
+    global.$ajaxUtils = ajaxUtils;
 
 })(window);
