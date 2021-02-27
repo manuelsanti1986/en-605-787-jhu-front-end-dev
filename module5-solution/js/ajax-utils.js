@@ -2,9 +2,9 @@
     let ajaxUtils = {};
 
     let getRequestObject = () => {
-        if(window.XMLHttpRequest) {
+        if(global.XMLHttpRequest) {
             return (new XMLHttpRequest());
-        }else if (window.ActiveXObject) {
+        }else if (global.ActiveXObject) {
             return (new ActiveXObject("Microsoft.XMLHTTP"))
         }else {
             global.alert("Ajax is not supported!")
@@ -14,13 +14,13 @@
 
     ajaxUtils.sendGetRequest = (requestUrl, responseHandler) => {
             let request = getRequestObject();
-            request.onreadystatechange = () => handleResponse(requestUrl, responseHandler);
+            request.onreadystatechange = () => handleResponse(request, responseHandler);
             request.open("GET", requestUrl, true);
-            request.send(null); // Only used on POST requests
+            request.send(null); // for POST only
         };
 
     let handleResponse = (request, responseHandler) => {
-        if(request.readyState == 4 && request.status == 200) {
+        if((request.readyState == 4) && (request.status == 200)) {
             responseHandler(request);
         }
     }
