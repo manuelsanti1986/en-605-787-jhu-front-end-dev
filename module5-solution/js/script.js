@@ -14,12 +14,10 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 let dc = {};
 
 let homeHtmlUrl = "snippets/home-snippet.html";
-let allCategoriesUrl =
-  "https://davids-restaurant.herokuapp.com/categories.json";
+let allCategoriesUrl = "https://davids-restaurant.herokuapp.com/categories.json";
 let categoriesTitleHtml = "snippets/categories-title-snippet.html";
 let categoryHtml = "snippets/category-snippet.html";
-let menuItemsUrl =
-  "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
+let menuItemsUrl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 let menuItemsTitleHtml = "snippets/menu-items-title.html";
 let menuItemHtml = "snippets/menu-item.html";
 
@@ -40,8 +38,7 @@ let showLoading = function (selector) {
 // with propValue in given 'string'
 let insertProperty = function (string, propName, propValue) {
   let propToReplace = "{{" + propName + "}}";
-  string = string
-    .replace(new RegExp(propToReplace, "g"), propValue);
+  string = string.replace(new RegExp(propToReplace, "g"), propValue);
   return string;
 };
 
@@ -172,9 +169,7 @@ function buildAndShowCategoriesHTML (categories) {
           switchMenuToActive();
 
           let categoriesViewHtml =
-            buildCategoriesViewHtml(categories,
-                                    categoriesTitleHtml,
-                                    categoryHtml);
+            buildCategoriesViewHtml(categories, categoriesTitleHtml, categoryHtml);
           insertHtml("#main-content", categoriesViewHtml);
         },
         false);
@@ -185,9 +180,7 @@ function buildAndShowCategoriesHTML (categories) {
 
 // Using categories data and snippets html
 // build categories view HTML to be inserted into page
-function buildCategoriesViewHtml(categories,
-                                 categoriesTitleHtml,
-                                 categoryHtml) {
+function buildCategoriesViewHtml(categories, categoriesTitleHtml, categoryHtml) {
 
   let finalHtml = categoriesTitleHtml;
   finalHtml += "<section class='row'>";
@@ -228,9 +221,7 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
           switchMenuToActive();
 
           let menuItemsViewHtml =
-            buildMenuItemsViewHtml(categoryMenuItems,
-                                   menuItemsTitleHtml,
-                                   menuItemHtml);
+              buildMenuItemsViewHtml(categoryMenuItems, menuItemsTitleHtml, menuItemHtml);
           insertHtml("#main-content", menuItemsViewHtml);
         },
         false);
@@ -241,18 +232,12 @@ function buildAndShowMenuItemsHTML (categoryMenuItems) {
 
 // Using category and menu items data and snippets html
 // build menu items view HTML to be inserted into page
-function buildMenuItemsViewHtml(categoryMenuItems,
-                                menuItemsTitleHtml,
-                                menuItemHtml) {
+function buildMenuItemsViewHtml(categoryMenuItems, menuItemsTitleHtml, menuItemHtml) {
 
   menuItemsTitleHtml =
-    insertProperty(menuItemsTitleHtml,
-                   "name",
-                   categoryMenuItems.category.name);
+    insertProperty(menuItemsTitleHtml, "name", categoryMenuItems.category.name);
   menuItemsTitleHtml =
-    insertProperty(menuItemsTitleHtml,
-                   "special_instructions",
-                   categoryMenuItems.category.special_instructions);
+    insertProperty(menuItemsTitleHtml, "special_instructions", categoryMenuItems.category.special_instructions);
 
   let finalHtml = menuItemsTitleHtml;
   finalHtml += "<section class='row'>";
@@ -266,40 +251,24 @@ function buildMenuItemsViewHtml(categoryMenuItems,
     html =
       insertProperty(html, "short_name", menuItems[i].short_name);
     html =
-      insertProperty(html,
-                     "catShortName",
-                     catShortName);
+      insertProperty(html, "catShortName", catShortName);
     html =
-      insertItemPrice(html,
-                      "price_small",
-                      menuItems[i].price_small);
+      insertItemPrice(html, "price_small", menuItems[i].price_small);
     html =
-      insertItemPortionName(html,
-                            "small_portion_name",
-                            menuItems[i].small_portion_name);
+      insertItemPortionName(html, "small_portion_name", menuItems[i].small_portion_name);
     html =
-      insertItemPrice(html,
-                      "price_large",
-                      menuItems[i].price_large);
+      insertItemPrice(html, "price_large", menuItems[i].price_large);
     html =
-      insertItemPortionName(html,
-                            "large_portion_name",
-                            menuItems[i].large_portion_name);
+      insertItemPortionName(html, "large_portion_name", menuItems[i].large_portion_name);
     html =
-      insertProperty(html,
-                     "name",
-                     menuItems[i].name);
+      insertProperty(html, "name", menuItems[i].name);
     html =
-      insertProperty(html,
-                     "description",
-                     menuItems[i].description);
+      insertProperty(html, "description", menuItems[i].description);
 
     // Add clearfix after every second menu item
     if (i % 2 !== 0) {
-      html +=
-        "<div class='clearfix visible-lg-block visible-md-block'></div>";
+      html += "<div class='clearfix visible-lg-block visible-md-block'></div>";
     }
-
     finalHtml += html;
   }
 
@@ -309,9 +278,7 @@ function buildMenuItemsViewHtml(categoryMenuItems,
 
 
 // Appends price with '$' if price exists
-function insertItemPrice(html,
-                         pricePropName,
-                         priceValue) {
+function insertItemPrice(html, pricePropName, priceValue) {
   // If not specified, replace with empty string
   if (!priceValue) {
     return insertProperty(html, pricePropName, "");
@@ -324,9 +291,7 @@ function insertItemPrice(html,
 
 
 // Appends portion name in parens if it exists
-function insertItemPortionName(html,
-                               portionPropName,
-                               portionValue) {
+function insertItemPortionName(html, portionPropName, portionValue) {
   // If not specified, return original string
   if (!portionValue) {
     return insertProperty(html, portionPropName, "");
