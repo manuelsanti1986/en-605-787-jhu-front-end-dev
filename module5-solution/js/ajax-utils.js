@@ -19,19 +19,11 @@
         request.send(null); // for POST only
     };
 
-    ajaxUtils.sendPostRequest = (requestUrl, responseHandler) => {
-        let request = getRequestObject();
-        request.onreadystatechange = () => handleResponse(request, responseHandler);
-        request.open("GET", requestUrl, true);
-        request.send(null); // for POST only
-    };
-
     let handleResponse = (request, responseHandler, isJsonResponse) => {
         if((request.readyState === 4) && (request.status === 200)) {
             if(isJsonResponse === undefined) {
                 isJsonResponse = true;
             }
-
             if(isJsonResponse) {
                 responseHandler(JSON.parse(request.responseText));
             }else {
