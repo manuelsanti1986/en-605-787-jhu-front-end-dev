@@ -61,6 +61,13 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 - **Description:** This assigment was dedicated to learn the basics of using AngularJS (Version 1).
 
+- **Key Takeaways:**
+  - **M-V-VM:** Common design pattern for structuring UIs with functionality
+  - **Model:** Represents and holds raw data
+  - **View:** UI that never changes data, declares events
+  - **ViewModel:** Data representation of the state of the UI
+  - **Declarative Binder:** Binds the ViewModel to the View
+
 ### Assignment Submission Reminders
 
 1. Submit the assignment here on Blackboard with the following information:
