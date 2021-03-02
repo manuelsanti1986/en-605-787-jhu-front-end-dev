@@ -57,7 +57,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
     - [JHU-EP-Coursera GitHub: Module 6 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment1/Assignment-1.md)
 
 - **Solution Link:**
-    - [Module 6 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module6-solution)
+    - [Module 6 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod1_solution)
 
 - **Description:** This assigment was dedicated to learn the basics of using AngularJS (Version 1).
 
