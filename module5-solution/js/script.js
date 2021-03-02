@@ -108,12 +108,6 @@ dc.loadMenuCategories = () => {
 dc.loadAboutPage = () => {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(aboutPageHtml, buildAndShowRatingsHTML, false);
-  // $ajaxUtils.sendGetRequest(aboutPageHtml, (aboutPageHtml) => {
-  //   let randomNum = generateRandomRatingNumber();
-  //   let aboutPageHtmlText = aboutPageHtml.responseText;
-  //   insertHtml("#main-content", aboutPageHtmlText);
-  // },
-  //     false);
 }
 
 // Load the menu items view
@@ -127,7 +121,6 @@ let buildAndShowRatingsHTML = (aboutPageHtml) => {
   // Load title snippet of about us page
   let html = aboutPageHtml.responseText;
   let randomNum = generateRandomRatingNumber();
-  console.log("Random Number: " + randomNum)
 
   for(let i = 1; i <= 5; i++){
     let starIconClass = "fa fa-star";
@@ -137,7 +130,6 @@ let buildAndShowRatingsHTML = (aboutPageHtml) => {
     }
     html = insertProperty(html, aboutClassNum, starIconClass);
   }
-  console.log(html)
   insertHtml("#main-content", html);
 }
 
