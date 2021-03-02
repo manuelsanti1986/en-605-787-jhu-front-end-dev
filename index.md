@@ -50,6 +50,17 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 - **Description:** This assigment was dedicated to learn the basics of using JavaScript to manipulate the DOM (Document Object Model) and using Ajax.
 
+### Module 6: Assignment #5
+
+- **Instructions:**
+    - [Module 6 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module6)
+    - [JHU-EP-Coursera GitHub: Module 6 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment1/Assignment-1.md)
+
+- **Solution Link:**
+    - [Module 6 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module6-solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using AngularJS (Version 1).
+
 ### Assignment Submission Reminders
 
 1. Submit the assignment here on Blackboard with the following information:
