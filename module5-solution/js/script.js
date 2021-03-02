@@ -155,7 +155,7 @@ let buildAndShowCategoriesHTML = (categories) => {
 // Using categories data and snippets html
 // build categories view HTML to be inserted into page
 let buildCategoriesViewHtml = (categories, categoriesTitleHtml, categoryHtml) => {
-  let finalHtml = categoriesTitleHtml;
+  let finalHtml = categoriesTitleHtml.responseText;
   finalHtml += "<section class='row'>";
 
   categories.forEach(category => {
