@@ -40,6 +40,17 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 - **Description:** This assigment was dedicated to learn the basics of using JavaScript to add interaction to the static website.
 
+### Module 5: Assignment #4
+
+- **Instructions:**
+    - [Module 5 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module5)
+    - [JHU-EP-Coursera GitHub: Module 5 Assignment](https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment5/Assignment-5.md)
+
+- **Solution Link:**
+    - [Module 5 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/module5-solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using JavaScript to manipulate the DOM (Document Object Model) and using Ajax.
+
 ### Assignment Submission Reminders
 
 1. Submit the assignment here on Blackboard with the following information:
