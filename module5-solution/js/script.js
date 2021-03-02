@@ -121,12 +121,14 @@ let buildAndShowRatingsHTML = (aboutPageHtml) => {
   // Load title snippet of about us page
   let html = aboutPageHtml.responseText;
   let randomNum = generateRandomRatingNumber();
+  let textRating = randomNum + "-star rating";
+  html = insertProperty(html, "text-rating", textRating);
 
   for(let i = 1; i <= 5; i++){
     let starIconClass = "fa fa-star";
     let aboutClassNum = "span-class-" + i;
     if(i > randomNum){
-      starIconClass += "-o"
+      starIconClass += "-o";
     }
     html = insertProperty(html, aboutClassNum, starIconClass);
   }
