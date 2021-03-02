@@ -20,6 +20,7 @@ let categoryHtml = "snippets/category-snippet.html";
 let menuItemsUrl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 let menuItemsTitleHtml = "snippets/menu-items-title.html";
 let menuItemHtml = "snippets/menu-item.html";
+let aboutPageHtml = "snippets/about.html";
 
 // Convenience function for inserting innerHTML for 'select'
 let insertHtml = (selector, html) => {
@@ -91,11 +92,25 @@ let chooseRandomCategory = (categories) => {
   return categories[randomArrayIndex];
 }
 
+let generateRandomNumber = () => {
+  // Produces a random number from 1 to 5 (inclusively).
+  let randomNumber = Math.floor(Math.random() * 5) + 1;
+  return randomNumber;
+}
+
 // Load the menu categories view
 dc.loadMenuCategories = () => {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(allCategoriesUrl, buildAndShowCategoriesHTML);
 };
+
+// Load the about page view
+dc.loadAboutPage = () => {
+  showLoading("#main-content");
+  $ajaxUtils.sendGetRequest(aboutPageHtml, (aboutPageHtml) => {
+    let randomNum =generateRandomNumber();
+  });
+}
 
 // Load the menu items view
 // 'categoryShort' is a short_name for a category
