@@ -92,7 +92,7 @@ let chooseRandomCategory = (categories) => {
   return categories[randomArrayIndex];
 }
 
-let generateRandomNumber = () => {
+let generateRandomRatingNumber = () => {
   // Produces a random number from 1 to 5 (inclusively).
   let randomNumber = Math.floor(Math.random() * 5) + 1;
   return randomNumber;
@@ -108,8 +108,11 @@ dc.loadMenuCategories = () => {
 dc.loadAboutPage = () => {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(aboutPageHtml, (aboutPageHtml) => {
-    let randomNum =generateRandomNumber();
-  });
+    let randomNum = generateRandomRatingNumber();
+    let aboutPageHtmlText = aboutPageHtml.responseText;
+    insertHtml("#main-content", aboutPageHtmlText);
+  },
+      false);
 }
 
 // Load the menu items view
