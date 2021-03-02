@@ -107,12 +107,13 @@ dc.loadMenuCategories = () => {
 // Load the about page view
 dc.loadAboutPage = () => {
   showLoading("#main-content");
-  $ajaxUtils.sendGetRequest(aboutPageHtml, (aboutPageHtml) => {
-    let randomNum = generateRandomRatingNumber();
-    let aboutPageHtmlText = aboutPageHtml.responseText;
-    insertHtml("#main-content", aboutPageHtmlText);
-  },
-      false);
+  $ajaxUtils.sendGetRequest(aboutPageHtml, buildAndShowRatingsHTML, false);
+  // $ajaxUtils.sendGetRequest(aboutPageHtml, (aboutPageHtml) => {
+  //   let randomNum = generateRandomRatingNumber();
+  //   let aboutPageHtmlText = aboutPageHtml.responseText;
+  //   insertHtml("#main-content", aboutPageHtmlText);
+  // },
+  //     false);
 }
 
 // Load the menu items view
@@ -121,6 +122,24 @@ dc.loadMenuItems = (categoryShort) => {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(menuItemsUrl + categoryShort, buildAndShowMenuItemsHTML);
 };
+
+let buildAndShowRatingsHTML = (aboutPageHtml) => {
+  // Load title snippet of about us page
+  let html = aboutPageHtml.responseText;
+  let randomNum = generateRandomRatingNumber();
+  console.log("Random Number: " + randomNum)
+
+  for(let i = 1; i <= 5; i++){
+    let starIconClass = "fa fa-star";
+    let aboutClassNum = "span-class-" + i;
+    if(i > randomNum){
+      starIconClass += "-o"
+    }
+    html = insertProperty(html, aboutClassNum, starIconClass);
+  }
+  console.log(html)
+  insertHtml("#main-content", html);
+}
 
 // Builds HTML for the categories page based on the data
 // from the server
