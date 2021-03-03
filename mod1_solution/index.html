@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="module01App">
 <head>
   <meta charset="UTF-8">
-  <title>AngularJS Module 1 Solution</title>
+  <title>AngularJS Solution</title>
 </head>
 <body>
+  <h1>Test AngularJS</h1>
+  <div ng-controller="ModuleController">
+    <div>
+      Name:
+      <input type="text"
+             ng-model="name"
+             ng-keyup="displayNumeric();"
+      >
+    </div>
+    <div>
+      Total Numeric value of person's name is: {{totalValue}}
+    </div>
 
+  </div>
+  <script src="assets/angular_1_8_2.min.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
