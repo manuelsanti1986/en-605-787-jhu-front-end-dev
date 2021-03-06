@@ -71,6 +71,9 @@ The following repository contains the assignment solutions prepared by **Manuel 
   - **Interpolation:** Process of evaluating a string literal containing one or more placeholders, which are replaced with values
   - **Expression:** Something that evaluates to some value
     - Executed in the context of the scope and has access to properties on `$scope`
+    - It does not throw errors if it results in a TypeError or ReferenceError
+    - It does not allow control functions (e.g., 'if statements', ...)
+    - Accepts a filter or filter chains to format the output
 
 ### Assignment Submission Reminders
 
