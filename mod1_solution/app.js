@@ -12,9 +12,7 @@
             let csv = $scope.lunchList;
 
             if(csv.length > 0) {
-                console.log(csv);
                 let list = convertCSVToArray(csv);
-                console.log(list);
                 $scope.message = (list.length < 4) ? "Enjoy!" : "Too much!";
             }else {
                 $scope.message = "Please enter data first";
