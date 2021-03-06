@@ -1,16 +1,16 @@
-(() => {
+(function () {
     'use strict';
     angular.module('myApp', [])
-        .controller('ModuleController', ['$scope', '$injector', ModuleController]);
+        .controller('LunchCheckController', ['$scope', '$injector', LunchCheckController]);
 
-    function ModuleController ($scope, $injector) {
+    function LunchCheckController ($scope, $injector) {
         $scope.name = "";
         $scope.totalValue = 0;
         $scope.displayNumeric = function () {
             let totalNameValue = calculateNumericForString($scope.name);
             $scope.totalValue = totalNameValue;
         };
-        console.log($injector.annotate(ModuleController));
+        console.log($injector.annotate(LunchCheckController));
     };
 
     function calculateNumericForString (string) {
