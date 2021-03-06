@@ -67,6 +67,10 @@ The following repository contains the assignment solutions prepared by **Manuel 
   - **View:** UI that never changes data, declares events
   - **ViewModel:** Data representation of the state of the UI
   - **Declarative Binder:** Binds the ViewModel to the View
+  - **Minification:** Process of removing all unnecessary characters from source code without changing its functionality
+  - **Interpolation:** Process of evaluating a string literal containing one or more placeholders, which are replaced with values
+  - **Expression:** Something that evaluates to some value
+    - Executed in the context of the scope and has access to properties on `$scope`
 
 ### Assignment Submission Reminders
 

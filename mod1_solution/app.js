@@ -1,21 +1,25 @@
 (() => {
     'use strict';
-    angular.module('module01App', [])
-        .controller('ModuleController', ($scope) => {
-            $scope.name = "";
-            $scope.totalValue = 0;
-            $scope.displayNumeric = () => {
-                let totalNameValue = calculateNumericForString($scope.name);
-                $scope.totalValue = totalNameValue;
-            };
+    angular.module('myApp', [])
+        .controller('ModuleController', ['$scope', '$injector', ModuleController]);
 
-            let calculateNumericForString = (string) => {
-                let totalStringValue = 0;
-                let i = string.length;
-                while(i--){
-                    totalStringValue += string.charCodeAt(i);
-                };
-                return totalStringValue;
-            };
-        });
+    function ModuleController ($scope, $injector) {
+        $scope.name = "";
+        $scope.totalValue = 0;
+        $scope.displayNumeric = function () {
+            let totalNameValue = calculateNumericForString($scope.name);
+            $scope.totalValue = totalNameValue;
+        };
+        console.log($injector.annotate(ModuleController));
+    };
+
+    function calculateNumericForString (string) {
+        let totalStringValue = 0;
+        let i = string.length;
+        while(i--){
+            totalStringValue += string.charCodeAt(i);
+        };
+        return totalStringValue;
+    };
+
 })();
