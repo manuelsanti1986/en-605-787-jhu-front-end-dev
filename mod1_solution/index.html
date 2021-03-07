@@ -12,26 +12,23 @@
 <body>
 <div ng-controller="LunchCheckController">
   <div class="container">
-  <h1>Lunch Checker</h1>
-
-  <div class="form-group">
-    <input id="lunch-menu"
-           type="text"
-           placeholder="list comma separated dishes you usually have for lunch"
-           class="form-control"
-           ng-model="lunchList" >
+    <h1>Lunch Checker</h1>
+    <div class="form-group">
+      <input id="lunch-menu"
+             type="text"
+             placeholder="list comma separated dishes you usually have for lunch"
+             class="form-control"
+             ng-model="lunchList" >
+    </div>
+    <div class="form-group">
+      <button class="btn btn-default" ng-click="checkCSV();">Check If Too Much</button>
+    </div>
+    <div ng-class="[form-group, classTextBox]">
+      <p>{{ message }}</p>
+    </div>
   </div>
-
-  <div class="form-group">
-    <button class="btn btn-default" ng-click="checkCSV();">Check If Too Much</button>
-  </div>
-  <div ng-class="[form-group, classTextBox]">
-    <p>{{ message }}</p>
-  </div>
-
-  </div>
-  <script src="assets/angular_1_8_2.min.js"></script>
-  <script src="app.js"></script>
 </div>
+<script src="assets/angular_1_8_2.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
