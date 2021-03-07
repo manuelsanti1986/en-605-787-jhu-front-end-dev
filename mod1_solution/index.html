@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lunch Checker</title>
   <link rel="stylesheet" href="styles/bootstrap.min.css">
   <style>
     .message { font-size: 1.3em; font-weight: bold; }
   </style>
+  <title>Lunch Checker</title>
 </head>
 <body>
 <div class="container">
@@ -24,7 +24,7 @@
       <button class="btn btn-default" ng-click="checkCSV();">Check If Too Much</button>
     </div>
     <div ng-class="[form-group, classTextBox]">
-      <p>{{ message }}</p>
+      <p class="message">{{message}}</p>
     </div>
   </div>
 </div>
