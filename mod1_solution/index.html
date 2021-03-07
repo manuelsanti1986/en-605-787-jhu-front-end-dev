@@ -10,8 +10,8 @@
   </style>
 </head>
 <body>
-<div class="container">
-  <div ng-controller="LunchCheckController">
+<div ng-controller="LunchCheckController">
+  <div class="container">
   <h1>Lunch Checker</h1>
 
   <div class="form-group">
@@ -21,11 +21,12 @@
            class="form-control"
            ng-model="lunchList" >
   </div>
+
   <div class="form-group">
     <button class="btn btn-default" ng-click="checkCSV();">Check If Too Much</button>
   </div>
-  <div class="form-group message">
-    {{ message }}
+  <div ng-class="[form-group, classTextBox]">
+    <p>{{ message }}</p>
   </div>
 
   </div>

@@ -6,6 +6,8 @@
     function LunchCheckController ($scope, $injector) {
         $scope.lunchList = "";
         $scope.message = "";
+        $scope.classTextBox = "";
+
 
         $scope.checkCSV = function (){
             $scope.message = "";
@@ -14,8 +16,10 @@
             if(csv.length > 0) {
                 let list = convertCSVToArray(csv);
                 $scope.message = (list.length < 4) ? "Enjoy!" : "Too much!";
+                $scope.classTextBox = "alert alert-success";
             }else {
                 $scope.message = "Please enter data first";
+                $scope.classTextBox = "alert alert-danger";
             }
         };
 
