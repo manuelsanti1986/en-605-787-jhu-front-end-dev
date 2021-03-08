@@ -86,6 +86,13 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 - **Description:** This assigment was dedicated to learn the basics of using Filters, Digest Cycle and Data Binding, Looping, Controller as Syntax and Creating and Configuring custom services in AngularJS (Version 1).
 
+- **Key Takeaways:**
+  - **Digest Cycle:** Running digest loops until all watchers report that nothing has changed
+  - **Set up watchers:**  
+    - **$scope.watch :** Should not be done inside a controller!
+    - **{property} :** Interpolating sets up a watcher
+    - **<input ..ng-model="property"> :** An input model with ng-model will have a watcher
+  
 ### Assignment Submission Reminders
 
 1. Submit the assignment here on Blackboard with the following information:
