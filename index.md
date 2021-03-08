@@ -84,7 +84,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Solution Link:**
   - [Module 7 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod2_solution)
 
-- **Description:** This assigment was dedicated to learn the basics of using AngularJS (Version 1).
+- **Description:** This assigment was dedicated to learn the basics of using Filters, Digest Cycle and Data Binding, Looping, Controller as Syntax and Creating and Configuring custom services in AngularJS (Version 1).
 
 ### Assignment Submission Reminders
 
