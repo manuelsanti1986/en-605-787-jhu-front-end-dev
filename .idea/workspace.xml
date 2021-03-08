@@ -78,14 +78,7 @@
       <workItem from="1614898570207" duration="1946000" />
       <workItem from="1615061820806" duration="14568000" />
       <workItem from="1615217483571" duration="1694000" />
-      <workItem from="1615245735246" duration="844000" />
-    </task>
-    <task id="LOCAL-00045" summary="04: Done with bonus part of homework">
-      <created>1612577999039</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1612577999039</updated>
+      <workItem from="1615245735246" duration="1716000" />
     </task>
     <task id="LOCAL-00046" summary="04: Fixed typo in index.md">
       <created>1612578326107</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615221118631</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="07: Updated index.md">
+      <created>1615247065017</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1615247065018</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +442,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05: Formatted code" />
     <MESSAGE value="05: Formatted code and finished solution" />
     <MESSAGE value="05: Created about.html snippet. Added random number function and function to load about page." />
     <MESSAGE value="05: Added content to the Reviews" />
@@ -467,6 +466,7 @@
     <MESSAGE value="06: Changed name of angular_1_8_2.min.js" />
     <MESSAGE value="06: Moved place where I import js files" />
     <MESSAGE value="07: Copied all from first module solution and updated index.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Copied all from first module solution and updated index.md" />
+    <MESSAGE value="07: Updated index.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Updated index.md" />
   </component>
 </project>

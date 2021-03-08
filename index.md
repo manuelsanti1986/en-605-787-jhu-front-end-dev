@@ -88,6 +88,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 - **Key Takeaways:**
   - **Digest Cycle:** Running digest loops until all watchers report that nothing has changed
+    - It does not get triggered automatically if events are unaware of Angular. To trigger the digest cycle, use `$digest` afer the custom code or wrap the custom code inside `$apply`.
   - **Set up watchers:**  
     - **$scope.watch :** Should not be done inside a controller!
     - **{property} :** Interpolating sets up a watcher
