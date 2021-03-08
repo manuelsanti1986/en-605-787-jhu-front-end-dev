@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jhu-front-end-dev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/assets/angular_1_8_2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod2_solution/styles/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1naSU5nSzgB2pLoWC8LrbIaVNOJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module5-solution" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module5-solution" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/module3-solution/assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="" />
+      <created>1611626721227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611626721227</updated>
+      <workItem from="1611626722541" duration="832000" />
+      <workItem from="1611627740404" duration="676000" />
+      <workItem from="1611784582970" duration="15487000" />
+      <workItem from="1611876573248" duration="7971000" />
+      <workItem from="1611963752191" duration="8602000" />
+      <workItem from="1612135430441" duration="4748000" />
+      <workItem from="1612212985008" duration="5542000" />
+      <workItem from="1612306393946" duration="9357000" />
+      <workItem from="1612566398727" duration="105000" />
+      <workItem from="1612566619563" duration="11667000" />
+      <workItem from="1612630734427" duration="580000" />
+      <workItem from="1614290156966" duration="431000" />
+      <workItem from="1614290641817" duration="62000" />
+      <workItem from="1614290724864" duration="537000" />
+      <workItem from="1614352911242" duration="12870000" />
+      <workItem from="1614638366776" duration="15153000" />
+      <workItem from="1614723542923" duration="5485000" />
+      <workItem from="1614898570207" duration="1946000" />
+      <workItem from="1615061820806" duration="14568000" />
+      <workItem from="1615217483571" duration="1341000" />
+    </task>
+    <task id="LOCAL-00044" summary="04: Done with homework">
+      <created>1612575953269</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1612575953269</updated>
+    </task>
+    <task id="LOCAL-00045" summary="04: Done with bonus part of homework">
+      <created>1612577999039</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1612577999039</updated>
+    </task>
+    <task id="LOCAL-00046" summary="04: Fixed typo in index.md">
+      <created>1612578326107</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1612578326107</updated>
+    </task>
+    <task id="LOCAL-00047" summary="04: Updated README.md">
+      <created>1614290847452</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1614290847452</updated>
+    </task>
+    <task id="LOCAL-00048" summary="05: Updated index.md">
+      <created>1614291197681</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1614291197681</updated>
+    </task>
+    <task id="LOCAL-00049" summary="05: Updated index.md">
+      <created>1614443444835</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1614443444836</updated>
+    </task>
+    <task id="LOCAL-00050" summary="05: Added index.html">
+      <created>1614443604425</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1614443604425</updated>
+    </task>
+    <task id="LOCAL-00051" summary="05: Added index.html">
+      <created>1614449359423</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1614449359423</updated>
+    </task>
+    <task id="LOCAL-00052" summary="05: Added ajax-utils.js">
+      <created>1614458081480</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1614458081480</updated>
+    </task>
+    <task id="LOCAL-00053" summary="05: Exposing ajax-utils.js">
+      <created>1614458266882</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1614458266882</updated>
+    </task>
+    <task id="LOCAL-00054" summary="05: moved responsehandler and request">
+      <created>1614458825056</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1614458825056</updated>
+    </task>
+    <task id="LOCAL-00055" summary="05: Reverted back">
+      <created>1614459260192</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1614459260192</updated>
+    </task>
+    <task id="LOCAL-00056" summary="05: Added name.txt for testing. Improved ajax-utils.js and added script.js">
+      <created>1614460078063</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1614460078063</updated>
+    </task>
+    <task id="LOCAL-00057" summary="05: Cleaned up code. Fixed typo">
+      <created>1614462105697</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1614462105697</updated>
+    </task>
+    <task id="LOCAL-00058" summary="05: Added json to response and responseHandler">
+      <created>1614462929920</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1614462929920</updated>
+    </task>
+    <task id="LOCAL-00059" summary="05: Added json and removed simple text file">
+      <created>1614464260763</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1614464260763</updated>
+    </task>
+    <task id="LOCAL-00060" summary="05: Added starter code from professor">
+      <created>1614639774304</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1614639774304</updated>
+    </task>
+    <task id="LOCAL-00061" summary="05: Removed data directory and changes all var for let">
+      <created>1614639990823</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1614639990824</updated>
+    </task>
+    <task id="LOCAL-00062" summary="05: Formatted code">
+      <created>1614640825748</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1614640825748</updated>
+    </task>
+    <task id="LOCAL-00063" summary="05: Formatted code">
+      <created>1614641695884</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1614641695884</updated>
+    </task>
+    <task id="LOCAL-00064" summary="05: Formatted code and finished solution">
+      <created>1614646351853</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1614646351853</updated>
+    </task>
+    <task id="LOCAL-00065" summary="05: Created about.html snippet. Added random number function and function to load about page.">
+      <created>1614647590962</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1614647590962</updated>
+    </task>
+    <task id="LOCAL-00066" summary="05: Added content to the Reviews">
+      <created>1614648899460</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1614648899460</updated>
+    </task>
+    <task id="LOCAL-00067" summary="05: Removed extra bootstrap import">
+      <created>1614652238246</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1614652238246</updated>
+    </task>
+    <task id="LOCAL-00068" summary="05: Added Lorem Ipsum">
+      <created>1614652350969</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1614652350969</updated>
+    </task>
+    <task id="LOCAL-00069" summary="05: Added font awesome and rating stars">
+      <created>1614654106135</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1614654106135</updated>
+    </task>
+    <task id="LOCAL-00070" summary="05: Cleaned up code">
+      <created>1614654175729</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1614654175729</updated>
+    </task>
+    <task id="LOCAL-00071" summary="05: Added text rating">
+      <created>1614654400931</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1614654400931</updated>
+    </task>
+    <task id="LOCAL-00072" summary="05: Added text rating">
+      <created>1614654745820</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1614654745821</updated>
+    </task>
+    <task id="LOCAL-00073" summary="05: Changed icon">
+      <created>1614654978475</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1614654978475</updated>
+    </task>
+    <task id="LOCAL-00074" summary="05: Fixed Menu Categories bug">
+      <created>1614655426490</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1614655426490</updated>
+    </task>
+    <task id="LOCAL-00075" summary="06: Updated index.md">
+      <created>1614725921991</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614725921991</updated>
+    </task>
+    <task id="LOCAL-00076" summary="06: Updated index.md and added index.html">
+      <created>1614726428088</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1614726428088</updated>
+    </task>
+    <task id="LOCAL-00077" summary="06: Updated index.md">
+      <created>1614728456117</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1614728456117</updated>
+    </task>
+    <task id="LOCAL-00078" summary="06: Included angular_1_8_2.min.js">
+      <created>1614734705616</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1614734705616</updated>
+    </task>
+    <task id="LOCAL-00079" summary="06: Updated index.md. Changed arrow functions to normal functions">
+      <created>1615063499080</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1615063499080</updated>
+    </task>
+    <task id="LOCAL-00080" summary="06: Updated index.md.">
+      <created>1615065504220</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1615065504220</updated>
+    </task>
+    <task id="LOCAL-00081" summary="06: Started adding assignment code">
+      <created>1615068595891</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1615068595892</updated>
+    </task>
+    <task id="LOCAL-00082" summary="06: Completed assignment01">
+      <created>1615074340173</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1615074340173</updated>
+    </task>
+    <task id="LOCAL-00083" summary="06: Cleaned up code">
+      <created>1615074675738</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1615074675738</updated>
+    </task>
+    <task id="LOCAL-00084" summary="06: Added fonts and styles">
+      <created>1615077409051</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1615077409051</updated>
+    </task>
+    <task id="LOCAL-00085" summary="06: Added ng-class">
+      <created>1615079070065</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079070065</updated>
+    </task>
+    <task id="LOCAL-00086" summary="06: Cleaned up code">
+      <created>1615079134476</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079134476</updated>
+    </task>
+    <task id="LOCAL-00087" summary="06: Changed how I was using the injector">
+      <created>1615079632188</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079632188</updated>
+    </task>
+    <task id="LOCAL-00088" summary="06: Changed how I was using the injector">
+      <created>1615079768677</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079768677</updated>
+    </task>
+    <task id="LOCAL-00089" summary="06: Changed how I was using the injector">
+      <created>1615080060430</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1615080060430</updated>
+    </task>
+    <task id="LOCAL-00090" summary="06: Changed how I was using the injector">
+      <created>1615080290908</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1615080290908</updated>
+    </task>
+    <task id="LOCAL-00091" summary="06: Changed name of angular_1_8_2.min.js">
+      <created>1615081478094</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1615081478094</updated>
+    </task>
+    <task id="LOCAL-00092" summary="06: Moved place where I import js files">
+      <created>1615082194643</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1615082194643</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="05: Removed data directory and changes all var for let" />
+    <MESSAGE value="05: Formatted code" />
+    <MESSAGE value="05: Formatted code and finished solution" />
+    <MESSAGE value="05: Created about.html snippet. Added random number function and function to load about page." />
+    <MESSAGE value="05: Added content to the Reviews" />
+    <MESSAGE value="05: Removed extra bootstrap import" />
+    <MESSAGE value="05: Added Lorem Ipsum" />
+    <MESSAGE value="05: Added font awesome and rating stars" />
+    <MESSAGE value="05: Cleaned up code" />
+    <MESSAGE value="05: Added text rating" />
+    <MESSAGE value="05: Changed icon" />
+    <MESSAGE value="05: Fixed Menu Categories bug" />
+    <MESSAGE value="06: Updated index.md and added index.html" />
+    <MESSAGE value="06: Updated index.md" />
+    <MESSAGE value="06: Included angular_1_8_2.min.js" />
+    <MESSAGE value="06: Updated index.md. Changed arrow functions to normal functions" />
+    <MESSAGE value="06: Updated index.md." />
+    <MESSAGE value="06: Started adding assignment code" />
+    <MESSAGE value="06: Completed assignment01" />
+    <MESSAGE value="06: Added fonts and styles" />
+    <MESSAGE value="06: Added ng-class" />
+    <MESSAGE value="06: Cleaned up code" />
+    <MESSAGE value="06: Changed how I was using the injector" />
+    <MESSAGE value="06: Changed name of angular_1_8_2.min.js" />
+    <MESSAGE value="06: Moved place where I import js files" />
+    <option name="LAST_COMMIT_MESSAGE" value="06: Moved place where I import js files" />
+  </component>
+</project>

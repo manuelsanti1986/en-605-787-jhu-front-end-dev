@@ -75,6 +75,17 @@ The following repository contains the assignment solutions prepared by **Manuel 
     - It does not allow control functions (e.g., 'if statements', ...)
     - Accepts a filter or filter chains to format the output
 
+### Module 7: Assignment #6
+
+- **Instructions:**
+  - [Module 7 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module7)
+  - [JHU-EP-Coursera GitHub: Module 7 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment2/Assignment-2.md)
+
+- **Solution Link:**
+  - [Module 7 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod2_solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using AngularJS (Version 1).
+
 ### Assignment Submission Reminders
 
 1. Submit the assignment here on Blackboard with the following information:
