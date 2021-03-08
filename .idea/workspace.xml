@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/azureSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jhu-front-end-dev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/assets/angular_1_8_2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod2_solution/styles/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod2_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +77,7 @@
       <workItem from="1614723542923" duration="5485000" />
       <workItem from="1614898570207" duration="1946000" />
       <workItem from="1615061820806" duration="14568000" />
-      <workItem from="1615217483571" duration="1341000" />
-    </task>
-    <task id="LOCAL-00044" summary="04: Done with homework">
-      <created>1612575953269</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1612575953269</updated>
+      <workItem from="1615217483571" duration="1694000" />
     </task>
     <task id="LOCAL-00045" summary="04: Done with bonus part of homework">
       <created>1612577999039</created>
@@ -438,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615082194643</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="07: Copied all from first module solution and updated index.md">
+      <created>1615221118631</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1615221118631</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +441,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05: Removed data directory and changes all var for let" />
     <MESSAGE value="05: Formatted code" />
     <MESSAGE value="05: Formatted code and finished solution" />
     <MESSAGE value="05: Created about.html snippet. Added random number function and function to load about page." />
@@ -482,6 +465,7 @@
     <MESSAGE value="06: Changed how I was using the injector" />
     <MESSAGE value="06: Changed name of angular_1_8_2.min.js" />
     <MESSAGE value="06: Moved place where I import js files" />
-    <option name="LAST_COMMIT_MESSAGE" value="06: Moved place where I import js files" />
+    <MESSAGE value="07: Copied all from first module solution and updated index.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Copied all from first module solution and updated index.md" />
   </component>
 </project>
