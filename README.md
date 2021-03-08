@@ -51,6 +51,42 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 - **Description:** This assigment was dedicated to learn the basics of using JavaScript to manipulate the DOM (Document Object Model) and using Ajax.
 
+### Module 6: Assignment #5
+
+- **Instructions:**
+    - [Module 6 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module6)
+    - [JHU-EP-Coursera GitHub: Module 6 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment1/Assignment-1.md)
+
+- **Solution Link:**
+    - [Module 6 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod1_solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using AngularJS (Version 1).
+
+- **Key Takeaways:**
+    - **M-V-VM:** Common design pattern for structuring UIs with functionality
+    - **Model:** Represents and holds raw data
+    - **View:** UI that never changes data, declares events
+    - **ViewModel:** Data representation of the state of the UI
+    - **Declarative Binder:** Binds the ViewModel to the View
+    - **Minification:** Process of removing all unnecessary characters from source code without changing its functionality
+    - **Interpolation:** Process of evaluating a string literal containing one or more placeholders, which are replaced with values
+    - **Expression:** Something that evaluates to some value
+        - Executed in the context of the scope and has access to properties on `$scope`
+        - It does not throw errors if it results in a TypeError or ReferenceError
+        - It does not allow control functions (e.g., 'if statements', ...)
+        - Accepts a filter or filter chains to format the output
+
+### Module 7: Assignment #6
+
+- **Instructions:**
+    - [Module 7 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module7)
+    - [JHU-EP-Coursera GitHub: Module 7 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment2/Assignment-2.md)
+
+- **Solution Link:**
+    - [Module 7 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod2_solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using Filters, Digest Cycle and Data Binding, Looping, Controller as Syntax and Creating and Configuring custom services in AngularJS (Version 1).
+
 ### Assignment Submission Reminders
 
 1. Submit the assignment here on Blackboard with the following information:
