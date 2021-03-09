@@ -3,7 +3,8 @@
 
     let toBuyItems = [
         { name: "cookies", quantity: 10 },
-        { name: "cookies", quantity: 10 }
+        { name: "bananas", quantity: 5 },
+        { name: "cherries", quantity: 20 }
     ];
 
     let boughtItems = [];
