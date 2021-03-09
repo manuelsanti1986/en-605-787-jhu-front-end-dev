@@ -16,8 +16,15 @@
     ToBuyController.$inject = ['$scope'];
     function ToBuyController ($scope) {
         $scope.toBuyItems = toBuyItems;
+        $scope.itemsToBuyMessage = "";
+        $scope.itemsBoughtMessage = "";
         $scope.boughtItems = boughtItems;
 
+        $scope.alreadyBoughtItem = function (){
+            if($scope.toBuyItems.length === 0){
+                $scope.itemsToBuyMessage = "Everything is bought!";
+            }
+        };
 
     };
 })();

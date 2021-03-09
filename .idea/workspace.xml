@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod2_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,14 +79,7 @@
       <workItem from="1614898570207" duration="1946000" />
       <workItem from="1615061820806" duration="14568000" />
       <workItem from="1615217483571" duration="1694000" />
-      <workItem from="1615245735246" duration="3068000" />
-    </task>
-    <task id="LOCAL-00051" summary="05: Added index.html">
-      <created>1614449359423</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1614449359423</updated>
+      <workItem from="1615245735246" duration="3452000" />
     </task>
     <task id="LOCAL-00052" summary="05: Added ajax-utils.js">
       <created>1614458081480</created>
@@ -423,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615249012148</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="07: Included bought and tobuy arrays using ng-repeat">
+      <created>1615249294785</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1615249294785</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05: Removed extra bootstrap import" />
     <MESSAGE value="05: Added Lorem Ipsum" />
     <MESSAGE value="05: Added font awesome and rating stars" />
     <MESSAGE value="05: Cleaned up code" />
@@ -467,6 +467,7 @@
     <MESSAGE value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
     <MESSAGE value="07: Changed the values of the items" />
     <MESSAGE value="07: Started assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Started assignment" />
+    <MESSAGE value="07: Included bought and tobuy arrays using ng-repeat" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Included bought and tobuy arrays using ng-repeat" />
   </component>
 </project>
