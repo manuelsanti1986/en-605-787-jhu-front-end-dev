@@ -1,10 +1,18 @@
 (function () {
     'use strict';
-    angular.module('myApp', [])
-        .controller('LunchCheckController', LunchCheckController);
 
-    LunchCheckController.$inject = ['$scope'];
-    function LunchCheckController ($scope) {
+    let toBuyItems = [
+        { name: "cookies", quantity: 10 },
+        { name: "cookies", quantity: 10 }
+    ];
+
+    let boughtItems = [];
+
+    angular.module('myApp', [])
+        .controller('ToBuyController', ToBuyController);
+
+    ToBuyController.$inject = ['$scope'];
+    function ToBuyController ($scope) {
         $scope.lunchList = "";
         $scope.message = "";
         $scope.classTextBox = "";

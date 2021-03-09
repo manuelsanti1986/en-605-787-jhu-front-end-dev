@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod2_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,14 +79,7 @@
       <workItem from="1614898570207" duration="1946000" />
       <workItem from="1615061820806" duration="14568000" />
       <workItem from="1615217483571" duration="1694000" />
-      <workItem from="1615245735246" duration="2102000" />
-    </task>
-    <task id="LOCAL-00047" summary="04: Updated README.md">
-      <created>1614290847452</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1614290847452</updated>
+      <workItem from="1615245735246" duration="2349000" />
     </task>
     <task id="LOCAL-00048" summary="05: Updated index.md">
       <created>1614291197681</created>
@@ -422,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615247943677</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="07: Updated index.md">
+      <created>1615248319155</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1615248319155</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
