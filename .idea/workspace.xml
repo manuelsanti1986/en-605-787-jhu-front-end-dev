@@ -4,6 +4,7 @@
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod2_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +79,7 @@
       <workItem from="1614898570207" duration="1946000" />
       <workItem from="1615061820806" duration="14568000" />
       <workItem from="1615217483571" duration="1694000" />
-      <workItem from="1615245735246" duration="2430000" />
-    </task>
-    <task id="LOCAL-00049" summary="05: Updated index.md">
-      <created>1614443444835</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1614443444836</updated>
+      <workItem from="1615245735246" duration="2795000" />
     </task>
     <task id="LOCAL-00050" summary="05: Added index.html">
       <created>1614443604425</created>
@@ -423,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615248613948</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="07: Changed the values of the items">
+      <created>1615248647419</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1615248647419</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05: Created about.html snippet. Added random number function and function to load about page." />
     <MESSAGE value="05: Added content to the Reviews" />
     <MESSAGE value="05: Removed extra bootstrap import" />
     <MESSAGE value="05: Added Lorem Ipsum" />
@@ -467,6 +467,7 @@
     <MESSAGE value="07: Copied all from first module solution and updated index.md" />
     <MESSAGE value="07: Updated index.md" />
     <MESSAGE value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
+    <MESSAGE value="07: Changed the values of the items" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Changed the values of the items" />
   </component>
 </project>
