@@ -30,7 +30,7 @@
 
     AlreadyBoughtController.$inject = ['$scope'];
     function AlreadyBoughtController ($scope) {
-        $scope.itemsBoughtMessage = "";
+        $scope.itemsBoughtMessage = "Nothing bought yet.";
         $scope.boughtItems = boughtItems;
 
         $scope.alreadyBoughtItem = function (){
