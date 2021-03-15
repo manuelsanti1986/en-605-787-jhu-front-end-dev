@@ -93,6 +93,10 @@ The following repository contains the assignment solutions prepared by **Manuel 
     - **$scope.watch :** Should not be done inside a controller!
     - **{property} :** Interpolating sets up a watcher
     - **<input ..ng-model="property"> :** An input model with ng-model will have a watcher
+  - **`$scope` is based on prototypal inheritance**
+    - Child controller's `$scope` inherirs from parent controller's `$scope`
+  - Angular creates a property 'label' on the `$scope`
+    - The 'label' is a reference to `this`
   
 ### Assignment Submission Reminders
 

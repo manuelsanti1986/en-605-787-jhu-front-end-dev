@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod2_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +51,6 @@
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,14 +81,9 @@
       <workItem from="1615217483571" duration="1694000" />
       <workItem from="1615245735246" duration="3452000" />
       <workItem from="1615302653534" duration="1123000" />
-      <workItem from="1615655278889" duration="1943000" />
-    </task>
-    <task id="LOCAL-00053" summary="05: Exposing ajax-utils.js">
-      <created>1614458266882</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1614458266882</updated>
+      <workItem from="1615655278889" duration="2781000" />
+      <workItem from="1615740764527" duration="2655000" />
+      <workItem from="1615846071541" duration="1759000" />
     </task>
     <task id="LOCAL-00054" summary="05: moved responsehandler and request">
       <created>1614458825056</created>
@@ -439,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615660170682</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="07: Moved functionality into two different controllers.">
+      <created>1615660576271</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1615660576271</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +447,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05: Added font awesome and rating stars" />
     <MESSAGE value="05: Cleaned up code" />
     <MESSAGE value="05: Added text rating" />
     <MESSAGE value="05: Changed icon" />
@@ -483,6 +471,7 @@
     <MESSAGE value="07: Started assignment" />
     <MESSAGE value="07: Included bought and tobuy arrays using ng-repeat" />
     <MESSAGE value="07: Creating app module in a variable and adding controllers to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Creating app module in a variable and adding controllers to it" />
+    <MESSAGE value="07: Moved functionality into two different controllers." />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Moved functionality into two different controllers." />
   </component>
 </project>
