@@ -98,7 +98,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
   - Angular creates a property 'label' on the `$scope`
     - The 'label' is a reference to `this`
   - **Rules for Controllers:**
-    - Controllers are the ViewModel in the Model-View-ViewModel architectural pattern.
+    - Controllers are the **ViewModel** in the **Model-View-ViewModel (MVVM)** architectural pattern.
     - They are used to set up the initial state of `$scope` and add behavior to it.
     - **Do NOT** use them to handle business logic directly, nor to share code or state across controllers.
     
