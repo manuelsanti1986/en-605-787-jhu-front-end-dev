@@ -14,8 +14,9 @@
 
     app.controller('ToBuyController', ToBuyController);
     app.controller('AlreadyBoughtController', AlreadyBoughtController);
+    app.service('ShoppingListCheckOffService', ShoppingListCheckOffService);
 
-    ToBuyController.$inject = ['$scope'];
+    ToBuyController.$inject = ['$scope', 'ShoppingListCheckOffService'];
     function ToBuyController ($scope) {
         $scope.itemsToBuyMessage = "";
         $scope.toBuyItems = toBuyItems;
@@ -25,10 +26,9 @@
                 $scope.itemsToBuyMessage = "Everything is bought!";
             }
         };
-
     };
 
-    AlreadyBoughtController.$inject = ['$scope'];
+    AlreadyBoughtController.$inject = ['$scope', 'ShoppingListCheckOffService'];
     function AlreadyBoughtController ($scope) {
         $scope.itemsBoughtMessage = "Nothing bought yet.";
         $scope.boughtItems = boughtItems;
@@ -40,5 +40,9 @@
         };
 
     };
+
+    function ShoppingListCheckOffService(){
+
+    }
 
 })();
