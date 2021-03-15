@@ -101,7 +101,10 @@ The following repository contains the assignment solutions prepared by **Manuel 
     - Controllers are the **ViewModel** in the **Model-View-ViewModel (MVVM)** architectural pattern.
     - They are used to set up the initial state of `$scope` and add behavior to it.
     - **Do NOT** use them to handle business logic directly, nor to share code or state across controllers.
-    
+  - **Singleton Design Pattern:**
+    - It restricts an object to always having a single instance. Meaning that each dependent component will get a reference to the same instance.
+    - They enable sharing data between different controllers or other components within our application.      
+    - AngularJS custom services are **Always* singletons
   
 ### Assignment Submission Reminders
 

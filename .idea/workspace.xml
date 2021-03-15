@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +82,7 @@
       <workItem from="1615302653534" duration="1123000" />
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
-      <workItem from="1615846071541" duration="2450000" />
-    </task>
-    <task id="LOCAL-00057" summary="05: Cleaned up code. Fixed typo">
-      <created>1614462105697</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1614462105697</updated>
+      <workItem from="1615846071541" duration="2684000" />
     </task>
     <task id="LOCAL-00058" summary="05: Added json to response and responseHandler">
       <created>1614462929920</created>
@@ -427,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615852056223</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="07: Added service to main app">
+      <created>1615852195540</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1615852195540</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +446,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05: Changed icon" />
     <MESSAGE value="05: Fixed Menu Categories bug" />
     <MESSAGE value="06: Updated index.md and added index.html" />
     <MESSAGE value="06: Updated index.md" />
@@ -471,6 +470,7 @@
     <MESSAGE value="07: Moved functionality into two different controllers." />
     <MESSAGE value="07:Updated index." />
     <MESSAGE value="07:Updated index.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="07:Updated index.md" />
+    <MESSAGE value="07: Added service to main app" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Added service to main app" />
   </component>
 </project>
