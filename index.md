@@ -97,6 +97,11 @@ The following repository contains the assignment solutions prepared by **Manuel 
     - Child controller's `$scope` inherirs from parent controller's `$scope`
   - Angular creates a property 'label' on the `$scope`
     - The 'label' is a reference to `this`
+  - **Rules for Controllers:**
+    - Controllers are the ViewModel in the Model-View-ViewModel architectural pattern.
+    - They are used to set up the initial state of `$scope` and add behavior to it.
+    - **Do NOT** use them to handle business logic directly, nor to share code or state across controllers.
+    
   
 ### Assignment Submission Reminders
 

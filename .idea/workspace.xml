@@ -83,14 +83,7 @@
       <workItem from="1615302653534" duration="1123000" />
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
-      <workItem from="1615846071541" duration="1759000" />
-    </task>
-    <task id="LOCAL-00054" summary="05: moved responsehandler and request">
-      <created>1614458825056</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1614458825056</updated>
+      <workItem from="1615846071541" duration="2275000" />
     </task>
     <task id="LOCAL-00055" summary="05: Reverted back">
       <created>1614459260192</created>
@@ -428,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615660576271</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="07:Updated index.">
+      <created>1615851512219</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1615851512220</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +447,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05: Cleaned up code" />
     <MESSAGE value="05: Added text rating" />
     <MESSAGE value="05: Changed icon" />
     <MESSAGE value="05: Fixed Menu Categories bug" />
@@ -472,6 +471,7 @@
     <MESSAGE value="07: Included bought and tobuy arrays using ng-repeat" />
     <MESSAGE value="07: Creating app module in a variable and adding controllers to it" />
     <MESSAGE value="07: Moved functionality into two different controllers." />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Moved functionality into two different controllers." />
+    <MESSAGE value="07:Updated index." />
+    <option name="LAST_COMMIT_MESSAGE" value="07:Updated index." />
   </component>
 </project>
