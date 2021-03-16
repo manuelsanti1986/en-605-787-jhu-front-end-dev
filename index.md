@@ -105,6 +105,12 @@ The following repository contains the assignment solutions prepared by **Manuel 
     - It restricts an object to always having a single instance. Meaning that each dependent component will get a reference to the same instance.
     - They enable sharing data between different controllers or other components within our application.      
     - AngularJS custom services are **Always* singletons
+  - **Factory Design Pattern:**
+    - It can produce any type of objects, not just singletons.
+    - It can be used to produce dynamically customizable services.
+  - **Factory vs Service:**
+    - `.factory()` is NOT just another way of creating the same service you can create with `.service()`, but it can be
+    - `.service()` is also a factory, but a much more limited one. It is a factory that always produces the same type of service - a singleton, without an easy way to configure its behavior.
   
 ### Assignment Submission Reminders
 
