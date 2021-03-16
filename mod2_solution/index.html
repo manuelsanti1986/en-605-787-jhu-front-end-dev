@@ -37,9 +37,8 @@
           <ul>
             <li ng-repeat="item in toBuy.toBuyItems">
               Buy {{item.quantity}} {{item.name}}
-              <button class="btn btn-default" ng-click="toBuy.buyItem();">
+              <button class="btn btn-default" ng-click="toBuy.buyItem($index);">
                 <span class="glyphicon glyphicon-ok"></span> Bought
-  <!--              //TODO Pop From array when button is clicked and place into the other array-->
               </button>
             </li>
           </ul>
