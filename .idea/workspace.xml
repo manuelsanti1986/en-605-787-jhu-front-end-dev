@@ -4,7 +4,6 @@
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod2_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,14 +95,7 @@
       <workItem from="1615302653534" duration="1123000" />
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
-      <workItem from="1615846071541" duration="17702000" />
-    </task>
-    <task id="LOCAL-00069" summary="05: Added font awesome and rating stars">
-      <created>1614654106135</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1614654106135</updated>
+      <workItem from="1615846071541" duration="17790000" />
     </task>
     <task id="LOCAL-00070" summary="05: Cleaned up code">
       <created>1614654175729</created>
@@ -441,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615932121071</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="07: Added filter">
+      <created>1615933366631</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1615933366631</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +459,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06: Added fonts and styles" />
     <MESSAGE value="06: Added ng-class" />
     <MESSAGE value="06: Cleaned up code" />
     <MESSAGE value="06: Changed how I was using the injector" />
@@ -485,6 +483,7 @@
     <MESSAGE value="07: Moving from toBuy array to bought array" />
     <MESSAGE value="07: Added one way binding." />
     <MESSAGE value="07: Added total_price to items" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Added total_price to items" />
+    <MESSAGE value="07: Added filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Added filter" />
   </component>
 </project>

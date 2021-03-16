@@ -64,7 +64,6 @@
         service.getBoughItems = function() {
             return boughtItems;
         }
-
     }
 
 })();
