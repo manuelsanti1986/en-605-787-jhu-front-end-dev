@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +39,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module5-solution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mod3_solution" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod3_solution" />
       <recent name="$PROJECT_DIR$/module5-solution" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
@@ -96,13 +97,6 @@
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
       <workItem from="1615846071541" duration="17790000" />
-    </task>
-    <task id="LOCAL-00070" summary="05: Cleaned up code">
-      <created>1614654175729</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1614654175729</updated>
     </task>
     <task id="LOCAL-00071" summary="05: Added text rating">
       <created>1614654400931</created>
@@ -440,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615933366631</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="08: Started assignment 8">
+      <created>1615934078049</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1615934078049</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +460,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06: Added ng-class" />
     <MESSAGE value="06: Cleaned up code" />
     <MESSAGE value="06: Changed how I was using the injector" />
     <MESSAGE value="06: Changed name of angular_1_8_2.min.js" />
@@ -484,6 +484,7 @@
     <MESSAGE value="07: Added one way binding." />
     <MESSAGE value="07: Added total_price to items" />
     <MESSAGE value="07: Added filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Added filter" />
+    <MESSAGE value="08: Started assignment 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="08: Started assignment 8" />
   </component>
 </project>
