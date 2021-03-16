@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod2_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,19 @@
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,14 +95,7 @@
       <workItem from="1615302653534" duration="1123000" />
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
-      <workItem from="1615846071541" duration="3698000" />
-    </task>
-    <task id="LOCAL-00060" summary="05: Added starter code from professor">
-      <created>1614639774304</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1614639774304</updated>
+      <workItem from="1615846071541" duration="3942000" />
     </task>
     <task id="LOCAL-00061" summary="05: Removed data directory and changes all var for let">
       <created>1614639990823</created>
@@ -427,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615853615198</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="07: Changed injection and using controller prototypal inheritance">
+      <created>1615854002460</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1615854002460</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,7 +459,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05: Fixed Menu Categories bug" />
     <MESSAGE value="06: Updated index.md and added index.html" />
     <MESSAGE value="06: Updated index.md" />
     <MESSAGE value="06: Included angular_1_8_2.min.js" />
@@ -471,6 +483,7 @@
     <MESSAGE value="07:Updated index.md" />
     <MESSAGE value="07: Added service to main app" />
     <MESSAGE value="07: Updated index.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Updated index.md" />
+    <MESSAGE value="07: Changed injection and using controller prototypal inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Changed injection and using controller prototypal inheritance" />
   </component>
 </project>
