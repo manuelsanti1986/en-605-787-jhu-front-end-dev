@@ -96,14 +96,7 @@
       <workItem from="1615302653534" duration="1123000" />
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
-      <workItem from="1615846071541" duration="13405000" />
-    </task>
-    <task id="LOCAL-00066" summary="05: Added content to the Reviews">
-      <created>1614648899460</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1614648899460</updated>
+      <workItem from="1615846071541" duration="15658000" />
     </task>
     <task id="LOCAL-00067" summary="05: Removed extra bootstrap import">
       <created>1614652238246</created>
@@ -441,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615925410448</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="07: Moving from toBuy array to bought array">
+      <created>1615929074090</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1615929074090</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +460,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06: Updated index.md." />
     <MESSAGE value="06: Started adding assignment code" />
     <MESSAGE value="06: Completed assignment01" />
     <MESSAGE value="06: Added fonts and styles" />
@@ -485,6 +484,7 @@
     <MESSAGE value="07: Started creating service" />
     <MESSAGE value="07: Started creating service. Added ng-if" />
     <MESSAGE value="07: Fixed typo in ng-if" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Fixed typo in ng-if" />
+    <MESSAGE value="07: Moving from toBuy array to bought array" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Moving from toBuy array to bought array" />
   </component>
 </project>

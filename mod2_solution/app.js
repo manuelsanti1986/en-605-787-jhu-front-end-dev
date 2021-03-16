@@ -10,22 +10,25 @@
     ToBuyController.$inject = ['ShoppingListCheckOffService'];
     function ToBuyController (ShoppingListCheckOffService) {
         let toBuy = this;
-        toBuy.itemsToBuyMessage = "";
-        toBuy.toBuyItems = ShoppingListCheckOffService.getToBuyItems();
+        toBuy.toBuyItems = function() {
+            let items = ShoppingListCheckOffService.getToBuyItems();
+            toBuy.itemsToBuyMessage = (items.length === 0)? "Everything is bought!" : "";
+            return items;
+        }
 
         toBuy.buyItem = function (index){
             ShoppingListCheckOffService.buyItem(index);
-            if(toBuy.toBuyItems.length === 0){
-                toBuy.itemsToBuyMessage = "Everything is bought!";
-            }
         };
     };
 
     AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
     function AlreadyBoughtController (ShoppingListCheckOffService) {
         let bought = this;
-        bought.boughtItems = ShoppingListCheckOffService.getBoughItems();
-        bought.itemsBoughtMessage = (bought.boughtItems.length === 0)? "Nothing bought yet." : "";
+        bought.boughtItems = function() {
+            let items = ShoppingListCheckOffService.getBoughItems();
+            bought.itemsBoughtMessage = (items.length === 0)? "Nothing bought yet." : "";
+            return items;
+        };
     };
 
     function ShoppingListCheckOffService(){
@@ -42,7 +45,6 @@
         service.buyItem = function (index) {
             let item = toBuyItems.splice(index, 1);
             boughtItems = boughtItems.concat(item);
-            console.log(boughtItems);
         }
 
         service.getToBuyItems = function() {
