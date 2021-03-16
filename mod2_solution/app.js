@@ -11,7 +11,7 @@
     function ToBuyController (ShoppingListCheckOffService) {
         let toBuy = this;
         toBuy.itemsToBuyMessage = "";
-        toBuy.toBuyItems = toBuyItems;
+        toBuy.toBuyItems = ShoppingListCheckOffService.getToBuyItems();
 
         toBuy.buyItem = function (){
             if(toBuy.toBuyItems.length === 0){
@@ -24,7 +24,7 @@
     function AlreadyBoughtController (ShoppingListCheckOffService) {
         let bought = this;
         bought.itemsBoughtMessage = "Nothing bought yet.";
-        bought.boughtItems = boughtItems;
+        bought.boughtItems = ShoppingListCheckOffService.getBoughItems;
 
         bought.alreadyBoughtItem = function (){
             if(bought.toBuyItems.length === 0){
