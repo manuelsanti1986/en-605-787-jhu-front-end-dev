@@ -16,32 +16,35 @@
     app.controller('AlreadyBoughtController', AlreadyBoughtController);
     app.service('ShoppingListCheckOffService', ShoppingListCheckOffService);
 
-    ToBuyController.$inject = ['$scope', 'ShoppingListCheckOffService'];
-    function ToBuyController ($scope) {
-        $scope.itemsToBuyMessage = "";
-        $scope.toBuyItems = toBuyItems;
+    ToBuyController.$inject = ['ShoppingListCheckOffService'];
+    function ToBuyController (ShoppingListCheckOffService) {
+        let toBuy = this;
+        toBuy.itemsToBuyMessage = "";
+        toBuy.toBuyItems = toBuyItems;
 
-        $scope.buyItem = function (){
-            if($scope.toBuyItems.length === 0){
-                $scope.itemsToBuyMessage = "Everything is bought!";
+        toBuy.buyItem = function (){
+            if(toBuy.toBuyItems.length === 0){
+                toBuy.itemsToBuyMessage = "Everything is bought!";
             }
         };
     };
 
-    AlreadyBoughtController.$inject = ['$scope', 'ShoppingListCheckOffService'];
-    function AlreadyBoughtController ($scope) {
-        $scope.itemsBoughtMessage = "Nothing bought yet.";
-        $scope.boughtItems = boughtItems;
+    AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
+    function AlreadyBoughtController (ShoppingListCheckOffService) {
+        let bought = this;
+        bought.itemsBoughtMessage = "Nothing bought yet.";
+        bought.boughtItems = boughtItems;
 
-        $scope.alreadyBoughtItem = function (){
-            if($scope.toBuyItems.length === 0){
-                $scope.itemsToBuyMessage = "Everything is bought!";
+        bought.alreadyBoughtItem = function (){
+            if(bought.toBuyItems.length === 0){
+                bought.itemsToBuyMessage = "Everything is bought!";
             }
         };
 
     };
 
     function ShoppingListCheckOffService(){
+        let service = this;
 
     }
 
