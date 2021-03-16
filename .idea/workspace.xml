@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1naSU5nSzgB2pLoWC8LrbIaVNOJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module5-solution" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/module5-solution" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/module3-solution/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="" />
+      <created>1611626721227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611626721227</updated>
+      <workItem from="1611626722541" duration="832000" />
+      <workItem from="1611627740404" duration="676000" />
+      <workItem from="1611784582970" duration="15487000" />
+      <workItem from="1611876573248" duration="7971000" />
+      <workItem from="1611963752191" duration="8602000" />
+      <workItem from="1612135430441" duration="4748000" />
+      <workItem from="1612212985008" duration="5542000" />
+      <workItem from="1612306393946" duration="9357000" />
+      <workItem from="1612566398727" duration="105000" />
+      <workItem from="1612566619563" duration="11667000" />
+      <workItem from="1612630734427" duration="580000" />
+      <workItem from="1614290156966" duration="431000" />
+      <workItem from="1614290641817" duration="62000" />
+      <workItem from="1614290724864" duration="537000" />
+      <workItem from="1614352911242" duration="12870000" />
+      <workItem from="1614638366776" duration="15153000" />
+      <workItem from="1614723542923" duration="5485000" />
+      <workItem from="1614898570207" duration="1946000" />
+      <workItem from="1615061820806" duration="14568000" />
+      <workItem from="1615217483571" duration="1694000" />
+      <workItem from="1615245735246" duration="3452000" />
+      <workItem from="1615302653534" duration="1123000" />
+      <workItem from="1615655278889" duration="2781000" />
+      <workItem from="1615740764527" duration="2655000" />
+      <workItem from="1615846071541" duration="18235000" />
+    </task>
+    <task id="LOCAL-00072" summary="05: Added text rating">
+      <created>1614654745820</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1614654745821</updated>
+    </task>
+    <task id="LOCAL-00073" summary="05: Changed icon">
+      <created>1614654978475</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1614654978475</updated>
+    </task>
+    <task id="LOCAL-00074" summary="05: Fixed Menu Categories bug">
+      <created>1614655426490</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1614655426490</updated>
+    </task>
+    <task id="LOCAL-00075" summary="06: Updated index.md">
+      <created>1614725921991</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614725921991</updated>
+    </task>
+    <task id="LOCAL-00076" summary="06: Updated index.md and added index.html">
+      <created>1614726428088</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1614726428088</updated>
+    </task>
+    <task id="LOCAL-00077" summary="06: Updated index.md">
+      <created>1614728456117</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1614728456117</updated>
+    </task>
+    <task id="LOCAL-00078" summary="06: Included angular_1_8_2.min.js">
+      <created>1614734705616</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1614734705616</updated>
+    </task>
+    <task id="LOCAL-00079" summary="06: Updated index.md. Changed arrow functions to normal functions">
+      <created>1615063499080</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1615063499080</updated>
+    </task>
+    <task id="LOCAL-00080" summary="06: Updated index.md.">
+      <created>1615065504220</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1615065504220</updated>
+    </task>
+    <task id="LOCAL-00081" summary="06: Started adding assignment code">
+      <created>1615068595891</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1615068595892</updated>
+    </task>
+    <task id="LOCAL-00082" summary="06: Completed assignment01">
+      <created>1615074340173</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1615074340173</updated>
+    </task>
+    <task id="LOCAL-00083" summary="06: Cleaned up code">
+      <created>1615074675738</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1615074675738</updated>
+    </task>
+    <task id="LOCAL-00084" summary="06: Added fonts and styles">
+      <created>1615077409051</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1615077409051</updated>
+    </task>
+    <task id="LOCAL-00085" summary="06: Added ng-class">
+      <created>1615079070065</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079070065</updated>
+    </task>
+    <task id="LOCAL-00086" summary="06: Cleaned up code">
+      <created>1615079134476</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079134476</updated>
+    </task>
+    <task id="LOCAL-00087" summary="06: Changed how I was using the injector">
+      <created>1615079632188</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079632188</updated>
+    </task>
+    <task id="LOCAL-00088" summary="06: Changed how I was using the injector">
+      <created>1615079768677</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1615079768677</updated>
+    </task>
+    <task id="LOCAL-00089" summary="06: Changed how I was using the injector">
+      <created>1615080060430</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1615080060430</updated>
+    </task>
+    <task id="LOCAL-00090" summary="06: Changed how I was using the injector">
+      <created>1615080290908</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1615080290908</updated>
+    </task>
+    <task id="LOCAL-00091" summary="06: Changed name of angular_1_8_2.min.js">
+      <created>1615081478094</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1615081478094</updated>
+    </task>
+    <task id="LOCAL-00092" summary="06: Moved place where I import js files">
+      <created>1615082194643</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1615082194643</updated>
+    </task>
+    <task id="LOCAL-00093" summary="07: Copied all from first module solution and updated index.md">
+      <created>1615221118631</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1615221118631</updated>
+    </task>
+    <task id="LOCAL-00094" summary="07: Updated index.md">
+      <created>1615247065017</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1615247065018</updated>
+    </task>
+    <task id="LOCAL-00095" summary="07: Updated index.md">
+      <created>1615247943677</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1615247943677</updated>
+    </task>
+    <task id="LOCAL-00096" summary="07: Updated index.md">
+      <created>1615248319155</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1615248319155</updated>
+    </task>
+    <task id="LOCAL-00097" summary="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment.">
+      <created>1615248613948</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1615248613948</updated>
+    </task>
+    <task id="LOCAL-00098" summary="07: Changed the values of the items">
+      <created>1615248647419</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1615248647419</updated>
+    </task>
+    <task id="LOCAL-00099" summary="07: Started assignment">
+      <created>1615249012148</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1615249012148</updated>
+    </task>
+    <task id="LOCAL-00100" summary="07: Included bought and tobuy arrays using ng-repeat">
+      <created>1615249294785</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1615249294785</updated>
+    </task>
+    <task id="LOCAL-00101" summary="07: Creating app module in a variable and adding controllers to it">
+      <created>1615660170681</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1615660170682</updated>
+    </task>
+    <task id="LOCAL-00102" summary="07: Moved functionality into two different controllers.">
+      <created>1615660576271</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1615660576271</updated>
+    </task>
+    <task id="LOCAL-00103" summary="07:Updated index.">
+      <created>1615851512219</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1615851512220</updated>
+    </task>
+    <task id="LOCAL-00104" summary="07:Updated index.md">
+      <created>1615852011421</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1615852011421</updated>
+    </task>
+    <task id="LOCAL-00105" summary="07:Updated index.md">
+      <created>1615852056222</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1615852056223</updated>
+    </task>
+    <task id="LOCAL-00106" summary="07: Added service to main app">
+      <created>1615852195540</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1615852195540</updated>
+    </task>
+    <task id="LOCAL-00107" summary="07: Updated index.md">
+      <created>1615852424283</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1615852424284</updated>
+    </task>
+    <task id="LOCAL-00108" summary="07: Updated index.md">
+      <created>1615853615198</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1615853615198</updated>
+    </task>
+    <task id="LOCAL-00109" summary="07: Changed injection and using controller prototypal inheritance">
+      <created>1615854002460</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1615854002460</updated>
+    </task>
+    <task id="LOCAL-00110" summary="07: Updated html to use controller labels">
+      <created>1615854265931</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1615854265931</updated>
+    </task>
+    <task id="LOCAL-00111" summary="07: Started creating service">
+      <created>1615854614895</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1615854614895</updated>
+    </task>
+    <task id="LOCAL-00112" summary="07: Started creating service">
+      <created>1615908100687</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1615908100687</updated>
+    </task>
+    <task id="LOCAL-00113" summary="07: Started creating service. Added ng-if">
+      <created>1615921254766</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1615921254766</updated>
+    </task>
+    <task id="LOCAL-00114" summary="07: Fixed typo in ng-if">
+      <created>1615925410448</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1615925410448</updated>
+    </task>
+    <task id="LOCAL-00115" summary="07: Moving from toBuy array to bought array">
+      <created>1615929074090</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1615929074090</updated>
+    </task>
+    <task id="LOCAL-00116" summary="07: Added one way binding.">
+      <created>1615931318262</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1615931318262</updated>
+    </task>
+    <task id="LOCAL-00117" summary="07: Added total_price to items">
+      <created>1615932121071</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1615932121071</updated>
+    </task>
+    <task id="LOCAL-00118" summary="07: Added filter">
+      <created>1615933366631</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1615933366631</updated>
+    </task>
+    <task id="LOCAL-00119" summary="07: Cleaned up code">
+      <created>1615933445064</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1615933445064</updated>
+    </task>
+    <task id="LOCAL-00120" summary="07: Updated README.md">
+      <created>1615933586767</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1615933586767</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="06: Changed how I was using the injector" />
+    <MESSAGE value="06: Changed name of angular_1_8_2.min.js" />
+    <MESSAGE value="06: Moved place where I import js files" />
+    <MESSAGE value="07: Copied all from first module solution and updated index.md" />
+    <MESSAGE value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
+    <MESSAGE value="07: Changed the values of the items" />
+    <MESSAGE value="07: Started assignment" />
+    <MESSAGE value="07: Included bought and tobuy arrays using ng-repeat" />
+    <MESSAGE value="07: Creating app module in a variable and adding controllers to it" />
+    <MESSAGE value="07: Moved functionality into two different controllers." />
+    <MESSAGE value="07:Updated index." />
+    <MESSAGE value="07:Updated index.md" />
+    <MESSAGE value="07: Added service to main app" />
+    <MESSAGE value="07: Updated index.md" />
+    <MESSAGE value="07: Changed injection and using controller prototypal inheritance" />
+    <MESSAGE value="07: Updated html to use controller labels" />
+    <MESSAGE value="07: Started creating service" />
+    <MESSAGE value="07: Started creating service. Added ng-if" />
+    <MESSAGE value="07: Fixed typo in ng-if" />
+    <MESSAGE value="07: Moving from toBuy array to bought array" />
+    <MESSAGE value="07: Added one way binding." />
+    <MESSAGE value="07: Added total_price to items" />
+    <MESSAGE value="07: Added filter" />
+    <MESSAGE value="07: Cleaned up code" />
+    <MESSAGE value="07: Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Updated README.md" />
+  </component>
+</project>
