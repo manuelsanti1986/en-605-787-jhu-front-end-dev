@@ -35,16 +35,18 @@
         let service = this;
 
         let toBuyItems = [
-            { name: "cookies", quantity: 2 },
-            { name: "bananas", quantity: 5 },
-            { name: "cherries", quantity: 20 },
-            { name: "strawberries", quantity: 2 }
+            { name: "cookies", quantity: 2 , pricePerItem: 3 },
+            { name: "bananas", quantity: 5 , pricePerItem: 1 },
+            { name: "cherries", quantity: 20 , pricePerItem: 0.5 },
+            { name: "strawberries", quantity: 2 , pricePerItem: 4 }
         ];
         let boughtItems = [];
 
         service.buyItem = function (index) {
-            let item = toBuyItems.splice(index, 1);
-            boughtItems = boughtItems.concat(item);
+            let item = toBuyItems.splice(index, 1).pop();
+            let total_price = item.quantity * item.pricePerItem;
+            item = {...item, total_price};
+            boughtItems.push(item);
         }
 
         service.getToBuyItems = function() {
