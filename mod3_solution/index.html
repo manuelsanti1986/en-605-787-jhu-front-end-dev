@@ -3,62 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shopping List Check Off</title>
-
+  <title>Narrow Down Your Menu Choice</title>
   <link rel="stylesheet" href="styles/bootstrap.min.css">
-  <style>
-    .emptyMessage {
-      font-weight: bold;
-      color: red;
-      font-size: 1.2em;
-    }
-    li {
-      margin-bottom: 7px;
-      font-size: 1.2em;
-    }
-    li > button {
-      margin-left: 6px;
-    }
-    button > span {
-      color: green;
-    }
-  </style>
+  <link rel="stylesheet" href="styles/styles.css">
   <script src="assets/angular_1_8_2.min.js"></script>
   <script src="app.js"></script>
 </head>
 <body>
 <div class="container">
-  <h1>Shopping List Check Off</h1>
-    <div class="row">
-      <!-- To Buy List -->
-      <div ng-controller="ToBuyController as toBuy">
-        <div class="col-md-6">
-          <h2>To Buy:</h2>
-          <ul>
-            <li ng-repeat="item in toBuy.toBuyItems();">
-              Buy {{item.quantity}} {{item.name}}
-              <button class="btn btn-default" ng-click="toBuy.buyItem($index);">
-                <span class="glyphicon glyphicon-ok"></span> Bought
-              </button>
-            </li>
-          </ul>
-          <div class="emptyMessage" ng-if="toBuy.itemsToBuyMessage">{{toBuy.itemsToBuyMessage}}</div>
-        </div>
-      </div>
-      <!-- Already Bought List -->
-      <div ng-controller="AlreadyBoughtController as bought">
-        <div class="col-md-6">
-          <h2>Already Bought:</h2>
-          <ul>
-            <li ng-repeat="item in bought.boughtItems();">
-              Bought {{item.quantity}} of {{item.name}} for total price of {{item.total_price | currency: $ : 2 | myCurrency}}
-            </li>
-          </ul>
-          <div class="emptyMessage" ng-if="bought.itemsBoughtMessage">{{bought.itemsBoughtMessage}}</div>
-        </div>
-      </div>
+  <h1>Narrow Down Your Chinese Menu Choice</h1>
+  <div class="row">
+    <div class="form-group">
+      <input type="text" placeholder="search term" class="form-control">
+    </div>
+    <div class="form-group narrow-button">
+      <button class="btn btn-primary">Narrow It Down For Me!</button>
+    </div>
 
+    <!-- found-items should be implemented as a component -->
+    <found-items found-items="...." on-remove="...."></found-items>
   </div>
+
 </div>
 </body>
 </html>
