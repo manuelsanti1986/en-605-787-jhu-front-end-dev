@@ -75,6 +75,43 @@ The following repository contains the assignment solutions prepared by **Manuel 
     - It does not allow control functions (e.g., 'if statements', ...)
     - Accepts a filter or filter chains to format the output
 
+### Module 7: Assignment #6
+
+- **Instructions:**
+  - [Module 7 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module7)
+  - [JHU-EP-Coursera GitHub: Module 7 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment2/Assignment-2.md)
+
+- **Solution Link:**
+  - [Module 7 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod2_solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using Filters, Digest Cycle and Data Binding, Looping, Controller as Syntax and Creating and Configuring custom services in AngularJS (Version 1).
+
+- **Key Takeaways:**
+  - **Digest Cycle:** Running digest loops until all watchers report that nothing has changed
+    - It does not get triggered automatically if events are unaware of Angular. To trigger the digest cycle, use `$digest` afer the custom code or wrap the custom code inside `$apply`.
+  - **Set up watchers:**  
+    - **$scope.watch :** Should not be done inside a controller!
+    - **{property} :** Interpolating sets up a watcher
+    - **<input ..ng-model="property"> :** An input model with ng-model will have a watcher
+  - **`$scope` is based on prototypal inheritance**
+    - Child controller's `$scope` inherits from parent controller's `$scope`
+  - Angular creates a property 'label' on the `$scope`
+    - The 'label' is a reference to `this`
+  - **Rules for Controllers:**
+    - Controllers are the **ViewModel** in the **Model-View-ViewModel (MVVM)** architectural pattern.
+    - They set up the initial state of `$scope` and add behavior to it.
+    - **Do NOT** use them to handle business logic directly, nor to share code or state across controllers.
+  - **Singleton Design Pattern:**
+    - It restricts an object to always having a single instance. Meaning that each dependent component will get a reference to the same instance.
+    - They enable sharing data between different controllers or other components within our application.      
+    - AngularJS custom services are **Always* singletons
+  - **Factory Design Pattern:**
+    - It can produce any type of objects, not just singletons.
+    - It can be used to produce dynamically customizable services.
+  - **Factory-vs-Service:**
+    - `.factory()` is NOT just another way of creating the same. service you can create with `.service()`, but it can be
+    - `.service()` is also a factory, but a much more limited one. It is a factory that always produces the same type of service - a singleton, without an easy way to configure its behavior.
+  
 ### Assignment Submission Reminders
 
 1. Submit the assignment here on Blackboard with the following information:
