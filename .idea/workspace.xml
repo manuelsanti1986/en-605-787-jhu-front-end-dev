@@ -96,14 +96,7 @@
       <workItem from="1615302653534" duration="1123000" />
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
-      <workItem from="1615846071541" duration="16464000" />
-    </task>
-    <task id="LOCAL-00068" summary="05: Added Lorem Ipsum">
-      <created>1614652350969</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1614652350969</updated>
+      <workItem from="1615846071541" duration="17702000" />
     </task>
     <task id="LOCAL-00069" summary="05: Added font awesome and rating stars">
       <created>1614654106135</created>
@@ -441,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615931318262</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="07: Added total_price to items">
+      <created>1615932121071</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1615932121071</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +460,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06: Completed assignment01" />
     <MESSAGE value="06: Added fonts and styles" />
     <MESSAGE value="06: Added ng-class" />
     <MESSAGE value="06: Cleaned up code" />
@@ -485,6 +484,7 @@
     <MESSAGE value="07: Fixed typo in ng-if" />
     <MESSAGE value="07: Moving from toBuy array to bought array" />
     <MESSAGE value="07: Added one way binding." />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Added one way binding." />
+    <MESSAGE value="07: Added total_price to items" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Added total_price to items" />
   </component>
 </project>

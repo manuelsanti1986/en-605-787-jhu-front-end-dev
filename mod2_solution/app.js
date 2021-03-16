@@ -5,6 +5,7 @@
 
     app.controller('ToBuyController', ToBuyController);
     app.controller('AlreadyBoughtController', AlreadyBoughtController);
+    app.filter('myCurrency', MyCurrencyFilter);
     app.service('ShoppingListCheckOffService', ShoppingListCheckOffService);
 
     ToBuyController.$inject = ['ShoppingListCheckOffService'];
@@ -30,6 +31,13 @@
             return items;
         };
     };
+
+    function MyCurrencyFilter(){
+        return function(input) {
+            input = ("$$" + input) || "";
+            return input;
+        };
+    }
 
     function ShoppingListCheckOffService(){
         let service = this;
