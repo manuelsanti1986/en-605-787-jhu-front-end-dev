@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod2_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod2_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod2_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,14 +95,7 @@
       <workItem from="1615302653534" duration="1123000" />
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
-      <workItem from="1615846071541" duration="8045000" />
-    </task>
-    <task id="LOCAL-00064" summary="05: Formatted code and finished solution">
-      <created>1614646351853</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1614646351853</updated>
+      <workItem from="1615846071541" duration="10062000" />
     </task>
     <task id="LOCAL-00065" summary="05: Created about.html snippet. Added random number function and function to load about page.">
       <created>1614647590962</created>
@@ -442,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615908100687</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="07: Started creating service. Added ng-if">
+      <created>1615921254766</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1615921254766</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +459,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06: Included angular_1_8_2.min.js" />
     <MESSAGE value="06: Updated index.md. Changed arrow functions to normal functions" />
     <MESSAGE value="06: Updated index.md." />
     <MESSAGE value="06: Started adding assignment code" />
@@ -486,6 +483,7 @@
     <MESSAGE value="07: Changed injection and using controller prototypal inheritance" />
     <MESSAGE value="07: Updated html to use controller labels" />
     <MESSAGE value="07: Started creating service" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Started creating service" />
+    <MESSAGE value="07: Started creating service. Added ng-if" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Started creating service. Added ng-if" />
   </component>
 </project>
