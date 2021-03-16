@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,14 +81,7 @@
       <workItem from="1615302653534" duration="1123000" />
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
-      <workItem from="1615846071541" duration="2684000" />
-    </task>
-    <task id="LOCAL-00058" summary="05: Added json to response and responseHandler">
-      <created>1614462929920</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1614462929920</updated>
+      <workItem from="1615846071541" duration="3333000" />
     </task>
     <task id="LOCAL-00059" summary="05: Added json and removed simple text file">
       <created>1614464260763</created>
@@ -427,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615852195540</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="07: Updated index.md">
+      <created>1615852424283</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1615852424284</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +460,6 @@
     <MESSAGE value="06: Changed name of angular_1_8_2.min.js" />
     <MESSAGE value="06: Moved place where I import js files" />
     <MESSAGE value="07: Copied all from first module solution and updated index.md" />
-    <MESSAGE value="07: Updated index.md" />
     <MESSAGE value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
     <MESSAGE value="07: Changed the values of the items" />
     <MESSAGE value="07: Started assignment" />
@@ -471,6 +469,7 @@
     <MESSAGE value="07:Updated index." />
     <MESSAGE value="07:Updated index.md" />
     <MESSAGE value="07: Added service to main app" />
-    <option name="LAST_COMMIT_MESSAGE" value="07: Added service to main app" />
+    <MESSAGE value="07: Updated index.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="07: Updated index.md" />
   </component>
 </project>
