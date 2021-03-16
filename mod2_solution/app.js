@@ -3,15 +3,6 @@
 
     let app = angular.module('myApp', []);
 
-    let toBuyItems = [
-        { name: "cookies", quantity: 1 },
-        { name: "bananas", quantity: 5 },
-        { name: "cherries", quantity: 20 },
-        { name: "strawberries", quantity: 2 }
-    ];
-
-    let boughtItems = [];
-
     app.controller('ToBuyController', ToBuyController);
     app.controller('AlreadyBoughtController', AlreadyBoughtController);
     app.service('ShoppingListCheckOffService', ShoppingListCheckOffService);
@@ -45,6 +36,26 @@
 
     function ShoppingListCheckOffService(){
         let service = this;
+
+        let toBuyItems = [
+            { name: "cookies", quantity: 1 },
+            { name: "bananas", quantity: 5 },
+            { name: "cherries", quantity: 20 },
+            { name: "strawberries", quantity: 2 }
+        ];
+        let boughtItems = [];
+
+        service.buyItem = function (itemName) {
+
+        }
+
+        service.getToBuyItems = function() {
+            return toBuyItems;
+        }
+
+        service.getBoughItems = function() {
+            return boughtItems;
+        }
 
     }
 
