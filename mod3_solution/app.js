@@ -1,32 +1,17 @@
 (function () {
     'use strict';
 
-    let app = angular.module('myApp', []);
+    let app = angular.module('NarrowItDownApp', []);
 
-    app.controller('ToBuyController', ToBuyController);
-    app.controller('AlreadyBoughtController', AlreadyBoughtController);
+    app.controller('NarrowItDownController', NarrowItDownController);
     app.filter('myCurrency', MyCurrencyFilter);
-    app.service('ShoppingListCheckOffService', ShoppingListCheckOffService);
+    app.service('MenuSearchService', MenuSearchService);
 
-    ToBuyController.$inject = ['ShoppingListCheckOffService'];
-    function ToBuyController (ShoppingListCheckOffService) {
-        let toBuy = this;
-        toBuy.toBuyItems = function() {
-            let items = ShoppingListCheckOffService.getToBuyItems();
-            toBuy.itemsToBuyMessage = (items.length === 0)? "Everything is bought!" : "";
-            return items;
-        }
-
-        toBuy.buyItem = function (index){
-            ShoppingListCheckOffService.buyItem(index);
-        };
-    };
-
-    AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
-    function AlreadyBoughtController (ShoppingListCheckOffService) {
+    NarrowItDownController.$inject = ['MenuSearchService'];
+    function NarrowItDownController (MenuSearchService) {
         let bought = this;
         bought.boughtItems = function() {
-            let items = ShoppingListCheckOffService.getBoughItems();
+            let items = MenuSearchService.getBoughItems();
             bought.itemsBoughtMessage = (items.length === 0)? "Nothing bought yet." : "";
             return items;
         };
@@ -39,7 +24,7 @@
         };
     }
 
-    function ShoppingListCheckOffService(){
+    function MenuSearchService(){
         let service = this;
 
         let toBuyItems = [
@@ -50,8 +35,8 @@
         ];
         let boughtItems = [];
 
-        service.buyItem = function (index) {
-            let item = toBuyItems.splice(index, 1).pop();
+        service.getMatchedMenuItems = function (searchTerm) {
+            let item = toBuyItems.splice(searchTerm, 1).pop();
             let total_price = item.quantity * item.pricePerItem;
             item = {...item, total_price};
             boughtItems.push(item);

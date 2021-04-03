@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod3_solution/loader/itemsloaderindicator.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod3_solution/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mod3_solution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -52,19 +52,6 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,13 +86,10 @@
       <workItem from="1615655278889" duration="2781000" />
       <workItem from="1615740764527" duration="2655000" />
       <workItem from="1615846071541" duration="17790000" />
-    </task>
-    <task id="LOCAL-00072" summary="05: Added text rating">
-      <created>1614654745820</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1614654745821</updated>
+      <workItem from="1615993781310" duration="1380000" />
+      <workItem from="1616006704966" duration="6000" />
+      <workItem from="1617394943448" duration="3999000" />
+      <workItem from="1617454809524" duration="811000" />
     </task>
     <task id="LOCAL-00073" summary="05: Changed icon">
       <created>1614654978475</created>
@@ -443,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615934227697</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="08: Copied from assignment3 starter code">
+      <created>1615935367459</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1615935367459</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +453,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06: Changed how I was using the injector" />
     <MESSAGE value="06: Changed name of angular_1_8_2.min.js" />
     <MESSAGE value="06: Moved place where I import js files" />
     <MESSAGE value="07: Copied all from first module solution and updated index.md" />
@@ -487,6 +477,7 @@
     <MESSAGE value="07: Added filter" />
     <MESSAGE value="08: Started assignment 8" />
     <MESSAGE value="08: Updated index.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="08: Updated index.md" />
+    <MESSAGE value="08: Copied from assignment3 starter code" />
+    <option name="LAST_COMMIT_MESSAGE" value="08: Copied from assignment3 starter code" />
   </component>
 </project>
