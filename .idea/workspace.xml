@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mod3_solution/menuItems.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod3_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,19 @@
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,14 +103,7 @@
       <workItem from="1616006704966" duration="6000" />
       <workItem from="1617394943448" duration="3999000" />
       <workItem from="1617454809524" duration="5151000" />
-      <workItem from="1617549969326" duration="4659000" />
-    </task>
-    <task id="LOCAL-00077" summary="06: Updated index.md">
-      <created>1614728456117</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1614728456117</updated>
+      <workItem from="1617549969326" duration="7321000" />
     </task>
     <task id="LOCAL-00078" summary="06: Included angular_1_8_2.min.js">
       <created>1614734705616</created>
@@ -433,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617570855116</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Fixed removeitem">
+      <created>1617573646065</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1617573646066</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +467,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Changed the values of the items" />
     <MESSAGE value="07: Started assignment" />
     <MESSAGE value="07: Included bought and tobuy arrays using ng-repeat" />
     <MESSAGE value="07: Creating app module in a variable and adding controllers to it" />
@@ -477,6 +491,7 @@
     <MESSAGE value="Returning filtered results correctly" />
     <MESSAGE value="Cleaned up code." />
     <MESSAGE value="Addedd factory and removeitem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addedd factory and removeitem" />
+    <MESSAGE value="Fixed removeitem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed removeitem" />
   </component>
 </project>

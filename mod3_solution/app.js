@@ -5,23 +5,41 @@
 
     app.controller('NarrowItDownController', NarrowItDownController);
     app.factory('MenuItemsFactory', MenuItemsFactory)
-    // app.directive('foundItems', FoundItemsDirective);
+    app.directive('foundItems', FoundItemsDirective);
     app.filter('myCurrency', MyCurrencyFilter);
     app.constant('ApiBasePath', 'https://davids-restaurant.herokuapp.com');
+
+    function FoundItemsDirective() {
+        var ddo = {
+            templateUrl: 'menuItems.html',
+            scope: {
+                items: '<',
+                onRemove: '&'
+            },
+            controller: NarrowItDownController,
+            controllerAs: 'narrowItDown',
+            bindToController: true,
+            transclude: true
+        };
+
+        return ddo;
+    }
 
     NarrowItDownController.$inject = ['MenuItemsFactory'];
     function NarrowItDownController (MenuItemsFactory) {
         let narrowItDown = this;
         let menuItemsFactory = MenuItemsFactory();
-        let found = [];
+
+        // narrowItDown.found = menuItemsFactory.getMenuItems();
+        narrowItDown.found = [{name: "Name" }]
 
         narrowItDown.getFilteredItems = function(){
             let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems("chicken-stuffed");
             filteredItemsPromise
                 .then(function (filteredItems){
-                    found = filteredItems;
+                    narrowItDown.found = filteredItems;
                     console.log("THEN! found")
-                    console.log(found)
+                    console.log(narrowItDown.found)
                 })
                 .catch(function (error){
                     console.log("Error: " + error)
@@ -30,7 +48,7 @@
 
         narrowItDown.removeMenuItem = function (itemIndex) {
             menuItemsFactory.removeMenuItem(itemIndex);
-            found = menuItemsFactory.getMenuItems();
+            // narrowItDown.found = menuItemsFactory.getMenuItems();
         };
 
     };
