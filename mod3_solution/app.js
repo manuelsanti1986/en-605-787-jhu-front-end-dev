@@ -19,18 +19,18 @@
             let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems("chicken-stuffed");
             filteredItemsPromise
                 .then(function (filteredItems){
-                    narrowItDown.found = filteredItems;
+                    found = filteredItems;
                     console.log("THEN! found")
-                    console.log(narrowItDown.found)
+                    console.log(found)
                 })
                 .catch(function (error){
                     console.log("Error: " + error)
                 });
         };
 
-        narrowItDown.removeItem = function (itemIndex) {
-            console.log("'this' is: ", this);
-            menuItemsFactory.removeItem(itemIndex);
+        narrowItDown.removeMenuItem = function (itemIndex) {
+            menuItemsFactory.removeMenuItem(itemIndex);
+            found = menuItemsFactory.getMenuItems();
         };
 
     };
@@ -51,18 +51,26 @@
                 method: 'GET',
                 url: (ApiBasePath + '/menu_items.json')
             }).then(function (response) {
-                let filteredItems = response.data.menu_items.filter(function (items) {
+                filteredItems = response.data.menu_items.filter(function (items) {
                     return items.description.indexOf(searchTerm) !== -1;
                 });
                 return filteredItems;
+            })
+            .catch(function (err) {
+                return `Error: Unable to get items. ${err}`
             });
             return response;
         };
 
-        service.removeItem = function (itemIndex) {
+        service.removeMenuItem = function (itemIndex) {
             if(filteredItems.length > 0) {
                 filteredItems.splice(itemIndex, 1);
             }
+            return filteredItems;
+        };
+
+        service.getMenuItems = function () {
+            return filteredItems;
         };
     }
 

@@ -88,14 +88,7 @@
       <workItem from="1616006704966" duration="6000" />
       <workItem from="1617394943448" duration="3999000" />
       <workItem from="1617454809524" duration="5151000" />
-      <workItem from="1617549969326" duration="3116000" />
-    </task>
-    <task id="LOCAL-00076" summary="06: Updated index.md and added index.html">
-      <created>1614726428088</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1614726428088</updated>
+      <workItem from="1617549969326" duration="4659000" />
     </task>
     <task id="LOCAL-00077" summary="06: Updated index.md">
       <created>1614728456117</created>
@@ -433,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617551278145</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="Addedd factory and removeitem">
+      <created>1617570855116</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1617570855116</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +452,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
     <MESSAGE value="07: Changed the values of the items" />
     <MESSAGE value="07: Started assignment" />
     <MESSAGE value="07: Included bought and tobuy arrays using ng-repeat" />
@@ -477,6 +476,7 @@
     <MESSAGE value="08: Changed function, controllers, and services names to match the required ones." />
     <MESSAGE value="Returning filtered results correctly" />
     <MESSAGE value="Cleaned up code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code." />
+    <MESSAGE value="Addedd factory and removeitem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addedd factory and removeitem" />
   </component>
 </project>
