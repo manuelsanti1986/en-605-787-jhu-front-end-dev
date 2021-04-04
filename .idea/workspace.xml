@@ -4,7 +4,6 @@
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod3_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +88,7 @@
       <workItem from="1616006704966" duration="6000" />
       <workItem from="1617394943448" duration="3999000" />
       <workItem from="1617454809524" duration="5151000" />
-      <workItem from="1617549969326" duration="1138000" />
-    </task>
-    <task id="LOCAL-00074" summary="05: Fixed Menu Categories bug">
-      <created>1614655426490</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1614655426490</updated>
+      <workItem from="1617549969326" duration="1268000" />
     </task>
     <task id="LOCAL-00075" summary="06: Updated index.md">
       <created>1614725921991</created>
@@ -434,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617455650735</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Returning filtered results correctly">
+      <created>1617551182386</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1617551182386</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +452,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06: Moved place where I import js files" />
     <MESSAGE value="07: Copied all from first module solution and updated index.md" />
     <MESSAGE value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
     <MESSAGE value="07: Changed the values of the items" />
@@ -478,6 +476,7 @@
     <MESSAGE value="08: Updated index.md" />
     <MESSAGE value="08: Copied from assignment3 starter code" />
     <MESSAGE value="08: Changed function, controllers, and services names to match the required ones." />
-    <option name="LAST_COMMIT_MESSAGE" value="08: Changed function, controllers, and services names to match the required ones." />
+    <MESSAGE value="Returning filtered results correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Returning filtered results correctly" />
   </component>
 </project>

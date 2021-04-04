@@ -13,7 +13,7 @@
         let narrowItDown = this;
 
         narrowItDown.getFilteredItems = function(){
-            let filteredItemsPromise = MenuSearchService.getMenuItems("chicken");
+            let filteredItemsPromise = MenuSearchService.getMenuItems("chicken-stuffed");
             filteredItemsPromise
                 .then(function (filteredItems){
                     console.log("THEN! filteredItems")
@@ -23,8 +23,6 @@
                 .catch(function (error){
                     console.log("Error: " + error)
                 });
-            console.log("filteredItemsPromise")
-            console.log(filteredItemsPromise)
         };
     };
 
@@ -47,9 +45,6 @@
                 let filteredItems = response.data.menu_items.filter(function (items) {
                     return items.description.indexOf(searchTerm) !== -1;
                 });
-                console.log("filteredItems")
-                console.log(filteredItems)
-                // return new Promise(filteredItems);
                 return filteredItems;
             });
             return response;
