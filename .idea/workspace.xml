@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/index.html" afterDir="false" />
     </list>
@@ -89,14 +88,8 @@
       <workItem from="1615993781310" duration="1380000" />
       <workItem from="1616006704966" duration="6000" />
       <workItem from="1617394943448" duration="3999000" />
-      <workItem from="1617454809524" duration="811000" />
-    </task>
-    <task id="LOCAL-00073" summary="05: Changed icon">
-      <created>1614654978475</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1614654978475</updated>
+      <workItem from="1617454809524" duration="5151000" />
+      <workItem from="1617549969326" duration="1138000" />
     </task>
     <task id="LOCAL-00074" summary="05: Fixed Menu Categories bug">
       <created>1614655426490</created>
@@ -434,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615935367459</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="08: Changed function, controllers, and services names to match the required ones.">
+      <created>1617455650734</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1617455650735</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +453,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="06: Changed name of angular_1_8_2.min.js" />
     <MESSAGE value="06: Moved place where I import js files" />
     <MESSAGE value="07: Copied all from first module solution and updated index.md" />
     <MESSAGE value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
@@ -478,6 +477,7 @@
     <MESSAGE value="08: Started assignment 8" />
     <MESSAGE value="08: Updated index.md" />
     <MESSAGE value="08: Copied from assignment3 starter code" />
-    <option name="LAST_COMMIT_MESSAGE" value="08: Copied from assignment3 starter code" />
+    <MESSAGE value="08: Changed function, controllers, and services names to match the required ones." />
+    <option name="LAST_COMMIT_MESSAGE" value="08: Changed function, controllers, and services names to match the required ones." />
   </component>
 </project>
