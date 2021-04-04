@@ -88,14 +88,7 @@
       <workItem from="1616006704966" duration="6000" />
       <workItem from="1617394943448" duration="3999000" />
       <workItem from="1617454809524" duration="5151000" />
-      <workItem from="1617549969326" duration="1268000" />
-    </task>
-    <task id="LOCAL-00075" summary="06: Updated index.md">
-      <created>1614725921991</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1614725921991</updated>
+      <workItem from="1617549969326" duration="3116000" />
     </task>
     <task id="LOCAL-00076" summary="06: Updated index.md and added index.html">
       <created>1614726428088</created>
@@ -433,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617551182386</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Cleaned up code.">
+      <created>1617551278145</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1617551278145</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +452,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Copied all from first module solution and updated index.md" />
     <MESSAGE value="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment." />
     <MESSAGE value="07: Changed the values of the items" />
     <MESSAGE value="07: Started assignment" />
@@ -477,6 +476,7 @@
     <MESSAGE value="08: Copied from assignment3 starter code" />
     <MESSAGE value="08: Changed function, controllers, and services names to match the required ones." />
     <MESSAGE value="Returning filtered results correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Returning filtered results correctly" />
+    <MESSAGE value="Cleaned up code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code." />
   </component>
 </project>

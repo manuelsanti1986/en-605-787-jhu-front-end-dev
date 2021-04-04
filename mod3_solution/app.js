@@ -4,26 +4,35 @@
     let app = angular.module('NarrowItDownApp', []);
 
     app.controller('NarrowItDownController', NarrowItDownController);
+    app.factory('MenuItemsFactory', MenuItemsFactory)
+    // app.directive('foundItems', FoundItemsDirective);
     app.filter('myCurrency', MyCurrencyFilter);
-    app.service('MenuSearchService', MenuSearchService);
     app.constant('ApiBasePath', 'https://davids-restaurant.herokuapp.com');
 
-    NarrowItDownController.$inject = ['MenuSearchService'];
-    function NarrowItDownController (MenuSearchService) {
+    NarrowItDownController.$inject = ['MenuItemsFactory'];
+    function NarrowItDownController (MenuItemsFactory) {
         let narrowItDown = this;
+        let menuItemsFactory = MenuItemsFactory();
+        let found = [];
 
         narrowItDown.getFilteredItems = function(){
-            let filteredItemsPromise = MenuSearchService.getMenuItems("chicken-stuffed");
+            let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems("chicken-stuffed");
             filteredItemsPromise
                 .then(function (filteredItems){
-                    console.log("THEN! filteredItems")
-                    console.log(filteredItems)
-                    return filteredItems;
+                    narrowItDown.found = filteredItems;
+                    console.log("THEN! found")
+                    console.log(narrowItDown.found)
                 })
                 .catch(function (error){
                     console.log("Error: " + error)
                 });
         };
+
+        narrowItDown.removeItem = function (itemIndex) {
+            console.log("'this' is: ", this);
+            menuItemsFactory.removeItem(itemIndex);
+        };
+
     };
 
     function MyCurrencyFilter(){
@@ -33,11 +42,11 @@
         };
     }
 
-    MenuSearchService.$inject = ['$http', 'ApiBasePath'];
     function MenuSearchService($http, ApiBasePath){
         let service = this;
+        let filteredItems = [];
 
-        service.getMenuItems = function (searchTerm) {
+        service.getMatchedMenuItems = function (searchTerm) {
             let response = $http({
                 method: 'GET',
                 url: (ApiBasePath + '/menu_items.json')
@@ -49,6 +58,21 @@
             });
             return response;
         };
+
+        service.removeItem = function (itemIndex) {
+            if(filteredItems.length > 0) {
+                filteredItems.splice(itemIndex, 1);
+            }
+        };
+    }
+
+    MenuItemsFactory.$inject = ['$http', 'ApiBasePath'];
+    function MenuItemsFactory($http, ApiBasePath) {
+        var factory = function () {
+            return new MenuSearchService($http, ApiBasePath);
+        };
+        return factory;
     }
 
 })();
+
