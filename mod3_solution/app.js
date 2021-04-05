@@ -33,7 +33,7 @@
         narrowItDown.found = menuItemsFactory.getMenuItems();
 
         narrowItDown.getFilteredItems = function(){
-            let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems("chicken-stuffed");
+            let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems(narrowItDown.searchTerm);
             filteredItemsPromise
                 .then(function (){
                     narrowItDown.found = menuItemsFactory.getMenuItems();
