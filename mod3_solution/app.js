@@ -2,7 +2,6 @@
     'use strict';
 
     let app = angular.module('NarrowItDownApp', []);
-
     app.controller('NarrowItDownController', NarrowItDownController);
     app.factory('MenuItemsFactory', MenuItemsFactory)
     app.directive('foundItems', FoundItemsDirective);
@@ -17,8 +16,8 @@
                 onRemove: '&'
             },
             controller: NarrowItDownController,
-            controllerAs: 'narrowItDown',
             bindToController: true,
+            controllerAs: 'narrowItDown',
             transclude: true
         };
 
@@ -26,20 +25,18 @@
     }
 
     NarrowItDownController.$inject = ['MenuItemsFactory'];
-    function NarrowItDownController (MenuItemsFactory) {
+    function NarrowItDownController(MenuItemsFactory) {
         let narrowItDown = this;
         let menuItemsFactory = MenuItemsFactory();
 
-        // narrowItDown.found = menuItemsFactory.getMenuItems();
-        narrowItDown.found = [{name: "Name" }]
+        narrowItDown.searchTerm = "";
+        narrowItDown.found = menuItemsFactory.getMenuItems();
 
         narrowItDown.getFilteredItems = function(){
             let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems("chicken-stuffed");
             filteredItemsPromise
-                .then(function (filteredItems){
-                    narrowItDown.found = filteredItems;
-                    console.log("THEN! found")
-                    console.log(narrowItDown.found)
+                .then(function (){
+                    narrowItDown.found = menuItemsFactory.getMenuItems();
                 })
                 .catch(function (error){
                     console.log("Error: " + error)
@@ -48,7 +45,7 @@
 
         narrowItDown.removeMenuItem = function (itemIndex) {
             menuItemsFactory.removeMenuItem(itemIndex);
-            // narrowItDown.found = menuItemsFactory.getMenuItems();
+            narrowItDown.found = menuItemsFactory.getMenuItems();
         };
 
     };

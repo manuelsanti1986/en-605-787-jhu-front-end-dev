@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod3_solution/menuItems.html" afterDir="false" />
+    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="Binding controller and items appearing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod3_solution/menuItems.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/menuItems.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fullstack-course5-master_AngularJS/fullstack-course5-master/examples/Lecture32" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -51,6 +51,9 @@
       <recent name="$PROJECT_DIR$/module5-solution" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod3_solution" />
     </key>
   </component>
   <component name="RunManager">
@@ -103,14 +106,9 @@
       <workItem from="1616006704966" duration="6000" />
       <workItem from="1617394943448" duration="3999000" />
       <workItem from="1617454809524" duration="5151000" />
-      <workItem from="1617549969326" duration="7321000" />
-    </task>
-    <task id="LOCAL-00078" summary="06: Included angular_1_8_2.min.js">
-      <created>1614734705616</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1614734705616</updated>
+      <workItem from="1617549969326" duration="8748000" />
+      <workItem from="1617631008049" duration="4742000" />
+      <workItem from="1617639201087" duration="2552000" />
     </task>
     <task id="LOCAL-00079" summary="06: Updated index.md. Changed arrow functions to normal functions">
       <created>1615063499080</created>
@@ -448,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617573646066</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="Binding controller and items appearing">
+      <created>1617576315032</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1617576315032</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +472,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Started assignment" />
     <MESSAGE value="07: Included bought and tobuy arrays using ng-repeat" />
     <MESSAGE value="07: Creating app module in a variable and adding controllers to it" />
     <MESSAGE value="07: Moved functionality into two different controllers." />
@@ -492,6 +496,7 @@
     <MESSAGE value="Cleaned up code." />
     <MESSAGE value="Addedd factory and removeitem" />
     <MESSAGE value="Fixed removeitem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed removeitem" />
+    <MESSAGE value="Binding controller and items appearing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binding controller and items appearing" />
   </component>
 </project>

@@ -1,6 +1,5 @@
-<h1>Hola</h1>
 <ol>
-  <li ng-repeat="item in narrowItDown.found">
+  <li ng-repeat="item in narrowItDown.items">
     {{ item.name }}
     <button ng-click="narrowItDown.onRemove({index: $index});">Remove Item</button>
   </li>
