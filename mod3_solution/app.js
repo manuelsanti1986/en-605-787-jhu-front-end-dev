@@ -12,6 +12,7 @@
             templateUrl: 'menuItems.html',
             scope: {
                 items: '<',
+                isEmptySearch: '<',
                 onRemove: '&'
             },
             controller: NarrowItDownDirectiveController,
@@ -24,28 +25,21 @@
     }
 
     function NarrowItDownDirectiveLink(scope, element, attrs, controller) {
-        console.log("Link scope is: ", scope);
-        console.log("Controller instance is: ", controller);
-        console.log("Element is: ", element);
-
-        scope.$watch('narrowItDown.isMenuEmpty()', function (newValue, oldValue) {
-            console.log("Old value isEmpty: ", oldValue);
-            console.log("New value isEmpty: ", newValue);
-
+        scope.$watch('narrowItDown.isEmptyResponse()', function (newValue, oldValue) {
             if (newValue) {
-                displayEmptyMenuWarning();
+                displayEmptySearchWarning();
             }
             else {
-                removeEmptyMenuWarning();
+                removeEmptySearchWarning();
             }
         });
 
-        function displayEmptyMenuWarning() {
+        function displayEmptySearchWarning() {
             let warningElem = element.find("div.error");
             warningElem.show();
         }
 
-        function removeEmptyMenuWarning() {
+        function removeEmptySearchWarning() {
             let warningElem = element.find('div.error');
             warningElem.hide();
         }
@@ -54,8 +48,8 @@
     function NarrowItDownDirectiveController() {
         let narrowItDown = this;
 
-        narrowItDown.isMenuEmpty = function () {
-            return (!narrowItDown.items || narrowItDown.items.length > 0)? false : true;
+        narrowItDown.isEmptyResponse = function () {
+            return narrowItDown.isEmptySearch;
         };
     }
 
@@ -66,12 +60,14 @@
 
         narrowItDown.searchTerm = "";
         narrowItDown.found = menuItemsFactory.getMenuItems();
+        narrowItDown.isEmptySearch = menuItemsFactory.getIsEmptySearch();
 
         narrowItDown.getFilteredItems = function(){
             let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems(narrowItDown.searchTerm);
             filteredItemsPromise
                 .then(function (){
                     narrowItDown.found = menuItemsFactory.getMenuItems();
+                    narrowItDown.isEmptySearch = menuItemsFactory.getIsEmptySearch();
                 })
                 .catch(function (error){
                     console.log("Error: " + error)
@@ -87,7 +83,8 @@
 
     function MenuSearchService($http, ApiBasePath){
         let service = this;
-        let filteredItems = undefined;
+        let filteredItems = [];
+        let isEmptyResponse = false;
 
         service.getMatchedMenuItems = function (searchTerm) {
             let response = $http({
@@ -97,6 +94,7 @@
                 filteredItems = response.data.menu_items.filter(function (items) {
                     return items.description.indexOf(searchTerm) !== -1;
                 });
+                isEmptyResponse = (filteredItems.length === 0)? true : false;
                 return filteredItems;
             })
             .catch(function (err) {
@@ -114,6 +112,10 @@
 
         service.getMenuItems = function () {
             return filteredItems;
+        };
+
+        service.getIsEmptySearch = function () {
+            return isEmptyResponse;
         };
     }
 

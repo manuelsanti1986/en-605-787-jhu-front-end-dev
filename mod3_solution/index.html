@@ -26,8 +26,9 @@
       <found-items
               id="foundItems"
               items="narrowItDown.found"
-              on-remove="narrowItDown.removeMenuItem(index)">
-
+              is-empty-search="narrowItDown.isEmptySearch"
+              on-remove="narrowItDown.removeMenuItem(index)"
+      >
         <span class="alert alert-warning warning" role="alert">Nothing Found!</span>
       </found-items>
     </div>
