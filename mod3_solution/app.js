@@ -5,7 +5,6 @@
     app.controller('NarrowItDownController', NarrowItDownController);
     app.factory('MenuItemsFactory', MenuItemsFactory)
     app.directive('foundItems', FoundItemsDirective);
-    app.filter('myCurrency', MyCurrencyFilter);
     app.constant('ApiBasePath', 'https://davids-restaurant.herokuapp.com');
 
     function FoundItemsDirective() {
@@ -13,15 +12,51 @@
             templateUrl: 'menuItems.html',
             scope: {
                 items: '<',
-                alertMessage: '<',
                 onRemove: '&'
             },
-            controller: NarrowItDownController,
-            bindToController: true,
+            controller: NarrowItDownDirectiveController,
             controllerAs: 'narrowItDown',
+            bindToController: true,
+            link: NarrowItDownDirectiveLink,
             transclude: true
         };
         return ddo;
+    }
+
+    function NarrowItDownDirectiveLink(scope, element, attrs, controller) {
+        console.log("Link scope is: ", scope);
+        console.log("Controller instance is: ", controller);
+        console.log("Element is: ", element);
+
+        scope.$watch('narrowItDown.isMenuEmpty()', function (newValue, oldValue) {
+            console.log("Old value isEmpty: ", oldValue);
+            console.log("New value isEmpty: ", newValue);
+
+            if (newValue) {
+                displayEmptyMenuWarning();
+            }
+            else {
+                removeEmptyMenuWarning();
+            }
+        });
+
+        function displayEmptyMenuWarning() {
+            let warningElem = element.find("div.error");
+            warningElem.show();
+        }
+
+        function removeEmptyMenuWarning() {
+            let warningElem = element.find('div.error');
+            warningElem.hide();
+        }
+    }
+
+    function NarrowItDownDirectiveController() {
+        let narrowItDown = this;
+
+        narrowItDown.isMenuEmpty = function () {
+            return (!narrowItDown.items || narrowItDown.items.length > 0)? false : true;
+        };
     }
 
     NarrowItDownController.$inject = ['MenuItemsFactory'];
@@ -31,15 +66,12 @@
 
         narrowItDown.searchTerm = "";
         narrowItDown.found = menuItemsFactory.getMenuItems();
-        narrowItDown.alertMessage = "";
 
         narrowItDown.getFilteredItems = function(){
             let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems(narrowItDown.searchTerm);
             filteredItemsPromise
                 .then(function (){
                     narrowItDown.found = menuItemsFactory.getMenuItems();
-                    narrowItDown.alertMessage = (narrowItDown.found.length > 0) ? "" : "Nothing Found";
-                    console.log(narrowItDown.alertMessage)
                 })
                 .catch(function (error){
                     console.log("Error: " + error)
@@ -53,16 +85,9 @@
 
     };
 
-    function MyCurrencyFilter(){
-        return function(input) {
-            input = ("$$" + input) || "";
-            return input;
-        };
-    }
-
     function MenuSearchService($http, ApiBasePath){
         let service = this;
-        let filteredItems = [];
+        let filteredItems = undefined;
 
         service.getMatchedMenuItems = function (searchTerm) {
             let response = $http({
