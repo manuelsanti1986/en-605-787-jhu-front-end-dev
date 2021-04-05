@@ -1,0 +1,13 @@
+.glyphicon-lg-end {
+  float: right;
+}
+
+.glyphicon-lg-end:hover {
+  color: #c1c1c1;
+}
+
+.align-text-center{
+  display: block;
+  text-align: center;
+  top: 50%;
+}

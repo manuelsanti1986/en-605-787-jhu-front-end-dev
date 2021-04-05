@@ -13,6 +13,7 @@
             templateUrl: 'menuItems.html',
             scope: {
                 items: '<',
+                alertMessage: '<',
                 onRemove: '&'
             },
             controller: NarrowItDownController,
@@ -20,7 +21,6 @@
             controllerAs: 'narrowItDown',
             transclude: true
         };
-
         return ddo;
     }
 
@@ -31,12 +31,15 @@
 
         narrowItDown.searchTerm = "";
         narrowItDown.found = menuItemsFactory.getMenuItems();
+        narrowItDown.alertMessage = "";
 
         narrowItDown.getFilteredItems = function(){
             let filteredItemsPromise = menuItemsFactory.getMatchedMenuItems(narrowItDown.searchTerm);
             filteredItemsPromise
                 .then(function (){
                     narrowItDown.found = menuItemsFactory.getMenuItems();
+                    narrowItDown.alertMessage = (narrowItDown.found.length > 0) ? "" : "Nothing Found";
+                    console.log(narrowItDown.alertMessage)
                 })
                 .catch(function (error){
                     console.log("Error: " + error)

@@ -4,6 +4,9 @@
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod3_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod3_solution/menuItems.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/menuItems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod3_solution/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/styles/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +109,7 @@
       <workItem from="1617454809524" duration="5151000" />
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
-      <workItem from="1617639201087" duration="2651000" />
-    </task>
-    <task id="LOCAL-00080" summary="06: Updated index.md.">
-      <created>1615065504220</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1615065504220</updated>
+      <workItem from="1617639201087" duration="7673000" />
     </task>
     <task id="LOCAL-00081" summary="06: Started adding assignment code">
       <created>1615068595891</created>
@@ -451,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617651116252</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="Binding the input from the form to the search">
+      <created>1617651202219</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1617651202219</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +473,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Creating app module in a variable and adding controllers to it" />
     <MESSAGE value="07: Moved functionality into two different controllers." />
     <MESSAGE value="07:Updated index." />
     <MESSAGE value="07:Updated index.md" />
@@ -495,6 +497,7 @@
     <MESSAGE value="Fixed removeitem" />
     <MESSAGE value="Binding controller and items appearing" />
     <MESSAGE value="WOrking" />
-    <option name="LAST_COMMIT_MESSAGE" value="WOrking" />
+    <MESSAGE value="Binding the input from the form to the search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binding the input from the form to the search" />
   </component>
 </project>

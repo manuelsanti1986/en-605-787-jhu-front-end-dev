@@ -1,7 +1,15 @@
-<ol>
-  <li ng-repeat="item in narrowItDown.items">
-    {{ item.name }}
-    <button ng-click="narrowItDown.onRemove({index: $index});">Remove Item</button>
+<ul class="list-group" >
+  <li class="row list-group-item" ng-repeat="item in narrowItDown.items">
+      <span
+              class="glyphicon glyphicon-remove glyphicon-lg-end"
+              ng-click="narrowItDown.onRemove({index: $index});"
+      />
+      <h4 class="list-group-item-heading">({{ item.short_name }}) {{ item.name }}</h4>
+      <p class="list-group-item-text">{{ item.description }}</p>
   </li>
-</ol>
-<div class="error" ng-transclude></div>
+</ul>
+<div class="alert alert-warning" role="alert" ng-transclude>{{narrowItDown.alertMessage}}</div>
+
+
+
+
