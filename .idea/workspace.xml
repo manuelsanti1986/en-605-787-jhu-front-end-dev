@@ -241,14 +241,7 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-      <workItem from="1617717140693" duration="1868000" />
-    </task>
-    <task id="LOCAL-00088" summary="06: Changed how I was using the injector">
-      <created>1615079768677</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1615079768677</updated>
+      <workItem from="1617717140693" duration="2407000" />
     </task>
     <task id="LOCAL-00089" summary="06: Changed how I was using the injector">
       <created>1615080060430</created>
@@ -586,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617670218776</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="Updated index.md">
+      <created>1617723057254</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1617723057255</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +605,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Started creating service" />
     <MESSAGE value="07: Started creating service. Added ng-if" />
     <MESSAGE value="07: Fixed typo in ng-if" />
     <MESSAGE value="07: Moving from toBuy array to bought array" />
@@ -630,6 +629,7 @@
     <MESSAGE value="Cleaned up code" />
     <MESSAGE value="Added JQuery library" />
     <MESSAGE value="Updated index.md and added new directory for assignment 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated index.md and added new directory for assignment 09" />
+    <MESSAGE value="Updated index.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated index.md" />
   </component>
 </project>

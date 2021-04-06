@@ -139,10 +139,11 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Description:** This assigment was dedicated to learn the basics of creating components and routing in AngularJS (Version 1).
 
 - **Key Takeaways:**
-  - **Components:** These are a special kind of directive that uses a simpler configuration which is suitable for a component-based application structure.
+  - **[Components](https://docs.angularjs.org/guide/component):** These are a special kind of directive that uses a simpler configuration which is suitable for a component-based application structure.
     - They only control their own view and data
     - They have well-defined public API
     - They have a well-defined lifecycle.
+    - The entire application should be viewed as a tree of components
     
 
 ### Assignment Submission Reminders
