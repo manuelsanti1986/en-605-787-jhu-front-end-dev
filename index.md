@@ -125,7 +125,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Description:** This assigment was dedicated to learn the basics of using Promises, Ajax, and Custom Directives in AngularJS (Version 1).
 
 - **Key Takeaways:**
-  - **Directives:** These are markers on a DOM element hat tells Angular's HTML compiler to attach a specified behavior to that DOM element.
+  - **[Directives](https://docs.angularjs.org/guide/directive):** These are markers on a DOM element hat tells Angular's HTML compiler to attach a specified behavior to that DOM element.
 
 ### Module 9: Assignment #8
 
@@ -136,7 +136,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Solution Link:**
   - [Module 9 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod4_solution)
 
-- **Description:** This assigment was dedicated to learn the basics of creating components and routing in AngularJS (Version 1).
+- **Description:** This assigment was dedicated to learn the basics of creating components, event system and modules, and routing in AngularJS (Version 1).
 
 - **Key Takeaways:**
   - **[Components](https://docs.angularjs.org/guide/component):** These are a special kind of directive that uses a simpler configuration which is suitable for a component-based application structure.
@@ -144,6 +144,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
     - They have well-defined public API
     - They have a well-defined lifecycle.
     - The entire application should be viewed as a tree of components
+    - They should never modify data or DOM that doesn't belong to them.
     
 
 ### Assignment Submission Reminders
