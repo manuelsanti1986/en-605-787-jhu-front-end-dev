@@ -49,8 +49,6 @@
         let narrowItDown = this;
 
         narrowItDown.isEmptyResponse = function () {
-            console.log("narrowItDown.isEmptySearch")
-            console.log(narrowItDown.isEmptySearch)
             return narrowItDown.isEmptySearch;
         };
     }

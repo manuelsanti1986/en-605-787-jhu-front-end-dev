@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,13 +108,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00086" summary="06: Cleaned up code">
-      <created>1615079134476</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1615079134476</updated>
     </task>
     <task id="LOCAL-00087" summary="06: Changed how I was using the injector">
       <created>1615079632188</created>
@@ -453,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617668913498</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Added JQuery library">
+      <created>1617669073838</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1617669073838</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +471,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Changed injection and using controller prototypal inheritance" />
     <MESSAGE value="07: Updated html to use controller labels" />
     <MESSAGE value="07: Started creating service" />
     <MESSAGE value="07: Started creating service. Added ng-if" />
@@ -497,6 +495,7 @@
     <MESSAGE value="Finished" />
     <MESSAGE value="Done with all requirements" />
     <MESSAGE value="Cleaned up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code" />
+    <MESSAGE value="Added JQuery library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JQuery library" />
   </component>
 </project>
