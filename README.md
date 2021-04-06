@@ -112,24 +112,17 @@ The following repository contains the assignment solutions prepared by **Manuel 
         - `.factory()` is NOT just another way of creating the same. service you can create with `.service()`, but it can be
         - `.service()` is also a factory, but a much more limited one. It is a factory that always produces the same type of service - a singleton, without an easy way to configure its behavior.
 
-### Assignment Submission Reminders
 
-1. Submit the assignment here on Blackboard with the following information:
+### Module 8: Assignment #7
 
-    - GitHub.com link to your repository (do NOT share this link or your GitHub username with the class)
-    - GitHub.io link to the deployed solution.
-    - Make sure to check that your deployed assignment works as you intended it to.
+- **Instructions:**
+    - [Module 8 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module8)
+    - [JHU-EP-Coursera GitHub: Module 8 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment3/Assignment-3.md)
 
-**Make sure both of these are done before the due date/time. (See info below on late submissions).**
+- **Solution Link:**
+    - [Module 8 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod3_solution)
 
+- **Description:** This assigment was dedicated to learn the basics of using Promises, Ajax, and Custom Directives in AngularJS (Version 1).
 
-### Useful Links
-- [Course Syllabus](https://ychaikin.github.io/jhu-ajax-course/Syllabus)
-- [Coursera: HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-
-
-### Contact Information
-- School Email: msanti16@jhu.edu
-
+- **Key Takeaways:**
+    - **Directives:** These are markers on a DOM element hat tells Angular's HTML compiler to attach a specified behavior to that DOM element.
