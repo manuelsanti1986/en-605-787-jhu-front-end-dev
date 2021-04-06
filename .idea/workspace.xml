@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +54,21 @@
       <recent name="$PROJECT_DIR$/mod3_solution" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -93,13 +109,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00085" summary="06: Added ng-class">
-      <created>1615079070065</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1615079070065</updated>
     </task>
     <task id="LOCAL-00086" summary="06: Cleaned up code">
       <created>1615079134476</created>
@@ -437,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617666957367</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="Cleaned up code">
+      <created>1617668913498</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1617668913498</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,7 +472,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Updated index.md" />
     <MESSAGE value="07: Changed injection and using controller prototypal inheritance" />
     <MESSAGE value="07: Updated html to use controller labels" />
     <MESSAGE value="07: Started creating service" />
@@ -481,6 +496,7 @@
     <MESSAGE value="Added tooltip with message." />
     <MESSAGE value="Finished" />
     <MESSAGE value="Done with all requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with all requirements" />
+    <MESSAGE value="Cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code" />
   </component>
 </project>
