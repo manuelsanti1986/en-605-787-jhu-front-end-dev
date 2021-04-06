@@ -91,9 +91,13 @@
                 method: 'GET',
                 url: (ApiBasePath + '/menu_items.json')
             }).then(function (response) {
-                filteredItems = response.data.menu_items.filter(function (items) {
-                    return items.description.indexOf(searchTerm) !== -1;
-                });
+                if(searchTerm) {
+                    filteredItems = response.data.menu_items.filter(function (items) {
+                        return items.description.indexOf(searchTerm) !== -1;
+                    });
+                }else {
+                    filteredItems = [];
+                }
                 isEmptyResponse = (filteredItems.length === 0)? true : false;
                 return filteredItems;
             })
