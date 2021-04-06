@@ -126,3 +126,24 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 - **Key Takeaways:**
     - **Directives:** These are markers on a DOM element hat tells Angular's HTML compiler to attach a specified behavior to that DOM element.
+
+### Assignment Submission Reminders
+
+1. Submit the assignment here on Blackboard with the following information:
+
+    - GitHub.com link to your repository (do NOT share this link or your GitHub username with the class)
+    - GitHub.io link to the deployed solution.
+    - Make sure to check that your deployed assignment works as you intended it to.
+
+**Make sure both of these are done before the due date/time. (See info below on late submissions).**
+
+
+### Useful Links
+- [Course Syllabus](https://ychaikin.github.io/jhu-ajax-course/Syllabus)
+- [Coursera: HTML, CSS, and Javascript for Web Developers](https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome)
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+
+### Contact Information
+- School Email: msanti16@jhu.edu
