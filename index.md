@@ -136,10 +136,14 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Solution Link:**
   - [Module 9 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod4_solution)
 
-- **Description:** This assigment was dedicated to learn the basics of using Promises, Ajax, and Custom Directives in AngularJS (Version 1).
+- **Description:** This assigment was dedicated to learn the basics of creating components and routing in AngularJS (Version 1).
 
 - **Key Takeaways:**
-  - **Directives:** These are markers on a DOM element hat tells Angular's HTML compiler to attach a specified behavior to that DOM element.
+  - **Components:** These are a special kind of directive that uses a simpler configuration which is suitable for a component-based application structure.
+    - They only control their own view and data
+    - They have well-defined public API
+    - They have a well-defined lifecycle.
+    
 
 ### Assignment Submission Reminders
 
