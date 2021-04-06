@@ -127,6 +127,20 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Key Takeaways:**
   - **Directives:** These are markers on a DOM element hat tells Angular's HTML compiler to attach a specified behavior to that DOM element.
 
+### Module 9: Assignment #8
+
+- **Instructions:**
+  - [Module 9 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module9)
+  - [JHU-EP-Coursera GitHub: Module 9 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment3/Assignment-4.md)
+
+- **Solution Link:**
+  - [Module 9 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod4_solution)
+
+- **Description:** This assigment was dedicated to learn the basics of using Promises, Ajax, and Custom Directives in AngularJS (Version 1).
+
+- **Key Takeaways:**
+  - **Directives:** These are markers on a DOM element hat tells Angular's HTML compiler to attach a specified behavior to that DOM element.
+
 ### Assignment Submission Reminders
 
 1. Submit the assignment here on Blackboard with the following information:
