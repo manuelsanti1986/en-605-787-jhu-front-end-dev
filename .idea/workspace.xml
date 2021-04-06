@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mod3_solution/menuItems.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/menuItems.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod3_solution/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod3_solution/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -456,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Added service to main app" />
     <MESSAGE value="07: Updated index.md" />
     <MESSAGE value="07: Changed injection and using controller prototypal inheritance" />
     <MESSAGE value="07: Updated html to use controller labels" />
@@ -481,6 +480,7 @@
     <MESSAGE value="Added list with remove button and everything is working" />
     <MESSAGE value="Added tooltip with message." />
     <MESSAGE value="Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished" />
+    <MESSAGE value="Done with all requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with all requirements" />
   </component>
 </project>
