@@ -79,7 +79,7 @@
             narrowItDown.found = menuItemsFactory.getMenuItems();
         };
 
-    };
+    }
 
     function MenuSearchService($http, ApiBasePath){
         let service = this;
@@ -98,7 +98,7 @@
                 }else {
                     filteredItems = [];
                 }
-                isEmptyResponse = (filteredItems.length === 0)? true : false;
+                isEmptyResponse = (filteredItems.length === 0);
                 return filteredItems;
             })
             .catch(function (err) {
