@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/lib/jquery-3.1.0.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,14 +254,7 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-      <workItem from="1617717140693" duration="8664000" />
-    </task>
-    <task id="LOCAL-00093" summary="07: Copied all from first module solution and updated index.md">
-      <created>1615221118631</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1615221118631</updated>
+      <workItem from="1617717140693" duration="9528000" />
     </task>
     <task id="LOCAL-00094" summary="07: Updated index.md">
       <created>1615247065017</created>
@@ -601,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617755932194</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="Included angular-ui-router.min.js">
+      <created>1617819307029</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1617819307029</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +618,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Moving from toBuy array to bought array" />
     <MESSAGE value="07: Added one way binding." />
     <MESSAGE value="07: Added total_price to items" />
     <MESSAGE value="07: Added filter" />
@@ -645,6 +642,7 @@
     <MESSAGE value="Updated index.md" />
     <MESSAGE value="separated by directories" />
     <MESSAGE value="Added glyphicons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added glyphicons" />
+    <MESSAGE value="Included angular-ui-router.min.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Included angular-ui-router.min.js" />
   </component>
 </project>
