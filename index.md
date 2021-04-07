@@ -131,7 +131,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 - **Instructions:**
   - [Module 9 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module9)
-  - [JHU-EP-Coursera GitHub: Module 9 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment3/Assignment-4.md)
+  - [JHU-EP-Coursera GitHub: Module 9 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment4/Assignment-4.md)
 
 - **Solution Link:**
   - [Module 9 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod4_solution)

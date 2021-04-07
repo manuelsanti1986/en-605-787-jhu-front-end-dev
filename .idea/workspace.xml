@@ -4,6 +4,9 @@
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/assets/angular_1_8_2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/lib/angular_1_8_2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/assets/jquery-3.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/lib/jquery-3.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +58,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,14 +255,7 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-      <workItem from="1617717140693" duration="5101000" />
-    </task>
-    <task id="LOCAL-00090" summary="06: Changed how I was using the injector">
-      <created>1615080290908</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1615080290908</updated>
+      <workItem from="1617717140693" duration="6506000" />
     </task>
     <task id="LOCAL-00091" summary="06: Changed name of angular_1_8_2.min.js">
       <created>1615081478094</created>
@@ -586,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617723590977</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Updated index.md">
+      <created>1617732725502</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1617732725502</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
