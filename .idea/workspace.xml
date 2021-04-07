@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/lib/jquery-3.1.0.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -38,12 +41,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mod4_solution" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod4_solution" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/mod3_solution" />
       <recent name="$PROJECT_DIR$/module5-solution" />
@@ -252,14 +256,7 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-      <workItem from="1617717140693" duration="6672000" />
-    </task>
-    <task id="LOCAL-00092" summary="06: Moved place where I import js files">
-      <created>1615082194643</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1615082194643</updated>
+      <workItem from="1617717140693" duration="8664000" />
     </task>
     <task id="LOCAL-00093" summary="07: Copied all from first module solution and updated index.md">
       <created>1615221118631</created>
@@ -597,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617755812100</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Added glyphicons">
+      <created>1617755932194</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1617755932194</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,7 +620,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Fixed typo in ng-if" />
     <MESSAGE value="07: Moving from toBuy array to bought array" />
     <MESSAGE value="07: Added one way binding." />
     <MESSAGE value="07: Added total_price to items" />
@@ -641,6 +644,7 @@
     <MESSAGE value="Updated index.md and added new directory for assignment 09" />
     <MESSAGE value="Updated index.md" />
     <MESSAGE value="separated by directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="separated by directories" />
+    <MESSAGE value="Added glyphicons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added glyphicons" />
   </component>
 </project>
