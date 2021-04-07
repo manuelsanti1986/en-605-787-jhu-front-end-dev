@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/assets/angular_1_8_2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/lib/angular_1_8_2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/assets/jquery-3.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/lib/jquery-3.1.0.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +50,7 @@
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod4_solution/src" />
       <recent name="$PROJECT_DIR$/mod3_solution" />
     </key>
   </component>
@@ -255,14 +252,7 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-      <workItem from="1617717140693" duration="6506000" />
-    </task>
-    <task id="LOCAL-00091" summary="06: Changed name of angular_1_8_2.min.js">
-      <created>1615081478094</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1615081478094</updated>
+      <workItem from="1617717140693" duration="6672000" />
     </task>
     <task id="LOCAL-00092" summary="06: Moved place where I import js files">
       <created>1615082194643</created>
@@ -600,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617732725502</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="separated by directories">
+      <created>1617755812100</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1617755812100</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +616,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Started creating service. Added ng-if" />
     <MESSAGE value="07: Fixed typo in ng-if" />
     <MESSAGE value="07: Moving from toBuy array to bought array" />
     <MESSAGE value="07: Added one way binding." />
@@ -644,6 +640,7 @@
     <MESSAGE value="Added JQuery library" />
     <MESSAGE value="Updated index.md and added new directory for assignment 09" />
     <MESSAGE value="Updated index.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated index.md" />
+    <MESSAGE value="separated by directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="separated by directories" />
   </component>
 </project>
