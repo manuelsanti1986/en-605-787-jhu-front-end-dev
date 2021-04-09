@@ -8,8 +8,6 @@
     function CategoriesController(MenuDataService, categories) {
         let categoriesController = this;
         categoriesController.categories = categories;
-        console.log("categoriesController.categories")
-        console.log(categoriesController.categories)
     }
 
 })();

@@ -22,10 +22,10 @@
                     }]
                 }
             })
-    //         // .state('mainList.itemDetail', {
-    //         //     url: '/items/{categoryShortName}',
-    //         //     templateUrl: 'src/menuapp/templates/item.template.html',
-    //         //     controller: "MenuItemsController as menuItems"
-    //         // });
+            .state('itemDetails', {
+                url: '/itemDetails/{categoryShortName}',
+                templateUrl: 'src/menuapp/templates/menu-item.template.html',
+                controller: "MenuItemsController as menuItems"
+            });
     }
 })();

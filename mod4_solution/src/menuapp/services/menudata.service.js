@@ -10,7 +10,6 @@
         let service = this;
         let categories = [];
         let items = [];
-        let isEmptyItemsResponse = false;
 
         service.getAllCategories = function () {
             let response = $http({
@@ -32,7 +31,6 @@
                 url: (ApiBasePath + `/menu_items.json?category=${categoryShortName}`)
             }).then(function (response) {
                 items = response.data.menu_items ? response.data.menu_items : [];
-                isEmptyItemsResponse = (filteredItems.length === 0);
                 return items;
             })
                 .catch(function (err) {
@@ -40,11 +38,6 @@
                 });
             return response;
         };
-
-        service.getIsEmptyItemsResponse = function () {
-            return isEmptyItemsResponse;
-        };
-
     }
 
 })();

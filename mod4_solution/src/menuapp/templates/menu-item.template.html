@@ -1,0 +1,10 @@
+<h2>Items</h2>
+<div class="list-group">
+  <div ng-repeat="item in menuItems.items">
+    <a class="list-group-item">
+      <h4 class="list-group-item-heading">({{ item.short_name }}) {{ item.name }}</h4>
+      <p class="list-group-item-text">{{ item.description }}</p>
+      <p class="list-group-item-text">Small: ${{ item.price_small }} Large: ${{ item.price_large }}</p>
+    </a>
+  </div>
+</div>
