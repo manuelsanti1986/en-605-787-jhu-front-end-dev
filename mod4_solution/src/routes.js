@@ -8,16 +8,14 @@
     // app.config(RoutesConfig);
 
 
-    // RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
-    // function RoutesConfig($stateProvider, $urlRouterProvider) {\
-    RoutesConfig.$inject = ['$stateProvider'];
-    function RoutesConfig($stateProvider) {
-    //     $urlRouterProvider.otherwise('/');
-    //     $stateProvider
-    //         .state('home', {
-    //             url: '/',
-    //             templateUrl: 'src/menuapp/templates/home.template.html'
-    //         });
+    RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
+    function RoutesConfig($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider.otherwise('/');
+        $stateProvider
+            .state('home', {
+                url: '/',
+                templateUrl: 'src/menuapp/templates/home.template.html'
+            })
     //         // .state('categories', {
     //         //     url: '/categories',
     //         //     templateUrl: 'src/menuapp/templates/main-shoppinglist.template.html',

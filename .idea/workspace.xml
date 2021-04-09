@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod4_solution/lib/angular-ui-router_1_0_29.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/lib/angular.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/menuItems.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/home.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/home.template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -267,14 +258,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="8302000" />
-    </task>
-    <task id="LOCAL-00111" summary="07: Started creating service">
-      <created>1615854614895</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1615854614895</updated>
+      <workItem from="1617924016798" duration="8359000" />
     </task>
     <task id="LOCAL-00112" summary="07: Started creating service">
       <created>1615908100687</created>
@@ -612,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617930740948</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Fixed dependency injections mistake.">
+      <created>1617932683305</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1617932683305</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Binding controller and items appearing" />
     <MESSAGE value="WOrking" />
     <MESSAGE value="Binding the input from the form to the search" />
     <MESSAGE value="Added list with remove button and everything is working" />
@@ -656,6 +646,7 @@
     <MESSAGE value="Added item-controller.js" />
     <MESSAGE value="created categories.controller.js" />
     <MESSAGE value="Added items and emptyResponse boolean to MenuItemsController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added items and emptyResponse boolean to MenuItemsController" />
+    <MESSAGE value="Fixed dependency injections mistake." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed dependency injections mistake." />
   </component>
 </project>
