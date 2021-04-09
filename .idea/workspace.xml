@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/components/categories.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/components/items.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/controllers/item-detail-controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/data.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/menuapp.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/services/menudata.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/images/loader01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/images/loader_circles_menu_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/images/loader_circles_menu.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/components/categories.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/categories.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/components/items.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/items.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/controllers/item-detail-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/item-detail-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/data.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/menuapp.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/services/menudata.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/categories.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/categories.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/home.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/home.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/item.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/item.template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,14 +271,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="2380000" />
-    </task>
-    <task id="LOCAL-00097" summary="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment.">
-      <created>1615248613948</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1615248613948</updated>
+      <workItem from="1617924016798" duration="2856000" />
     </task>
     <task id="LOCAL-00098" summary="07: Changed the values of the items">
       <created>1615248647419</created>
@@ -610,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617926323201</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Changed names and added components">
+      <created>1617926783578</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1617926783578</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +635,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Added filter" />
     <MESSAGE value="08: Started assignment 8" />
     <MESSAGE value="08: Updated index.md" />
     <MESSAGE value="08: Copied from assignment3 starter code" />
@@ -654,6 +659,7 @@
     <MESSAGE value="Included angular-ui-router.min.js" />
     <MESSAGE value="added spinner" />
     <MESSAGE value="Created main templates, added the spinner, and the routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created main templates, added the spinner, and the routes" />
+    <MESSAGE value="Changed names and added components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed names and added components" />
   </component>
 </project>
