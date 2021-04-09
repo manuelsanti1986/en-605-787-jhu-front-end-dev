@@ -16,17 +16,17 @@
             .state('categories', {
                 url: '/categories',
                 templateUrl: 'src/menuapp/templates/main-shoppinglist.template.html',
-                controller: 'MainShoppingListController as mainList',
+                controller: 'ItemController as menuItems',
                 resolve: {
-                    items: ['MenuDataService', function (ShoppingListService) {
-                        return ShoppingListService.getItems();
+                    items: ['MenuDataService', function (MenuDataService) {
+                        return MenuDataService.getAllCategories();
                     }]
                 }
             })
             .state('mainList.itemDetail', {
-                url: '/item-detail/{itemId}',
+                url: '/items/{categoryShortName}',
                 templateUrl: 'src/menuapp/templates/item.template.html',
-                controller: "ItemDetailController as itemDetail"
+                controller: "ItemController as menuItems"
             });
     }
 })();
