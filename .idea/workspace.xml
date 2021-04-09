@@ -258,14 +258,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="4462000" />
-    </task>
-    <task id="LOCAL-00102" summary="07: Moved functionality into two different controllers.">
-      <created>1615660576271</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1615660576271</updated>
+      <workItem from="1617924016798" duration="4508000" />
     </task>
     <task id="LOCAL-00103" summary="07:Updated index.">
       <created>1615851512219</created>
@@ -603,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617928239071</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Saving staty in menudata.service.js">
+      <created>1617928842909</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1617928842909</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Returning filtered results correctly" />
     <MESSAGE value="Cleaned up code." />
     <MESSAGE value="Addedd factory and removeitem" />
     <MESSAGE value="Fixed removeitem" />
@@ -647,6 +646,7 @@
     <MESSAGE value="Added script imports to html" />
     <MESSAGE value="Cleaned up html" />
     <MESSAGE value="started creating the menu data service" />
-    <option name="LAST_COMMIT_MESSAGE" value="started creating the menu data service" />
+    <MESSAGE value="Saving staty in menudata.service.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saving staty in menudata.service.js" />
   </component>
 </project>

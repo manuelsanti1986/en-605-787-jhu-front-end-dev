@@ -10,6 +10,7 @@
         let service = this;
         let categories = [];
         let items = [];
+        let isEmptyResponse = false;
 
         service.getAllCategories = function () {
             let response = $http({
@@ -31,6 +32,7 @@
                 url: (ApiBasePath + `/menu_items.json?category=${categoryShortName}`)
             }).then(function (response) {
                 items = response.menu_items ? response.menu_items : [];
+                isEmptyResponse = (filteredItems.length === 0);
                 return items;
             })
                 .catch(function (err) {
