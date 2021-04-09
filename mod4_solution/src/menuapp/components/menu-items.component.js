@@ -8,11 +8,4 @@
             items: '<'
         }
     });
-
-    // let MenuItemsComponent = {
-    //     templateUrl: 'src/menuapp/templates/menu-item.template.html',
-    //     bindings: {
-    //         items: '<'
-    //     }
-    // }
 })();
