@@ -155,7 +155,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Solution Link:**
   - [Module 10 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod5_solution)
 
-- **Description:** This assigment was dedicated to learn the basics of creating components, event system and modules, and routing in AngularJS (Version 1).
+- **Description:** This assigment was dedicated to learn the basics of form validation, testing, and a final project in AngularJS (Version 1).
 
 - **Key Takeaways:**
   - **[Components](https://docs.angularjs.org/guide/component):** These are a special kind of directive that uses a simpler configuration which is suitable for a component-based application structure.
