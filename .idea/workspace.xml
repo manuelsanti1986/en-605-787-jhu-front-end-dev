@@ -259,14 +259,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="14622000" />
-    </task>
-    <task id="LOCAL-00115" summary="07: Moving from toBuy array to bought array">
-      <created>1615929074090</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1615929074090</updated>
+      <workItem from="1617924016798" duration="14899000" />
     </task>
     <task id="LOCAL-00116" summary="07: Added one way binding.">
       <created>1615931318262</created>
@@ -604,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617991357014</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="Added styling to the home page">
+      <created>1617991636357</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1617991636357</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +623,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Binding the input from the form to the search" />
     <MESSAGE value="Added list with remove button and everything is working" />
     <MESSAGE value="Added tooltip with message." />
     <MESSAGE value="Finished" />
@@ -648,6 +647,7 @@
     <MESSAGE value="Added items and emptyResponse boolean to MenuItemsController" />
     <MESSAGE value="Fixed dependency injections mistake." />
     <MESSAGE value="Working categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working categories" />
+    <MESSAGE value="Added styling to the home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added styling to the home page" />
   </component>
 </project>
