@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/images/loader_circles_menu.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/spinner/spinner.module.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,13 +266,6 @@
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
       <workItem from="1617924016798" duration="21676000" />
-    </task>
-    <task id="LOCAL-00127" summary="Binding controller and items appearing">
-      <created>1617576315032</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1617576315032</updated>
     </task>
     <task id="LOCAL-00128" summary="WOrking">
       <created>1617651116251</created>
@@ -607,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617997979265</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="Removed spinner">
+      <created>1617999303868</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1617999303868</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +629,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added spinner" />
     <MESSAGE value="Created main templates, added the spinner, and the routes" />
     <MESSAGE value="Changed names and added components" />
     <MESSAGE value="Removed loader image." />
@@ -651,6 +653,7 @@
     <MESSAGE value="Moved to use components" />
     <MESSAGE value="Cleaned up code" />
     <MESSAGE value="Added navigation bar and home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added navigation bar and home" />
+    <MESSAGE value="Removed spinner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed spinner" />
   </component>
 </project>
