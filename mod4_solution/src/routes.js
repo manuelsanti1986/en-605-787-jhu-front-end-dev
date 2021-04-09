@@ -1,8 +1,7 @@
 (function () {
     'use strict';
-
-    angular.module('MenuApp')
-        .config(RoutesConfig);
+    let app = angular.module('DataApp', []);
+    app.config(RoutesConfig);
 
     RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
     function RoutesConfig($stateProvider, $urlRouterProvider) {
@@ -12,7 +11,6 @@
                 url: '/',
                 templateUrl: 'src/menuapp/templates/home.template.html'
             })
-
             .state('categories', {
                 url: '/categories',
                 templateUrl: 'src/menuapp/templates/main-shoppinglist.template.html',
