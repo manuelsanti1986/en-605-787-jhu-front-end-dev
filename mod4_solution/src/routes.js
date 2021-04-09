@@ -25,7 +25,7 @@
             })
             .state('mainList.itemDetail', {
                 url: '/item-detail/{itemId}',
-                templateUrl: 'src/restaurantmenu/templates/item-detail.template.html',
+                templateUrl: 'src/restaurantmenu/templates/item.template.html',
                 controller: "ItemDetailController as itemDetail"
             });
     }

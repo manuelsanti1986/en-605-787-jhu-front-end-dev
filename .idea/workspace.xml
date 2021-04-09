@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/categories.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/home.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/item-detail.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/spinner/spinner.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/components/categories.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/components/items.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/controllers/item-detail-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/data.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/menuapp.module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/services/menudata.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,6 +59,8 @@
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mod4_solution/src/restaurantmenu" />
+      <recent name="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/controllers" />
       <recent name="$PROJECT_DIR$/mod4_solution/src" />
       <recent name="$PROJECT_DIR$/mod3_solution" />
     </key>
@@ -263,14 +265,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="1929000" />
-    </task>
-    <task id="LOCAL-00096" summary="07: Updated index.md">
-      <created>1615248319155</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1615248319155</updated>
+      <workItem from="1617924016798" duration="2380000" />
     </task>
     <task id="LOCAL-00097" summary="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment.">
       <created>1615248613948</created>
@@ -608,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617820820266</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Created main templates, added the spinner, and the routes">
+      <created>1617926323200</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1617926323201</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +629,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Added total_price to items" />
     <MESSAGE value="07: Added filter" />
     <MESSAGE value="08: Started assignment 8" />
     <MESSAGE value="08: Updated index.md" />
@@ -652,6 +653,7 @@
     <MESSAGE value="Added glyphicons" />
     <MESSAGE value="Included angular-ui-router.min.js" />
     <MESSAGE value="added spinner" />
-    <option name="LAST_COMMIT_MESSAGE" value="added spinner" />
+    <MESSAGE value="Created main templates, added the spinner, and the routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created main templates, added the spinner, and the routes" />
   </component>
 </project>
