@@ -3,10 +3,6 @@
 
     let app = angular.module('MenuApp');
     app.config(RoutesConfig);
-    // let app = angular.module('MenuApp', ['ui.router']);
-    // angular.module('MenuApp', [])
-    // app.config(RoutesConfig);
-
 
     RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
     function RoutesConfig($stateProvider, $urlRouterProvider) {

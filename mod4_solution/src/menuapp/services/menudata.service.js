@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    let app = angular.module('DataApp');
+    let app = angular.module('MenuApp');
     app.service('MenuDataService', MenuDataService);
     app.constant('ApiBasePath', 'https://davids-restaurant.herokuapp.com');
 
@@ -17,7 +17,7 @@
                 method: 'GET',
                 url: (ApiBasePath + '/categories.json')
             }).then(function (response) {
-                categories = response;
+                categories = response.data;
                 return categories;
             })
             .catch(function (err) {
@@ -31,7 +31,7 @@
                 method: 'GET',
                 url: (ApiBasePath + `/menu_items.json?category=${categoryShortName}`)
             }).then(function (response) {
-                items = response.menu_items ? response.menu_items : [];
+                items = response.data.menu_items ? response.data.menu_items : [];
                 isEmptyItemsResponse = (filteredItems.length === 0);
                 return items;
             })

@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/css/bootstrap_3_3_5.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/categories.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/categories.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/home.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/home.template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3-solution/assets/bootstrap-4.6.0-dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/module3-solution/assets/bootstrap-4.6.0-dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5-solution/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/module5-solution/css/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,14 +266,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="8592000" />
-    </task>
-    <task id="LOCAL-00113" summary="07: Started creating service. Added ng-if">
-      <created>1615921254766</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1615921254766</updated>
+      <workItem from="1617924016798" duration="14350000" />
     </task>
     <task id="LOCAL-00114" summary="07: Fixed typo in ng-if">
       <created>1615925410448</created>
@@ -604,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617932729753</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Fixed dependency injections mistake.">
+      <created>1617933019560</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1617933019560</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
