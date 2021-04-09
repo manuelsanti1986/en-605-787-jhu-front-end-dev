@@ -258,14 +258,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="4713000" />
-    </task>
-    <task id="LOCAL-00105" summary="07:Updated index.md">
-      <created>1615852056222</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1615852056223</updated>
+      <workItem from="1617924016798" duration="4756000" />
     </task>
     <task id="LOCAL-00106" summary="07: Added service to main app">
       <created>1615852195540</created>
@@ -603,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617928916670</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <task id="LOCAL-00154" summary="Added item-controller.js">
+      <created>1617929090334</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1617929090335</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cleaned up code." />
     <MESSAGE value="Addedd factory and removeitem" />
     <MESSAGE value="Fixed removeitem" />
     <MESSAGE value="Binding controller and items appearing" />
@@ -647,6 +646,7 @@
     <MESSAGE value="Cleaned up html" />
     <MESSAGE value="started creating the menu data service" />
     <MESSAGE value="Saving staty in menudata.service.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saving staty in menudata.service.js" />
+    <MESSAGE value="Added item-controller.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added item-controller.js" />
   </component>
 </project>
