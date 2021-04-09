@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,14 +259,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="3211000" />
-    </task>
-    <task id="LOCAL-00100" summary="07: Included bought and tobuy arrays using ng-repeat">
-      <created>1615249294785</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1615249294785</updated>
+      <workItem from="1617924016798" duration="3859000" />
     </task>
     <task id="LOCAL-00101" summary="07: Creating app module in a variable and adding controllers to it">
       <created>1615660170681</created>
@@ -603,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617927504220</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="Cleaned up html">
+      <created>1617927585508</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1617927585508</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,7 +623,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="08: Copied from assignment3 starter code" />
     <MESSAGE value="08: Changed function, controllers, and services names to match the required ones." />
     <MESSAGE value="Returning filtered results correctly" />
     <MESSAGE value="Cleaned up code." />
@@ -647,6 +647,7 @@
     <MESSAGE value="Changed names and added components" />
     <MESSAGE value="Removed loader image." />
     <MESSAGE value="Added script imports to html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added script imports to html" />
+    <MESSAGE value="Cleaned up html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up html" />
   </component>
 </project>

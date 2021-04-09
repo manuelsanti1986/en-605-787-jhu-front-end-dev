@@ -18,7 +18,7 @@
                 templateUrl: 'src/menuapp/templates/main-shoppinglist.template.html',
                 controller: 'MainShoppingListController as mainList',
                 resolve: {
-                    items: ['ShoppingListService', function (ShoppingListService) {
+                    items: ['MenuDataService', function (ShoppingListService) {
                         return ShoppingListService.getItems();
                     }]
                 }
