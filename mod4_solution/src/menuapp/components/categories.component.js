@@ -2,12 +2,17 @@
     'use strict';
 
     let app = angular.module('MenuApp');
-    app.component('menuCategories', CategoriesComponent);
-
-    let CategoriesComponent = {
+    app.component('menuCategories', {
         templateUrl: 'src/menuapp/templates/categories.template.html',
         bindings: {
             categories: '<'
         }
-    }
+    });
+
+    // let CategoriesComponent = {
+    //     templateUrl: 'src/menuapp/templates/categories.template.html',
+    //     bindings: {
+    //         categories: '<'
+    //     }
+    // }
 })();

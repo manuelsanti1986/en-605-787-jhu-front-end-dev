@@ -14,7 +14,7 @@
             })
             .state('categories', {
                 url: '/categories',
-                templateUrl: 'src/menuapp/templates/categories.template.html',
+                templateUrl: 'src/menuapp/templates/main-categories.template.html',
                 controller: 'CategoriesController as categoriesController',
                 resolve: {
                     categories: ['MenuDataService', function (MenuDataService) {
@@ -24,7 +24,7 @@
             })
             .state('itemDetails', {
                 url: '/item-details/{categoryShortName}',
-                templateUrl: 'src/menuapp/templates/menu-item.template.html',
+                templateUrl: 'src/menuapp/templates/main-menu-items.template.html',
                 controller: "MenuItemsController as menuItems",
                 resolve: {
                     items: ['$stateParams', 'MenuDataService',
