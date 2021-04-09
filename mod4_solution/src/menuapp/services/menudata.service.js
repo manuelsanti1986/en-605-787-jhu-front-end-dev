@@ -5,8 +5,8 @@
     app.service('MenuDataService', MenuDataService);
     app.constant('ApiBasePath', 'https://davids-restaurant.herokuapp.com');
 
-    MenuDataService.$inject = ['$q', '$http', 'ApiBasePath'];
-    function MenuDataService($q, $http, ApiBasePath) {
+    MenuDataService.$inject = ['$http', 'ApiBasePath'];
+    function MenuDataService($http, ApiBasePath) {
         let service = this;
         let categories = [];
         let items = [];
