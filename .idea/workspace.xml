@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/images/loader_circles_menu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -46,182 +39,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mod4_solution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fullstack-course5-master_AngularJS/fullstack-course5-master/examples/Lecture32" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mod4_solution" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/mod3_solution" />
       <recent name="$PROJECT_DIR$/module5-solution" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/module3-solution/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mod4_solution/src/restaurantmenu" />
-      <recent name="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/controllers" />
-      <recent name="$PROJECT_DIR$/mod4_solution/src" />
       <recent name="$PROJECT_DIR$/mod3_solution" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -263,354 +94,351 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-      <workItem from="1617717140693" duration="9829000" />
-      <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="21676000" />
     </task>
-    <task id="LOCAL-00169" summary="Working">
-      <created>1617994552226</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
+    <task id="LOCAL-00087" summary="06: Changed how I was using the injector">
+      <created>1615079632188</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
       <option name="project" value="LOCAL" />
-      <updated>1617994552226</updated>
+      <updated>1615079632188</updated>
     </task>
-    <task id="LOCAL-00170" summary="Showing price in badges">
-      <created>1617994735080</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
+    <task id="LOCAL-00088" summary="06: Changed how I was using the injector">
+      <created>1615079768677</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
       <option name="project" value="LOCAL" />
-      <updated>1617994735080</updated>
+      <updated>1615079768677</updated>
     </task>
-    <task id="LOCAL-00171" summary="Cleaned up code.">
-      <created>1617994796463</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
+    <task id="LOCAL-00089" summary="06: Changed how I was using the injector">
+      <created>1615080060430</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
       <option name="project" value="LOCAL" />
-      <updated>1617994796463</updated>
+      <updated>1615080060430</updated>
     </task>
-    <task id="LOCAL-00172" summary="Created categories and items components">
-      <created>1617996164442</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
+    <task id="LOCAL-00090" summary="06: Changed how I was using the injector">
+      <created>1615080290908</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
       <option name="project" value="LOCAL" />
-      <updated>1617996164442</updated>
+      <updated>1615080290908</updated>
     </task>
-    <task id="LOCAL-00173" summary="Moved to use components">
-      <created>1617996979997</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
+    <task id="LOCAL-00091" summary="06: Changed name of angular_1_8_2.min.js">
+      <created>1615081478094</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
       <option name="project" value="LOCAL" />
-      <updated>1617996979997</updated>
+      <updated>1615081478094</updated>
     </task>
-    <task id="LOCAL-00174" summary="Cleaned up code">
-      <created>1617997018661</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
+    <task id="LOCAL-00092" summary="06: Moved place where I import js files">
+      <created>1615082194643</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
       <option name="project" value="LOCAL" />
-      <updated>1617997018661</updated>
+      <updated>1615082194643</updated>
     </task>
-    <task id="LOCAL-00175" summary="Added navigation bar and home">
-      <created>1617997979265</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
+    <task id="LOCAL-00093" summary="07: Copied all from first module solution and updated index.md">
+      <created>1615221118631</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
       <option name="project" value="LOCAL" />
-      <updated>1617997979265</updated>
+      <updated>1615221118631</updated>
     </task>
-    <task id="LOCAL-00176" summary="Removed spinner">
-      <created>1617999303868</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
+    <task id="LOCAL-00094" summary="07: Updated index.md">
+      <created>1615247065017</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
       <option name="project" value="LOCAL" />
-      <updated>1617999303868</updated>
+      <updated>1615247065018</updated>
     </task>
-    <task id="LOCAL-00136" summary="Updated index.md and added new directory for assignment 09">
-      <created>1617670218776</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
+    <task id="LOCAL-00095" summary="07: Updated index.md">
+      <created>1615247943677</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
       <option name="project" value="LOCAL" />
-      <updated>1617670218776</updated>
+      <updated>1615247943677</updated>
     </task>
-    <task id="LOCAL-00137" summary="Updated index.md">
-      <created>1617723057254</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
+    <task id="LOCAL-00096" summary="07: Updated index.md">
+      <created>1615248319155</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
       <option name="project" value="LOCAL" />
-      <updated>1617723057255</updated>
+      <updated>1615248319155</updated>
     </task>
-    <task id="LOCAL-00138" summary="Updated index.md">
-      <created>1617723590977</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
+    <task id="LOCAL-00097" summary="07: Changed the controller name to the name in the assignment. Added two arrays to work in the assignment.">
+      <created>1615248613948</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
       <option name="project" value="LOCAL" />
-      <updated>1617723590977</updated>
+      <updated>1615248613948</updated>
     </task>
-    <task id="LOCAL-00139" summary="Updated index.md">
-      <created>1617732725502</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
+    <task id="LOCAL-00098" summary="07: Changed the values of the items">
+      <created>1615248647419</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
       <option name="project" value="LOCAL" />
-      <updated>1617732725502</updated>
+      <updated>1615248647419</updated>
     </task>
-    <task id="LOCAL-00140" summary="separated by directories">
-      <created>1617755812100</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
+    <task id="LOCAL-00099" summary="07: Started assignment">
+      <created>1615249012148</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
       <option name="project" value="LOCAL" />
-      <updated>1617755812100</updated>
+      <updated>1615249012148</updated>
     </task>
-    <task id="LOCAL-00141" summary="Added glyphicons">
-      <created>1617755932194</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
+    <task id="LOCAL-00100" summary="07: Included bought and tobuy arrays using ng-repeat">
+      <created>1615249294785</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
       <option name="project" value="LOCAL" />
-      <updated>1617755932194</updated>
+      <updated>1615249294785</updated>
     </task>
-    <task id="LOCAL-00142" summary="Included angular-ui-router.min.js">
-      <created>1617819307029</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
+    <task id="LOCAL-00101" summary="07: Creating app module in a variable and adding controllers to it">
+      <created>1615660170681</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
       <option name="project" value="LOCAL" />
-      <updated>1617819307029</updated>
+      <updated>1615660170682</updated>
     </task>
-    <task id="LOCAL-00143" summary="added spinner">
-      <created>1617820772807</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
+    <task id="LOCAL-00102" summary="07: Moved functionality into two different controllers.">
+      <created>1615660576271</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
       <option name="project" value="LOCAL" />
-      <updated>1617820772807</updated>
+      <updated>1615660576271</updated>
     </task>
-    <task id="LOCAL-00144" summary="added spinner">
-      <created>1617820820266</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
+    <task id="LOCAL-00103" summary="07:Updated index.">
+      <created>1615851512219</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
       <option name="project" value="LOCAL" />
-      <updated>1617820820266</updated>
+      <updated>1615851512220</updated>
     </task>
-    <task id="LOCAL-00145" summary="Created main templates, added the spinner, and the routes">
-      <created>1617926323200</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
+    <task id="LOCAL-00104" summary="07:Updated index.md">
+      <created>1615852011421</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
       <option name="project" value="LOCAL" />
-      <updated>1617926323201</updated>
+      <updated>1615852011421</updated>
     </task>
-    <task id="LOCAL-00146" summary="Changed names and added components">
-      <created>1617926783578</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
+    <task id="LOCAL-00105" summary="07:Updated index.md">
+      <created>1615852056222</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
       <option name="project" value="LOCAL" />
-      <updated>1617926783578</updated>
+      <updated>1615852056223</updated>
     </task>
-    <task id="LOCAL-00147" summary="Removed loader image.">
-      <created>1617927243539</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
+    <task id="LOCAL-00106" summary="07: Added service to main app">
+      <created>1615852195540</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
       <option name="project" value="LOCAL" />
-      <updated>1617927243539</updated>
+      <updated>1615852195540</updated>
     </task>
-    <task id="LOCAL-00148" summary="Added script imports to html">
-      <created>1617927504220</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
+    <task id="LOCAL-00107" summary="07: Updated index.md">
+      <created>1615852424283</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
       <option name="project" value="LOCAL" />
-      <updated>1617927504220</updated>
+      <updated>1615852424284</updated>
     </task>
-    <task id="LOCAL-00149" summary="Cleaned up html">
-      <created>1617927585508</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
+    <task id="LOCAL-00108" summary="07: Updated index.md">
+      <created>1615853615198</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
       <option name="project" value="LOCAL" />
-      <updated>1617927585508</updated>
+      <updated>1615853615198</updated>
     </task>
-    <task id="LOCAL-00150" summary="started creating the menu data service">
-      <created>1617928239070</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
+    <task id="LOCAL-00109" summary="07: Changed injection and using controller prototypal inheritance">
+      <created>1615854002460</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
       <option name="project" value="LOCAL" />
-      <updated>1617928239071</updated>
+      <updated>1615854002460</updated>
     </task>
-    <task id="LOCAL-00151" summary="Saving staty in menudata.service.js">
-      <created>1617928842909</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
+    <task id="LOCAL-00110" summary="07: Updated html to use controller labels">
+      <created>1615854265931</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
       <option name="project" value="LOCAL" />
-      <updated>1617928842909</updated>
+      <updated>1615854265931</updated>
     </task>
-    <task id="LOCAL-00152" summary="Saving staty in menudata.service.js">
-      <created>1617928880857</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
+    <task id="LOCAL-00111" summary="07: Started creating service">
+      <created>1615854614895</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
       <option name="project" value="LOCAL" />
-      <updated>1617928880857</updated>
+      <updated>1615854614895</updated>
     </task>
-    <task id="LOCAL-00153" summary="Saving staty in menudata.service.js">
-      <created>1617928916670</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
+    <task id="LOCAL-00112" summary="07: Started creating service">
+      <created>1615908100687</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
       <option name="project" value="LOCAL" />
-      <updated>1617928916670</updated>
+      <updated>1615908100687</updated>
     </task>
-    <task id="LOCAL-00154" summary="Added item-controller.js">
-      <created>1617929090334</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
+    <task id="LOCAL-00113" summary="07: Started creating service. Added ng-if">
+      <created>1615921254766</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
       <option name="project" value="LOCAL" />
-      <updated>1617929090335</updated>
+      <updated>1615921254766</updated>
     </task>
-    <task id="LOCAL-00155" summary="Added item-controller.js">
-      <created>1617929134939</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
+    <task id="LOCAL-00114" summary="07: Fixed typo in ng-if">
+      <created>1615925410448</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
       <option name="project" value="LOCAL" />
-      <updated>1617929134939</updated>
+      <updated>1615925410448</updated>
     </task>
-    <task id="LOCAL-00156" summary="created categories.controller.js">
-      <created>1617929813209</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
+    <task id="LOCAL-00115" summary="07: Moving from toBuy array to bought array">
+      <created>1615929074090</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
       <option name="project" value="LOCAL" />
-      <updated>1617929813209</updated>
+      <updated>1615929074090</updated>
     </task>
-    <task id="LOCAL-00157" summary="created categories.controller.js">
-      <created>1617929914262</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
+    <task id="LOCAL-00116" summary="07: Added one way binding.">
+      <created>1615931318262</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
       <option name="project" value="LOCAL" />
-      <updated>1617929914262</updated>
+      <updated>1615931318262</updated>
     </task>
-    <task id="LOCAL-00158" summary="Added items and emptyResponse boolean to MenuItemsController">
-      <created>1617930617835</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
+    <task id="LOCAL-00117" summary="07: Added total_price to items">
+      <created>1615932121071</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
       <option name="project" value="LOCAL" />
-      <updated>1617930617835</updated>
+      <updated>1615932121071</updated>
     </task>
-    <task id="LOCAL-00159" summary="Added items and emptyResponse boolean to MenuItemsController">
-      <created>1617930740948</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
+    <task id="LOCAL-00118" summary="07: Added filter">
+      <created>1615933366631</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
       <option name="project" value="LOCAL" />
-      <updated>1617930740948</updated>
+      <updated>1615933366631</updated>
     </task>
-    <task id="LOCAL-00160" summary="Fixed dependency injections mistake.">
-      <created>1617932683305</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
+    <task id="LOCAL-00119" summary="08: Started assignment 8">
+      <created>1615934078049</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
       <option name="project" value="LOCAL" />
-      <updated>1617932683305</updated>
+      <updated>1615934078049</updated>
     </task>
-    <task id="LOCAL-00161" summary="Fixed dependency injections mistake.">
-      <created>1617932729753</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
+    <task id="LOCAL-00120" summary="08: Updated index.md">
+      <created>1615934227697</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
       <option name="project" value="LOCAL" />
-      <updated>1617932729753</updated>
+      <updated>1615934227697</updated>
     </task>
-    <task id="LOCAL-00162" summary="Fixed dependency injections mistake.">
-      <created>1617933019560</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
+    <task id="LOCAL-00121" summary="08: Copied from assignment3 starter code">
+      <created>1615935367459</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
       <option name="project" value="LOCAL" />
-      <updated>1617933019560</updated>
+      <updated>1615935367459</updated>
     </task>
-    <task id="LOCAL-00163" summary="Working categories">
-      <created>1617991357014</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
+    <task id="LOCAL-00122" summary="08: Changed function, controllers, and services names to match the required ones.">
+      <created>1617455650734</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
       <option name="project" value="LOCAL" />
-      <updated>1617991357014</updated>
+      <updated>1617455650735</updated>
     </task>
-    <task id="LOCAL-00164" summary="Added styling to the home page">
-      <created>1617991636357</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
+    <task id="LOCAL-00123" summary="Returning filtered results correctly">
+      <created>1617551182386</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
       <option name="project" value="LOCAL" />
-      <updated>1617991636357</updated>
+      <updated>1617551182386</updated>
     </task>
-    <task id="LOCAL-00165" summary="Added link to categories">
-      <created>1617991922457</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
+    <task id="LOCAL-00124" summary="Cleaned up code.">
+      <created>1617551278145</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
       <option name="project" value="LOCAL" />
-      <updated>1617991922457</updated>
+      <updated>1617551278145</updated>
     </task>
-    <task id="LOCAL-00166" summary="Showing list with style for categories">
-      <created>1617992647537</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
+    <task id="LOCAL-00125" summary="Addedd factory and removeitem">
+      <created>1617570855116</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
       <option name="project" value="LOCAL" />
-      <updated>1617992647537</updated>
+      <updated>1617570855116</updated>
     </task>
-    <task id="LOCAL-00167" summary="Fixed template for items">
-      <created>1617993807863</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
+    <task id="LOCAL-00126" summary="Fixed removeitem">
+      <created>1617573646065</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
       <option name="project" value="LOCAL" />
-      <updated>1617993807863</updated>
+      <updated>1617573646066</updated>
     </task>
-    <task id="LOCAL-00168" summary="Moved functionality to resolve">
-      <created>1617994341002</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
+    <task id="LOCAL-00127" summary="Binding controller and items appearing">
+      <created>1617576315032</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
       <option name="project" value="LOCAL" />
-      <updated>1617994341002</updated>
+      <updated>1617576315032</updated>
     </task>
-    <task id="LOCAL-00169" summary="Working">
-      <created>1617994552226</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
+    <task id="LOCAL-00128" summary="WOrking">
+      <created>1617651116251</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
       <option name="project" value="LOCAL" />
-      <updated>1617994552226</updated>
+      <updated>1617651116252</updated>
     </task>
-    <task id="LOCAL-00170" summary="Showing price in badges">
-      <created>1617994735080</created>
-      <option name="number" value="00170" />
-      <option name="presentableId" value="LOCAL-00170" />
+    <task id="LOCAL-00129" summary="Binding the input from the form to the search">
+      <created>1617651202219</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
       <option name="project" value="LOCAL" />
-      <updated>1617994735080</updated>
+      <updated>1617651202219</updated>
     </task>
-    <task id="LOCAL-00171" summary="Cleaned up code.">
-      <created>1617994796463</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
+    <task id="LOCAL-00130" summary="Added list with remove button and everything is working">
+      <created>1617656232377</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
       <option name="project" value="LOCAL" />
-      <updated>1617994796463</updated>
+      <updated>1617656232377</updated>
     </task>
-    <task id="LOCAL-00172" summary="Created categories and items components">
-      <created>1617996164442</created>
-      <option name="number" value="00172" />
-      <option name="presentableId" value="LOCAL-00172" />
+    <task id="LOCAL-00131" summary="Added tooltip with message.">
+      <created>1617656608809</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
       <option name="project" value="LOCAL" />
-      <updated>1617996164442</updated>
+      <updated>1617656608809</updated>
     </task>
-    <task id="LOCAL-00173" summary="Moved to use components">
-      <created>1617996979997</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
+    <task id="LOCAL-00132" summary="Finished">
+      <created>1617664094642</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
       <option name="project" value="LOCAL" />
-      <updated>1617996979997</updated>
+      <updated>1617664094642</updated>
     </task>
-    <task id="LOCAL-00174" summary="Cleaned up code">
-      <created>1617997018661</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
+    <task id="LOCAL-00133" summary="Finished">
+      <created>1617666957367</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
       <option name="project" value="LOCAL" />
-      <updated>1617997018661</updated>
+      <updated>1617666957367</updated>
     </task>
-    <task id="LOCAL-00175" summary="Added navigation bar and home">
-      <created>1617997979265</created>
-      <option name="number" value="00175" />
-      <option name="presentableId" value="LOCAL-00175" />
+    <task id="LOCAL-00134" summary="Cleaned up code">
+      <created>1617668913498</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
       <option name="project" value="LOCAL" />
-      <updated>1617997979265</updated>
+      <updated>1617668913498</updated>
     </task>
-    <task id="LOCAL-00176" summary="Removed spinner">
-      <created>1617999303868</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
+    <task id="LOCAL-00135" summary="Added JQuery library">
+      <created>1617669073838</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
       <option name="project" value="LOCAL" />
-      <updated>1617999303868</updated>
+      <updated>1617669073838</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,31 +457,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created main templates, added the spinner, and the routes" />
-    <MESSAGE value="Changed names and added components" />
-    <MESSAGE value="Removed loader image." />
-    <MESSAGE value="Added script imports to html" />
-    <MESSAGE value="Cleaned up html" />
-    <MESSAGE value="started creating the menu data service" />
-    <MESSAGE value="Saving staty in menudata.service.js" />
-    <MESSAGE value="Added item-controller.js" />
-    <MESSAGE value="created categories.controller.js" />
-    <MESSAGE value="Added items and emptyResponse boolean to MenuItemsController" />
-    <MESSAGE value="Fixed dependency injections mistake." />
-    <MESSAGE value="Working categories" />
-    <MESSAGE value="Added styling to the home page" />
-    <MESSAGE value="Added link to categories" />
-    <MESSAGE value="Showing list with style for categories" />
-    <MESSAGE value="Fixed template for items" />
-    <MESSAGE value="Moved functionality to resolve" />
-    <MESSAGE value="Working" />
-    <MESSAGE value="Showing price in badges" />
+    <MESSAGE value="07: Updated html to use controller labels" />
+    <MESSAGE value="07: Started creating service" />
+    <MESSAGE value="07: Started creating service. Added ng-if" />
+    <MESSAGE value="07: Fixed typo in ng-if" />
+    <MESSAGE value="07: Moving from toBuy array to bought array" />
+    <MESSAGE value="07: Added one way binding." />
+    <MESSAGE value="07: Added total_price to items" />
+    <MESSAGE value="07: Added filter" />
+    <MESSAGE value="08: Started assignment 8" />
+    <MESSAGE value="08: Updated index.md" />
+    <MESSAGE value="08: Copied from assignment3 starter code" />
+    <MESSAGE value="08: Changed function, controllers, and services names to match the required ones." />
+    <MESSAGE value="Returning filtered results correctly" />
     <MESSAGE value="Cleaned up code." />
-    <MESSAGE value="Created categories and items components" />
-    <MESSAGE value="Moved to use components" />
+    <MESSAGE value="Addedd factory and removeitem" />
+    <MESSAGE value="Fixed removeitem" />
+    <MESSAGE value="Binding controller and items appearing" />
+    <MESSAGE value="WOrking" />
+    <MESSAGE value="Binding the input from the form to the search" />
+    <MESSAGE value="Added list with remove button and everything is working" />
+    <MESSAGE value="Added tooltip with message." />
+    <MESSAGE value="Finished" />
+    <MESSAGE value="Done with all requirements" />
     <MESSAGE value="Cleaned up code" />
-    <MESSAGE value="Added navigation bar and home" />
-    <MESSAGE value="Removed spinner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed spinner" />
+    <MESSAGE value="Added JQuery library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added JQuery library" />
   </component>
 </project>

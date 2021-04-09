@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MenuApp">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap_3_3_5.min.css">
+  <title>Assignment Solution for Module 9</title>
+</head>
+<body>
+<div class="container">
+  <br/>
+  <ui-view></ui-view>
+</div>
+
+<!-- Thirst party dependencies -->
+<script src="lib/angular_1_8_2.min.js"></script>
+<script src="lib/angular-ui-router_1_0_29.min.js"></script>
+
+<!-- Modules -->
+<script src="src/menuapp/menuapp.module.js"></script>
+<script src="src/menuapp/data.module.js"></script>
+
+<!-- Routes -->
+<script src="src/routes.js"></script>
+
+<!-- MenuApp module artifacts -->
+<script src="src/menuapp/components/navigationbar.component.js"></script>
+<script src="src/menuapp/components/categories.component.js"></script>
+<script src="src/menuapp/controllers/categories.controller.js"></script>
+<script src="src/menuapp/components/menu-items.component.js"></script>
+<script src="src/menuapp/controllers/menu-items.controller.js"></script>
+<script src="src/menuapp/services/menudata.service.js"></script>
+
+</body>
+</html>
