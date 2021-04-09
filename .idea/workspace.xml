@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/categories.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/categories.template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -258,14 +259,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="8359000" />
-    </task>
-    <task id="LOCAL-00112" summary="07: Started creating service">
-      <created>1615908100687</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1615908100687</updated>
+      <workItem from="1617924016798" duration="8592000" />
     </task>
     <task id="LOCAL-00113" summary="07: Started creating service. Added ng-if">
       <created>1615921254766</created>
@@ -603,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617932683305</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="Fixed dependency injections mistake.">
+      <created>1617932729753</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1617932729753</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
