@@ -4,14 +4,10 @@
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/categories.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/categories.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/menu-items.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/menu-items.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/navigationbar.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/navigationbar.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/spinner/spinner.module.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
