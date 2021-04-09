@@ -1,8 +1,9 @@
-<ul ui-sref="categories">
-  <h1>Here are the categories!</h1>
-  <ul>
-    <li ng-repeat="category in categoriesController.categories">
-      {{ category }}
-    </li>
-  </ul>
-</ul>
+<h2>Categories</h2>
+<div class="list-group">
+  <div ng-repeat="category in categoriesController.categories">
+    <a ui-sref="categories" class="list-group-item">
+      <h4 class="list-group-item-heading">({{ category.short_name }}) {{ category.name }}</h4>
+      <p class="list-group-item-text">{{ category.special_instructions }}</p>
+    </a>
+  </div>
+</div>
