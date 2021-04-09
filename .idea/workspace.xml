@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/navigationbar.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/navigation-bar.template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/home.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/home.template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/main-categories.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/main-categories.template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/main-menu-items.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/main-menu-items.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/categories.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/categories.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/menu-items.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/menu-items.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/navigationbar.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/navigationbar.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,14 +266,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="20924000" />
-    </task>
-    <task id="LOCAL-00126" summary="Fixed removeitem">
-      <created>1617573646065</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1617573646066</updated>
+      <workItem from="1617924016798" duration="21676000" />
     </task>
     <task id="LOCAL-00127" summary="Binding controller and items appearing">
       <created>1617576315032</created>
@@ -608,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617997018661</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <task id="LOCAL-00175" summary="Added navigation bar and home">
+      <created>1617997979265</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1617997979265</updated>
+    </task>
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +630,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Included angular-ui-router.min.js" />
     <MESSAGE value="added spinner" />
     <MESSAGE value="Created main templates, added the spinner, and the routes" />
     <MESSAGE value="Changed names and added components" />
@@ -652,6 +654,7 @@
     <MESSAGE value="Created categories and items components" />
     <MESSAGE value="Moved to use components" />
     <MESSAGE value="Cleaned up code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code" />
+    <MESSAGE value="Added navigation bar and home" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added navigation bar and home" />
   </component>
 </project>

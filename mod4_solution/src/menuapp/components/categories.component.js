@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    let app = angular.module('MenuApp');
+    let app = angular.module('DataApp');
     app.component('menuCategories', {
         templateUrl: 'src/menuapp/templates/categories.template.html',
         bindings: {

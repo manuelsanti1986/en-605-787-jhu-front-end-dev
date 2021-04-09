@@ -1,4 +1,4 @@
 (function () {
     'use strict';
-    angular.module('DataApp', ['ui.router', 'Spinner']);
+    angular.module('DataApp', []);
 })();
