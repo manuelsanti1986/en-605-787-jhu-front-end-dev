@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/categories.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/categories.template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +258,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="17336000" />
-    </task>
-    <task id="LOCAL-00119" summary="08: Started assignment 8">
-      <created>1615934078049</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1615934078049</updated>
+      <workItem from="1617924016798" duration="17550000" />
     </task>
     <task id="LOCAL-00120" summary="08: Updated index.md">
       <created>1615934227697</created>
@@ -605,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617993807863</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Moved functionality to resolve">
+      <created>1617994341002</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1617994341002</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Done with all requirements" />
     <MESSAGE value="Cleaned up code" />
     <MESSAGE value="Added JQuery library" />
     <MESSAGE value="Updated index.md and added new directory for assignment 09" />
@@ -649,6 +646,7 @@
     <MESSAGE value="Added link to categories" />
     <MESSAGE value="Showing list with style for categories" />
     <MESSAGE value="Fixed template for items" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed template for items" />
+    <MESSAGE value="Moved functionality to resolve" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved functionality to resolve" />
   </component>
 </project>
