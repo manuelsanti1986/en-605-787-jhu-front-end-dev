@@ -267,61 +267,61 @@
       <workItem from="1617922964649" duration="455000" />
       <workItem from="1617924016798" duration="21676000" />
     </task>
-    <task id="LOCAL-00128" summary="WOrking">
-      <created>1617651116251</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
+    <task id="LOCAL-00169" summary="Working">
+      <created>1617994552226</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
       <option name="project" value="LOCAL" />
-      <updated>1617651116252</updated>
+      <updated>1617994552226</updated>
     </task>
-    <task id="LOCAL-00129" summary="Binding the input from the form to the search">
-      <created>1617651202219</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
+    <task id="LOCAL-00170" summary="Showing price in badges">
+      <created>1617994735080</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
       <option name="project" value="LOCAL" />
-      <updated>1617651202219</updated>
+      <updated>1617994735080</updated>
     </task>
-    <task id="LOCAL-00130" summary="Added list with remove button and everything is working">
-      <created>1617656232377</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
+    <task id="LOCAL-00171" summary="Cleaned up code.">
+      <created>1617994796463</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
       <option name="project" value="LOCAL" />
-      <updated>1617656232377</updated>
+      <updated>1617994796463</updated>
     </task>
-    <task id="LOCAL-00131" summary="Added tooltip with message.">
-      <created>1617656608809</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
+    <task id="LOCAL-00172" summary="Created categories and items components">
+      <created>1617996164442</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
       <option name="project" value="LOCAL" />
-      <updated>1617656608809</updated>
+      <updated>1617996164442</updated>
     </task>
-    <task id="LOCAL-00132" summary="Finished">
-      <created>1617664094642</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
+    <task id="LOCAL-00173" summary="Moved to use components">
+      <created>1617996979997</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
       <option name="project" value="LOCAL" />
-      <updated>1617664094642</updated>
+      <updated>1617996979997</updated>
     </task>
-    <task id="LOCAL-00133" summary="Finished">
-      <created>1617666957367</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
+    <task id="LOCAL-00174" summary="Cleaned up code">
+      <created>1617997018661</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
       <option name="project" value="LOCAL" />
-      <updated>1617666957367</updated>
+      <updated>1617997018661</updated>
     </task>
-    <task id="LOCAL-00134" summary="Cleaned up code">
-      <created>1617668913498</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
+    <task id="LOCAL-00175" summary="Added navigation bar and home">
+      <created>1617997979265</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
       <option name="project" value="LOCAL" />
-      <updated>1617668913498</updated>
+      <updated>1617997979265</updated>
     </task>
-    <task id="LOCAL-00135" summary="Added JQuery library">
-      <created>1617669073838</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
+    <task id="LOCAL-00176" summary="Removed spinner">
+      <created>1617999303868</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
       <option name="project" value="LOCAL" />
-      <updated>1617669073838</updated>
+      <updated>1617999303868</updated>
     </task>
     <task id="LOCAL-00136" summary="Updated index.md and added new directory for assignment 09">
       <created>1617670218776</created>
