@@ -4,8 +4,6 @@
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/item-detail-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/item-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +258,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="3108000" />
-    </task>
-    <task id="LOCAL-00099" summary="07: Started assignment">
-      <created>1615249012148</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1615249012148</updated>
+      <workItem from="1617924016798" duration="3211000" />
     </task>
     <task id="LOCAL-00100" summary="07: Included bought and tobuy arrays using ng-repeat">
       <created>1615249294785</created>
@@ -605,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617927243539</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="Added script imports to html">
+      <created>1617927504220</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1617927504220</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="08: Updated index.md" />
     <MESSAGE value="08: Copied from assignment3 starter code" />
     <MESSAGE value="08: Changed function, controllers, and services names to match the required ones." />
     <MESSAGE value="Returning filtered results correctly" />
@@ -649,6 +646,7 @@
     <MESSAGE value="Created main templates, added the spinner, and the routes" />
     <MESSAGE value="Changed names and added components" />
     <MESSAGE value="Removed loader image." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed loader image." />
+    <MESSAGE value="Added script imports to html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added script imports to html" />
   </component>
 </project>

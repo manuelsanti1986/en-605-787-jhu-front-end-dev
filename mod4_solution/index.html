@@ -10,26 +10,10 @@
 <body>
 <div class="container">
   <h1>Restaurant menu</h1>
-  <div ng-controller="NarrowItDownController as narrowItDown">
-    <div class="row">
-      <div class="form-group">
-        <input type="text" ng-model="narrowItDown.searchTerm" placeholder="Search term" class="form-control" >
-      </div>
-      <div class="form-group narrow-button">
-        <button class="btn btn-primary"  ng-click="narrowItDown.getFilteredItems();">Narrow It Down For Me!</button>
-      </div>
-    </div>
-    <div class="row">
-      <found-items
-              id="foundItems"
-              items="narrowItDown.found"
-              is-empty-search="narrowItDown.isEmptySearch"
-              on-remove="narrowItDown.removeMenuItem(index)"
-      >
-        <span class="alert alert-warning warning" role="alert">Nothing Found!</span>
-      </found-items>
-    </div>
-  </div>
+
+  <ui-view></ui-view>
+
+  <loading-spinner></loading-spinner>
 
 </div>
 
