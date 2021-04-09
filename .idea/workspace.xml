@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/images/loader01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/images/loader_circles_menu_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/images/loader_circles_menu.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/components/categories.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/categories.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/components/items.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/components/items.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/controllers/item-detail-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/item-detail-controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/data.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/menuapp.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/menuapp.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/services/menudata.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/categories.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/categories.template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/home.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/home.template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/restaurantmenu/templates/item.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/templates/item.template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/spinner/loadingspinner.template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/item-detail-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/item-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/data.module.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,14 +260,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="2856000" />
-    </task>
-    <task id="LOCAL-00098" summary="07: Changed the values of the items">
-      <created>1615248647419</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1615248647419</updated>
+      <workItem from="1617924016798" duration="3108000" />
     </task>
     <task id="LOCAL-00099" summary="07: Started assignment">
       <created>1615249012148</created>
@@ -616,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617926783578</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Removed loader image.">
+      <created>1617927243539</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1617927243539</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +624,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="08: Started assignment 8" />
     <MESSAGE value="08: Updated index.md" />
     <MESSAGE value="08: Copied from assignment3 starter code" />
     <MESSAGE value="08: Changed function, controllers, and services names to match the required ones." />
@@ -660,6 +648,7 @@
     <MESSAGE value="added spinner" />
     <MESSAGE value="Created main templates, added the spinner, and the routes" />
     <MESSAGE value="Changed names and added components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed names and added components" />
+    <MESSAGE value="Removed loader image." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed loader image." />
   </component>
 </project>
