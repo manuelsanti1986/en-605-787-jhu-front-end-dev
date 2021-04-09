@@ -41,6 +41,10 @@
             return response;
         };
 
+        service.getIsEmptyItemsResponse = function () {
+            return isEmptyItemsResponse;
+        };
+
     }
 
 })();

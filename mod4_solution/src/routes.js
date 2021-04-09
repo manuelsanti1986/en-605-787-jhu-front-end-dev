@@ -16,9 +16,9 @@
             .state('categories', {
                 url: '/categories',
                 templateUrl: 'src/menuapp/templates/main-shoppinglist.template.html',
-                controller: 'CategoriesController as categories',
+                controller: 'CategoriesController as categoriesController',
                 resolve: {
-                    items: ['MenuDataService', function (MenuDataService) {
+                    categories: ['MenuDataService', function (MenuDataService) {
                         return MenuDataService.getAllCategories();
                     }]
                 }
@@ -26,7 +26,7 @@
             .state('mainList.itemDetail', {
                 url: '/items/{categoryShortName}',
                 templateUrl: 'src/menuapp/templates/item.template.html',
-                controller: "ItemController as menuItems"
+                controller: "MenuItemsController as menuItems"
             });
     }
 })();
