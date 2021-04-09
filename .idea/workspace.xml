@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/item-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/services/menudata.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/categories.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/menuapp/controllers/menu-items.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod4_solution/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod4_solution/src/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -262,14 +260,7 @@
       <workItem from="1617639201087" duration="14664000" />
       <workItem from="1617717140693" duration="9829000" />
       <workItem from="1617922964649" duration="455000" />
-      <workItem from="1617924016798" duration="5431000" />
-    </task>
-    <task id="LOCAL-00107" summary="07: Updated index.md">
-      <created>1615852424283</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1615852424284</updated>
+      <workItem from="1617924016798" duration="5541000" />
     </task>
     <task id="LOCAL-00108" summary="07: Updated index.md">
       <created>1615853615198</created>
@@ -607,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617929134939</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="created categories.controller.js">
+      <created>1617929813209</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1617929813209</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +624,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Addedd factory and removeitem" />
     <MESSAGE value="Fixed removeitem" />
     <MESSAGE value="Binding controller and items appearing" />
     <MESSAGE value="WOrking" />
@@ -651,6 +648,7 @@
     <MESSAGE value="started creating the menu data service" />
     <MESSAGE value="Saving staty in menudata.service.js" />
     <MESSAGE value="Added item-controller.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added item-controller.js" />
+    <MESSAGE value="created categories.controller.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="created categories.controller.js" />
   </component>
 </project>

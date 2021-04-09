@@ -6,9 +6,9 @@
 
     MenuItemsController.$inject = ['MenuDataService', 'items', 'isEmptyItemsResponse'];
     function MenuItemsController(MenuDataService, items, isEmptyItemsResponse) {
-        let self = this;
-        self.items = items;
-        self.isEmptyItemsResponse = isEmptyItemsResponse;
+        let menuItemsController = this;
+        menuItemsController.items = items;
+        menuItemsController.isEmptyItemsResponse = isEmptyItemsResponse;
     }
 
 })();
