@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/menu-item/menu-item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/menu-item/menu-item.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/menu-item/menu-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/menu-item/menu-item.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +106,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00106" summary="07: Added service to main app">
-      <created>1615852195540</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1615852195540</updated>
     </task>
     <task id="LOCAL-00107" summary="07: Updated index.md">
       <created>1615852424283</created>
@@ -451,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618174435488</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="removed MenuItem Controller">
+      <created>1618174521967</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1618174521967</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +469,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="WOrking" />
     <MESSAGE value="Binding the input from the form to the search" />
     <MESSAGE value="Added list with remove button and everything is working" />
     <MESSAGE value="Added tooltip with message." />
@@ -495,6 +493,7 @@
     <MESSAGE value="Passing user information" />
     <MESSAGE value="passing favorite dish" />
     <MESSAGE value="Fixed images in menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed images in menu" />
+    <MESSAGE value="removed MenuItem Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed MenuItem Controller" />
   </component>
 </project>
