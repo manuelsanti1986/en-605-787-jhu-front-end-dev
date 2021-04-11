@@ -8,7 +8,7 @@
     <form name='regForm' novalidate>
       <!--  New Input group    -->
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-sm-offset-3">
           <div class="input-group-lg">
             <input type="text" name="first_name"
                    class="form-control"
@@ -19,8 +19,6 @@
                    ng-maxlength="30"
             />
           </div>
-        </div>
-        <div class="col-sm-6">
           <div class="alert alert-danger" role="alert" ng-if="(regForm.first_name.$error.minlength || regForm.first_name.$error.required) && regForm.first_name.$touched">
                 First name must have at least 2 characters
           </div>
@@ -32,7 +30,7 @@
       <br/>
       <!--  New Input group    -->
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-sm-offset-3">
           <div class="input-group-lg">
             <input type="text" name="last_name"
                    class="form-control"
@@ -43,8 +41,6 @@
                    ng-maxlength="30"
             />
           </div>
-        </div>
-        <div class="col-sm-6">
           <div class="alert alert-danger" ng-if="(regForm.last_name.$error.minlength || regForm.last_name.$error.required) && regForm.last_name.$touched">
                 Last name must have at least 2 characters
           </div>
@@ -56,7 +52,7 @@
       <br>
       <!--  New Input group    -->
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-sm-offset-3">
           <div class="input-group-lg">
             <input type="text" name="fav_dish"
                    class="form-control"
@@ -67,8 +63,6 @@
                    ng-maxlength="3"
             />
           </div>
-        </div>
-        <div class="col-sm-6">
           <div class="alert alert-danger" ng-if="(regForm.fav_dish.$error.minlength || regForm.fav_dish.$error.required) && regForm.fav_dish.$touched">
                       Favorite dish must have at least 2 characters
           </div>
@@ -80,7 +74,7 @@
       <br>
       <!--  New Input group    -->
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-sm-offset-3">
           <div class="input-group-lg">
             <input type="email" name="email"
                    class="form-control"
@@ -88,8 +82,6 @@
                    ng-model="reg.user.email"
             />
           </div>
-        </div>
-        <div class="col-sm-6">
           <div class="alert alert-danger" ng-if="regForm.email.$invalid && regForm.email.$touched">
                 Must be a valid email address: handle@domain format
           </div>
@@ -98,7 +90,7 @@
       <br>
       <!--  New Input group    -->
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6 col-sm-offset-3">
           <div class="input-group-lg">
             <input type="text" name="phone"
                    class="form-control"
@@ -107,8 +99,6 @@
                    pattern="(\d{3})-(\d{3})-(\d{4})"
             />
           </div>
-        </div>
-        <div class="col-sm-6">
           <div class="alert alert-danger" ng-if="regForm.phone.$invalid && regForm.phone.$touched">
                 Phone must be in the format ###-###-####.
           </div>
@@ -118,11 +108,11 @@
 
       <button
               ng-disabled="regForm.$invalid"
-              ng-click="reg.submit()">Sign Up</button>
+              ng-click="reg.submit()"
+      >
+        Sign Up
+      </button>
 
-      <div style="margin-top: 10px;">
-        Form valid? {{ regForm.$valid }}
-      </div>
     </form>
   </fieldset>
 </div>
