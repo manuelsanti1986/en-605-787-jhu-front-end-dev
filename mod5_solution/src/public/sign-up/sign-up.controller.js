@@ -8,6 +8,8 @@
         let registration = this;
 
         registration.submit = function () {
+            console.log(registration.user)
+            SignUpService.isUnknownItem(registration.user.fav_dish.toUpperCase());
             SignUpService.registerUser(registration.user);
             registration.completed = SignUpService.isRegistered();
         };

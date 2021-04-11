@@ -4,8 +4,8 @@
     angular.module('common')
         .service('SignUpService', SignUpService);
 
-    SignUpService.$inject = [];
-    function SignUpService() {
+    SignUpService.$inject = ['$http', 'ApiPath'];
+    function SignUpService($http, ApiPath) {
         let service = this;
         let userInfo = {
             firstName: "",
@@ -37,6 +37,21 @@
 
         service.isRegistered = function (){
             return registered;
+        }
+
+        service.isUnknownItem = function (favoriteDish){
+            let response = $http({
+                method: 'GET',
+                url: (ApiPath + `/menu_items/${favoriteDish}.json`)
+            }).then(function (response) {
+                console.log("response");
+                console.log(response);
+                return response.data;
+            })
+                .catch(function (err) {
+                    return `Error: Unable to get items. ${err}`
+                });
+            return response;
         }
     }
 
