@@ -9,7 +9,7 @@
 
         registration.submit = function () {
             SignUpService.registerUser(registration.user);
-            registration.completed = true;
+            registration.completed = SignUpService.isRegistered();
         };
     }
 

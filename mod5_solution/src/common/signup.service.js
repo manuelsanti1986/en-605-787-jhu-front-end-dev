@@ -15,6 +15,7 @@
             favoriteDish: ""
         };
         let registered = false;
+        let isUnknownItem = false;
 
         service.registerUser = function (user) {
             userInfo = {
