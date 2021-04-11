@@ -38,14 +38,23 @@ function routeConfig ($stateProvider) {
         }]
       }
     })
-    .state('my-info', {
-      url: '/my-info',
-      templateUrl: 'src/public/my-info/my-info.html'
-    })
     .state('sign-up', {
       url: '/sign-up',
       templateUrl: 'src/public/sign-up/sign-up.html',
       controller: 'SignUpController as reg',
+    })
+    .state('my-info', {
+      url: '/my-info',
+      templateUrl: 'src/public/my-info/my-info.html',
+      controller: 'MyInfoController as myInfo',
+      resolve: {
+        user: ['SignUpService', function (SignUpService) {
+          return SignUpService.getUserInfo();
+        }],
+        isRegistered: ['SignUpService', function (SignUpService) {
+          return SignUpService.isRegistered();
+        }]
+      }
     });
 }
 })();

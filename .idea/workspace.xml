@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="Changed color of text in input form">
+    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/public.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/public.routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,13 +111,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00102" summary="07: Moved functionality into two different controllers.">
-      <created>1615660576271</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1615660576271</updated>
     </task>
     <task id="LOCAL-00103" summary="07:Updated index.">
       <created>1615851512219</created>
@@ -454,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618171086341</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="Added isRegistered to service">
+      <created>1618171466713</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1618171466713</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +474,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cleaned up code." />
     <MESSAGE value="Addedd factory and removeitem" />
     <MESSAGE value="Fixed removeitem" />
     <MESSAGE value="Binding controller and items appearing" />
@@ -498,6 +498,7 @@
     <MESSAGE value="Added styling to form" />
     <MESSAGE value="Using service to save state of user info" />
     <MESSAGE value="Changed color of text in input form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed color of text in input form" />
+    <MESSAGE value="Added isRegistered to service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added isRegistered to service" />
   </component>
 </project>

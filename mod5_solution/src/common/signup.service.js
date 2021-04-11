@@ -25,13 +25,17 @@
             registered = true;
             console.log("service.userInfo")
             console.log(userInfo)
+            console.log("registered")
+            console.log(registered)
         };
 
-        service.getuserInfo = function () {
+        service.getUserInfo = function () {
             return userInfo;
         };
 
         service.isRegistered = function (){
+            console.log("GETTING isRegistered()")
+            console.log(registered)
             return registered;
         }
     }
