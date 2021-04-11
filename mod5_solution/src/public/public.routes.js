@@ -48,7 +48,7 @@ function routeConfig ($stateProvider) {
       templateUrl: 'src/public/my-info/my-info.html',
       controller: 'MyInfoController as myInfo',
       resolve: {
-        user: ['SignUpService', function (SignUpService) {
+        userInfo: ['SignUpService', function (SignUpService) {
           return SignUpService.getUserInfo();
         }],
         isRegistered: ['SignUpService', function (SignUpService) {

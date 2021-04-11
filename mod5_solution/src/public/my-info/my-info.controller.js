@@ -3,10 +3,10 @@
     angular.module('public')
         .controller('MyInfoController', MyInfoController);
 
-    MyInfoController.$inject = ['user', 'isRegistered'];
-    function MyInfoController(user, isRegistered) {
+    MyInfoController.$inject = ['userInfo', 'isRegistered'];
+    function MyInfoController(userInfo, isRegistered) {
         let controller = this;
-        controller.user = user;
+        controller.userInfo = userInfo;
         controller.isRegistered = isRegistered;
     }
 
