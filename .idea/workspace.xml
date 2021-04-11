@@ -3,7 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/css/bootstrap_3_3_5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/lib/angular-ui-router_1_0_29.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/lib/angular_1_8_2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/components/categories.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/components/menu-items.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/components/navigationbar.component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/controllers/categories.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/controllers/menu-items.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/data.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/menuapp.module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/services/menudata.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/templates/categories.template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/templates/home.template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/templates/main-categories.template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/templates/main-menu-items.template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/templates/menu-item.template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/menuapp/templates/navigation-bar.template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/routes.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +71,19 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mod3_solution" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
