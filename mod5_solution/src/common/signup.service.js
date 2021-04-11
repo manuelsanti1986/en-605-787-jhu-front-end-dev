@@ -21,7 +21,7 @@
         };
 
         service.getuserInfo = function () {
-            return userInfo;
+            return service.userInfo;
         };
     }
 
