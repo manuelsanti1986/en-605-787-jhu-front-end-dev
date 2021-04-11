@@ -31,7 +31,9 @@ input {
 .ng-touched.ng-invalid {
     border: 2px red solid;
 }
-
+form {
+    text-align: center;
+}
 #info {
     margin-top: 20px;
 }
