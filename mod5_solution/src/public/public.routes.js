@@ -4,9 +4,6 @@
 angular.module('public')
 .config(routeConfig);
 
-/**
- * Configures the routes and views
- */
 routeConfig.$inject = ['$stateProvider'];
 function routeConfig ($stateProvider) {
   // Routes
@@ -40,6 +37,14 @@ function routeConfig ($stateProvider) {
           return MenuService.getMenuItems($stateParams.category);
         }]
       }
+    })
+    .state('my.info', {
+      url: '/my-info',
+      templateUrl: 'src/public/my-info/my-info.html'
+    })
+    .state('sign-up', {
+      url: '/sign-up',
+      templateUrl: 'src/public/sign-up/sign-up.html'
     });
 }
 })();
