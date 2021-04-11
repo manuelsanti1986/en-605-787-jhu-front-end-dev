@@ -158,12 +158,9 @@ The following repository contains the assignment solutions prepared by **Manuel 
 - **Description:** This assigment was dedicated to learn the basics of form validation, testing, and a final project in AngularJS (Version 1).
 
 - **Key Takeaways:**
-  - **[Components](https://docs.angularjs.org/guide/component):** These are a special kind of directive that uses a simpler configuration which is suitable for a component-based application structure.
-    - They only control their own view and data
-    - They have well-defined public API
-    - They have a well-defined lifecycle.
-    - The entire application should be viewed as a tree of components
-    - They should never modify data or DOM that doesn't belong to them.
+  - **[Jasmine](https://jasmine.github.io/):** Behavior-driven development framework for testing JavaScript code.
+    - It does not depend on any other JavaScript frameworks
+    - It does not require a DOM
 
 ### Assignment Submission Reminders
 
