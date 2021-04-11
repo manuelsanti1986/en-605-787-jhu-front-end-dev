@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,13 +107,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00113" summary="07: Started creating service. Added ng-if">
-      <created>1615921254766</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1615921254766</updated>
     </task>
     <task id="LOCAL-00114" summary="07: Fixed typo in ng-if">
       <created>1615925410448</created>
@@ -452,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618178348078</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="Finish styling my info and form">
+      <created>1618179108382</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1618179108382</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +470,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added JQuery library" />
     <MESSAGE value="First commit for last assignment." />
     <MESSAGE value="Updated index.md" />
     <MESSAGE value="Using started code" />
@@ -496,6 +494,7 @@
     <MESSAGE value="Added all input forms" />
     <MESSAGE value="Styling form." />
     <MESSAGE value="Finished User information section" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished User information section" />
+    <MESSAGE value="Finish styling my info and form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish styling my info and form" />
   </component>
 </project>
