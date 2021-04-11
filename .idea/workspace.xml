@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +107,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00109" summary="07: Changed injection and using controller prototypal inheritance">
-      <created>1615854002460</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1615854002460</updated>
     </task>
     <task id="LOCAL-00110" summary="07: Updated html to use controller labels">
       <created>1615854265931</created>
@@ -451,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618174694096</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="passing imageUrl">
+      <created>1618175232316</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1618175232316</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +470,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added tooltip with message." />
     <MESSAGE value="Finished" />
     <MESSAGE value="Done with all requirements" />
     <MESSAGE value="Cleaned up code" />
@@ -495,6 +494,7 @@
     <MESSAGE value="removed MenuItem Controller" />
     <MESSAGE value="cleaned up code" />
     <MESSAGE value="Changed name of user property" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed name of user property" />
+    <MESSAGE value="passing imageUrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="passing imageUrl" />
   </component>
 </project>
