@@ -38,7 +38,7 @@ function routeConfig ($stateProvider) {
         }]
       }
     })
-    .state('my.info', {
+    .state('my-info', {
       url: '/my-info',
       templateUrl: 'src/public/my-info/my-info.html'
     })
