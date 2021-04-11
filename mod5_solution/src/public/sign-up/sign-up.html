@@ -3,42 +3,44 @@
   <div class="text-center">
     Do not miss our daily offers and menu updates.
   </div>
+  <br/>
 
   <fieldset>
     <form name='regForm' novalidate>
       <input type="text" name="first_name" placeholder="First name"
              ng-model="reg.user.first_name"
              required
-             minlength="1"
-             ng-maxlength="20">
+             minlength="2"
+             ng-maxlength="30">
       {{ reg.user.first_name }}
       <span
               ng-if="(regForm.first_name.$error.minlength || regForm.first_name.$error.required) && regForm.first_name.$touched">
-            First name is empty
+            Last name must not be empty
           </span>
       <span ng-if="regForm.first_name.$error.maxlength && regForm.first_name.$touched">
-            First ame must not be longer than 20 characters
+            First ame must not be longer than 30 characters
           </span>
       <br>
 
       <input type="text" name="last_name" placeholder="Last name"
              ng-model="reg.user.last_name"
              required
-             minlength="1"
-             ng-maxlength="20">
+             minlength="2"
+             ng-maxlength="30">
       {{ reg.user.last_name }}
       <span
               ng-if="(regForm.last_name.$error.minlength || regForm.last_name.$error.required) && regForm.last_name.$touched">
-            Last name is empty
+            Last name must not be empty
           </span>
       <span ng-if="regForm.last_name.$error.maxlength && regForm.last_name.$touched">
-            Last name must not be longer than 20 characters
+            Last name must not be longer than 30 characters
           </span>
       <br>
 
       <input type="email" name="email" placeholder="Email"
              ng-model="reg.user.email"
              required>
+      {{ reg.user.email }}
       <span ng-if="regForm.email.$invalid && regForm.email.$touched">
             Must be a valid email address: handle@domain format
           </span>
@@ -46,7 +48,9 @@
 
       <input type="text" name="phone" placeholder="Phone ###-###-####"
              ng-model="reg.user.phone"
+             required
              pattern="(\d{3})-(\d{3})-(\d{4})">
+      {{ reg.user.phone }}
       <span ng-if="regForm.phone.$invalid && regForm.phone.$touched">
             Phone must be in the format ###-###-####.
           </span>
