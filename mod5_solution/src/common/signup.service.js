@@ -13,6 +13,7 @@
           email: "",
           phone: ""
         };
+        let registered = false;
 
         service.registerUser = function (user) {
             userInfo = {
@@ -21,6 +22,7 @@
                 email: user.email,
                 phone: user.phone
             };
+            registered = true;
             console.log("service.userInfo")
             console.log(userInfo)
         };
@@ -28,6 +30,10 @@
         service.getuserInfo = function () {
             return userInfo;
         };
+
+        service.isRegistered = function (){
+            return registered;
+        }
     }
 
 

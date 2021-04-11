@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
+    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="Changed color of text in input form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/css/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,13 +110,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00101" summary="07: Creating app module in a variable and adding controllers to it">
-      <created>1615660170681</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1615660170682</updated>
     </task>
     <task id="LOCAL-00102" summary="07: Moved functionality into two different controllers.">
       <created>1615660576271</created>
@@ -452,7 +447,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618171010192</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="Changed color of text in input form">
+      <created>1618171086341</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1618171086341</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +473,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Returning filtered results correctly" />
     <MESSAGE value="Cleaned up code." />
     <MESSAGE value="Addedd factory and removeitem" />
     <MESSAGE value="Fixed removeitem" />
@@ -496,6 +497,7 @@
     <MESSAGE value="Added styling to firm" />
     <MESSAGE value="Added styling to form" />
     <MESSAGE value="Using service to save state of user info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using service to save state of user info" />
+    <MESSAGE value="Changed color of text in input form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed color of text in input form" />
   </component>
 </project>

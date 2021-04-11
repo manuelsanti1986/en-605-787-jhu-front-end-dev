@@ -11,15 +11,15 @@
              ng-model="reg.user.first_name"
              required
              minlength="2"
-             ng-maxlength="30">
+             ng-maxlength="30" />
       <span
-              ng-if="(regForm.first_name.$error.minlength || regForm.first_name.$error.required) && regForm.first_name.$touched">
+            ng-if="(regForm.first_name.$error.minlength || regForm.first_name.$error.required) && regForm.first_name.$touched">
             First name must not be empty
-          </span>
+        </span>
       <span ng-if="regForm.first_name.$error.maxlength && regForm.first_name.$touched">
             First ame must not be longer than 30 characters
           </span>
-      <br>
+      <br/>
 
 <!--      <input type="text" name="last_name" placeholder="Last name"-->
 <!--             ng-model="reg.user.last_name"-->

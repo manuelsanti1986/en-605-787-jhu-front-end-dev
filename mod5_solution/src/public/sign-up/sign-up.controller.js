@@ -8,8 +8,6 @@
         let registration = this;
 
         registration.submit = function () {
-            console.log("registration user ")
-            console.log(registration);
             SignUpService.registerUser(registration.user);
             registration.completed = true;
         };
