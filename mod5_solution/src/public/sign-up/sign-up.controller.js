@@ -6,7 +6,6 @@
     SignUpController.$inject = ['SignUpService'];
     function SignUpController(SignUpService) {
         let registration = this;
-        console.log("SignUpController")
 
         registration.submit = function () {
             console.log("registration user ")

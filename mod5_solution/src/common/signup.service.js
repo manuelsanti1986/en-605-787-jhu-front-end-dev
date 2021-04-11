@@ -8,20 +8,25 @@
     function SignUpService() {
         let service = this;
         let userInfo = {
-          first_name: "",
-          last_name: "",
+          firstName: "",
+          lastName: "",
           email: "",
           phone: ""
         };
 
         service.registerUser = function (user) {
-            service.userInfo = user;
+            userInfo = {
+                firstName: user.first_name,
+                lastName: user.last_name,
+                email: user.email,
+                phone: user.phone
+            };
             console.log("service.userInfo")
-            console.log(service.userInfo)
+            console.log(userInfo)
         };
 
         service.getuserInfo = function () {
-            return service.userInfo;
+            return userInfo;
         };
     }
 
