@@ -2,10 +2,252 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/A/A9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/B/B9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/C/C9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CM/CM1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CM/CM2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CM/CM3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CM/CM4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CM/CM5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CSR/CSR1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CSR/CSR2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CSR/CSR3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CSR/CSR4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CU/CU21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CU/CU22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/CU/CU23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/D/D9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/DK/DK1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/DK/DK2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/DK/DK3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/DS/DS1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/DS/DS2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/F/F9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FR/FR1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FR/FR2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FR/FR3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FR/FR4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FR/FR5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FY/FY1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FY/FY2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FY/FY3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FY/FY4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/FY/FY5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/L/L9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NF/NF10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NF/NF11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NF/NF12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NF/NF13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NL/NL1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NL/NL2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NL/NL3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NS/NS1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NS/NS2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NS/NS3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/NS/NS4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/PF/PF1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/PF/PF2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/PF/PF3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/PF/PF4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/PF/PF5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SO/SO1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SO/SO2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SO/SO3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SO/SO4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SO/SO5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SO/SO6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SO/SO7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SP/SP1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SP/SP2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SP/SP3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SP/SP4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SP/SP5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SP/SP6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SP/SP7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SP/SP8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SR/SR9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/SS/SS9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/T/T1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/T/T2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/T/T3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/T/T4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/V/V1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/V/V2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/V/V3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/V/V4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/V/V5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/V/V6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/V/V7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mod5_solution/images/menu/VG/VG9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/menu-item/menu-item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/menu-item/menu-item.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/menu-item/menu-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/menu-item/menu-item.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +351,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00104" summary="07:Updated index.md">
-      <created>1615852011421</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1615852011421</updated>
     </task>
     <task id="LOCAL-00105" summary="07:Updated index.md">
       <created>1615852056222</created>
@@ -453,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618172569921</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="passing favorite dish">
+      <created>1618172963650</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1618172963650</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +714,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed removeitem" />
     <MESSAGE value="Binding controller and items appearing" />
     <MESSAGE value="WOrking" />
     <MESSAGE value="Binding the input from the form to the search" />
@@ -497,6 +738,7 @@
     <MESSAGE value="Changed color of text in input form" />
     <MESSAGE value="Added isRegistered to service" />
     <MESSAGE value="Passing user information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passing user information" />
+    <MESSAGE value="passing favorite dish" />
+    <option name="LAST_COMMIT_MESSAGE" value="passing favorite dish" />
   </component>
 </project>
