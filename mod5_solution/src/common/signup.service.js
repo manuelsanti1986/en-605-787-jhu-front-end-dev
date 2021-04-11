@@ -22,8 +22,11 @@
                 lastName: user.last_name,
                 email: user.email,
                 phone: user.phone,
-                favoriteDish: user.fav_dish
+                favoriteDish: user.fav_dish.toUpperCase()
             };
+            userInfo.imageUrl = !userInfo.favoriteDish ?
+                undefined :
+                `images/menu/${userInfo.favoriteDish.replace(/[^a-zA-Z]+/g, '')}/${userInfo.favoriteDish}.jpg`;
             registered = true;
         };
 
