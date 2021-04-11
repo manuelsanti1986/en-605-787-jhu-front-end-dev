@@ -1,8 +1,24 @@
 <div class="container">
-  <h2 id="menu-categories-title" class="text-center">My Information</h2>
+  <h2 id="menu-categories-title" class="text-center">User Information</h2>
   <br/>
-  <h1>{{ myInfo.userInfo }}</h1>
-  <h1 ng-if="myInfo.isRegistered == true">IS Registered</h1>
-  <h1 ng-if="myInfo.isRegistered == false">IS NOT Registered</h1>
+  <br/>
+  <div ng-if="myInfo.isRegistered == true" class="media">
+    <div class="media-left media-middle">
+      <img class="media-object" ng-src="{{myInfo.userInfo.imageUrl}}" />
+    </div>
+    <div class="media-body">
+      <h2 ng-if="myInfo.userInfo.firstName" class="media-heading">Profile Information</h2>
+      <p ng-if="myInfo.userInfo.firstName" ><b>First Name:</b> {{myInfo.userInfo.firstName}}</p>
+      <p ng-if="myInfo.userInfo.lastName" ><b>Last Name:</b> {{myInfo.userInfo.lastName}}</p>
+      <p ng-if="myInfo.userInfo.email" ><b>Email:</b> {{myInfo.userInfo.email}}</p>
+      <p ng-if="myInfo.userInfo.phone" ><b>Phone:</b> {{myInfo.userInfo.phone}}</p>
+      <p ng-if="myInfo.userInfo.favoriteDish" ><b>Favorite dish:</b> {{myInfo.userInfo.favoriteDish}}</p>
+    </div>
+  </div>
+
+  <div class="alert alert-danger" ng-if="myInfo.isRegistered == false">
+    Not Signed Up Yet. Sign up Now!
+  </div>
+
 
 </div>

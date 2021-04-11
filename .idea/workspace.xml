@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
+    <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="Styling form.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +107,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00111" summary="07: Started creating service">
-      <created>1615854614895</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1615854614895</updated>
     </task>
     <task id="LOCAL-00112" summary="07: Started creating service">
       <created>1615908100687</created>
@@ -451,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618175864863</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="Styling form.">
+      <created>1618177172380</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1618177172380</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +470,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Done with all requirements" />
     <MESSAGE value="Cleaned up code" />
     <MESSAGE value="Added JQuery library" />
     <MESSAGE value="First commit for last assignment." />
@@ -495,6 +494,7 @@
     <MESSAGE value="Changed name of user property" />
     <MESSAGE value="passing imageUrl" />
     <MESSAGE value="Added all input forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added all input forms" />
+    <MESSAGE value="Styling form." />
+    <option name="LAST_COMMIT_MESSAGE" value="Styling form." />
   </component>
 </project>
