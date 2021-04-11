@@ -12,7 +12,6 @@
              required
              minlength="2"
              ng-maxlength="30">
-      {{ reg.user.first_name }}
       <span
               ng-if="(regForm.first_name.$error.minlength || regForm.first_name.$error.required) && regForm.first_name.$touched">
             First name must not be empty
