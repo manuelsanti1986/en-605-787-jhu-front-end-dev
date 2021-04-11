@@ -108,13 +108,6 @@
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
     </task>
-    <task id="LOCAL-00095" summary="07: Updated index.md">
-      <created>1615247943677</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1615247943677</updated>
-    </task>
     <task id="LOCAL-00096" summary="07: Updated index.md">
       <created>1615248319155</created>
       <option name="number" value="00096" />
@@ -451,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618166036731</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="Added input forms">
+      <created>1618166468660</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1618166468660</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,7 +470,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="07: Added filter" />
     <MESSAGE value="08: Started assignment 8" />
     <MESSAGE value="08: Updated index.md" />
     <MESSAGE value="08: Copied from assignment3 starter code" />
@@ -495,6 +494,7 @@
     <MESSAGE value="Changed link to obtain menu categories" />
     <MESSAGE value="Added new glyphicons" />
     <MESSAGE value="Created routes to my-info and sign-up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created routes to my-info and sign-up" />
+    <MESSAGE value="Added input forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added input forms" />
   </component>
 </project>

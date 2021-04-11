@@ -5,21 +5,34 @@
   </div>
 
   <fieldset>
-    <legend>Registration</legend>
     <form name='regForm' novalidate>
-
-      <input type="text" name="username" placeholder="Pick a username"
-             ng-model="reg.user.username"
+      <input type="text" name="first_name" placeholder="First name"
+             ng-model="reg.user.first_name"
              required
-             minlength="4"
-             ng-maxlength="10">
-      {{ reg.user.username }}
+             minlength="1"
+             ng-maxlength="20">
+      {{ reg.user.first_name }}
       <span
-              ng-if="(regForm.username.$error.minlength || regForm.username.$error.required) && regForm.username.$touched">
-            Username must be at least 4 characters long
+              ng-if="(regForm.first_name.$error.minlength || regForm.first_name.$error.required) && regForm.first_name.$touched">
+            First name is empty
           </span>
-      <span ng-if="regForm.username.$error.maxlength && regForm.username.$touched">
-            Username must not be longer than 10 characters
+      <span ng-if="regForm.first_name.$error.maxlength && regForm.first_name.$touched">
+            First ame must not be longer than 20 characters
+          </span>
+      <br>
+
+      <input type="text" name="last_name" placeholder="Last name"
+             ng-model="reg.user.last_name"
+             required
+             minlength="1"
+             ng-maxlength="20">
+      {{ reg.user.last_name }}
+      <span
+              ng-if="(regForm.last_name.$error.minlength || regForm.last_name.$error.required) && regForm.last_name.$touched">
+            Last name is empty
+          </span>
+      <span ng-if="regForm.last_name.$error.maxlength && regForm.last_name.$touched">
+            Last name must not be longer than 20 characters
           </span>
       <br>
 
