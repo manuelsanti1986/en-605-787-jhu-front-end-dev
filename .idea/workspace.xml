@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b3e47f-5e29-4e8f-84a6-4a8d85a92ead" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/common/signup.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/my-info/my-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/public.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/public.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/mod5_solution/src/public/sign-up/sign-up.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +109,6 @@
       <workItem from="1617549969326" duration="8748000" />
       <workItem from="1617631008049" duration="4742000" />
       <workItem from="1617639201087" duration="14664000" />
-    </task>
-    <task id="LOCAL-00103" summary="07:Updated index.">
-      <created>1615851512219</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1615851512220</updated>
     </task>
     <task id="LOCAL-00104" summary="07:Updated index.md">
       <created>1615852011421</created>
@@ -455,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618171466713</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="Passing user information">
+      <created>1618172569921</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1618172569921</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +472,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Addedd factory and removeitem" />
     <MESSAGE value="Fixed removeitem" />
     <MESSAGE value="Binding controller and items appearing" />
     <MESSAGE value="WOrking" />
@@ -499,6 +496,7 @@
     <MESSAGE value="Using service to save state of user info" />
     <MESSAGE value="Changed color of text in input form" />
     <MESSAGE value="Added isRegistered to service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added isRegistered to service" />
+    <MESSAGE value="Passing user information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passing user information" />
   </component>
 </project>

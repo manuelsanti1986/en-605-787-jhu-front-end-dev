@@ -8,10 +8,11 @@
     function SignUpService() {
         let service = this;
         let userInfo = {
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: ""
+            firstName: "",
+            lastName: "",
+            email: "",
+            phone: "",
+            favoriteDish: ""
         };
         let registered = false;
 
@@ -20,13 +21,10 @@
                 firstName: user.first_name,
                 lastName: user.last_name,
                 email: user.email,
-                phone: user.phone
+                phone: user.phone,
+                favoriteDish: user.fav_dish
             };
             registered = true;
-            console.log("service.userInfo")
-            console.log(userInfo)
-            console.log("registered")
-            console.log(registered)
         };
 
         service.getUserInfo = function () {
@@ -34,8 +32,6 @@
         };
 
         service.isRegistered = function (){
-            console.log("GETTING isRegistered()")
-            console.log(registered)
             return registered;
         }
     }

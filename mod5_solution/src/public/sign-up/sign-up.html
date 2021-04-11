@@ -25,7 +25,7 @@
 <!--             ng-model="reg.user.last_name"-->
 <!--             required-->
 <!--             minlength="2"-->
-<!--             ng-maxlength="30">-->
+<!--             ng-maxlength="30" />-->
 <!--      {{ reg.user.last_name }}-->
 <!--      <span-->
 <!--              ng-if="(regForm.last_name.$error.minlength || regForm.last_name.$error.required) && regForm.last_name.$touched">-->
@@ -36,9 +36,24 @@
 <!--          </span>-->
 <!--      <br>-->
 
+      <input type="text" name="fav_dish" placeholder="Favorite dish"
+                   ng-model="reg.user.fav_dish"
+                   required
+                   minlength="2"
+                   ng-maxlength="3" />
+            {{ reg.user.fav_dish }}
+            <span
+                    ng-if="(regForm.fav_dish.$error.minlength || regForm.fav_dish.$error.required) && regForm.fav_dish.$touched">
+                  Favorite dish must not be empty
+                </span>
+            <span ng-if="regForm.fav_dish.$error.maxlength && regForm.fav_dish.$touched">
+                  Favorite dish must not be longer than 3 characters
+                </span>
+            <br>
+
 <!--      <input type="email" name="email" placeholder="Email"-->
 <!--             ng-model="reg.user.email"-->
-<!--             required>-->
+<!--             required />-->
 <!--      {{ reg.user.email }}-->
 <!--      <span ng-if="regForm.email.$invalid && regForm.email.$touched">-->
 <!--            Must be a valid email address: handle@domain format-->
@@ -48,7 +63,7 @@
 <!--      <input type="text" name="phone" placeholder="Phone ###-###-####"-->
 <!--             ng-model="reg.user.phone"-->
 <!--             required-->
-<!--             pattern="(\d{3})-(\d{3})-(\d{4})">-->
+<!--             pattern="(\d{3})-(\d{3})-(\d{4})" />-->
 <!--      {{ reg.user.phone }}-->
 <!--      <span ng-if="regForm.phone.$invalid && regForm.phone.$touched">-->
 <!--            Phone must be in the format ###-###-####.-->
