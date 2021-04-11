@@ -146,6 +146,21 @@ The following repository contains the assignment solutions prepared by **Manuel 
         - The entire application should be viewed as a tree of components
         - They should never modify data or DOM that doesn't belong to them.
 
+### Module 10: Assignment #9
+
+- **Instructions:**
+    - [Module 10 Assignment](https://ychaikin.github.io/jhu-ajax-course/Module10)
+    - [JHU-EP-Coursera GitHub: Module 10 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment5/Assignment-5.md)
+
+- **Solution Link:**
+    - [Module 10 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod5_solution)
+
+- **Description:** This assigment was dedicated to learn the basics of form validation, testing, and a final project in AngularJS (Version 1).
+
+- **Key Takeaways:**
+    - **[Jasmine](https://jasmine.github.io/):** Behavior-driven development framework for testing JavaScript code.
+        - It does not depend on any other JavaScript frameworks
+        - It does not require a DOM
 
 ### Assignment Submission Reminders
 
@@ -167,3 +182,4 @@ The following repository contains the assignment solutions prepared by **Manuel 
 
 ### Contact Information
 - School Email: msanti16@jhu.edu
+
