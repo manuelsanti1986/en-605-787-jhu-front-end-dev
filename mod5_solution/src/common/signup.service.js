@@ -15,7 +15,6 @@
             favoriteDish: ""
         };
         let registered = false;
-        let isUnknownItem = false;
 
         service.registerUser = function (user) {
             userInfo = {
@@ -39,15 +38,14 @@
             return registered;
         }
 
-        service.isUnknownItem = function (favoriteDish){
+        service.checkIfItemExists = function (favoriteDish){
             let response = $http({
                 method: 'GET',
                 url: (ApiPath + `/menu_items/${favoriteDish}.json`)
-            }).then(function (response) {
-                console.log("response");
-                console.log(response);
-                return response.data;
             })
+                .then(function (response) {
+                    return response.data;
+                })
                 .catch(function (err) {
                     return `Error: Unable to get items. ${err}`
                 });
