@@ -14,10 +14,10 @@ $(() => { // Same as document.addEventListener("DOMContentLoaded"...
 let dc = {};
 
 let homeHtmlUrl = "snippets/home-snippet.html";
-let allCategoriesUrl = "https://davids-restaurant.herokuapp.com/categories.json";
+let allCategoriesUrl = "http://davids-restaurant.herokuapp.com/categories.json";
 let categoriesTitleHtml = "snippets/categories-title-snippet.html";
 let categoryHtml = "snippets/category-snippet.html";
-let menuItemsUrl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
+let menuItemsUrl = "http://davids-restaurant.herokuapp.com/menu_items.json?category=";
 let menuItemsTitleHtml = "snippets/menu-items-title.html";
 let menuItemHtml = "snippets/menu-item.html";
 let aboutPageHtml = "snippets/about.html";

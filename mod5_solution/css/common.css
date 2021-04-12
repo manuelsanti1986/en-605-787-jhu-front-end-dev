@@ -1,0 +1,41 @@
+.loading-indicator {
+    display: block;
+    width: 70px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 40%;
+    z-index: 100;
+    background-color: #FFF;
+}
+
+.loading-indicator img {
+    width: 70px;
+    background-color: #FFF;
+}
+
+.ui-view-placeholder {
+    margin-top: 60px;
+}
+
+/* SIGN-UP PAGE */
+input {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.ng-touched.ng-valid {
+    border: 2px green solid;
+}
+
+.ng-touched.ng-invalid {
+    border: 2px red solid;
+}
+form {
+    text-align: center;
+}
+#info {
+    margin-top: 20px;
+}
+/* END SIGN-UP PAGE */

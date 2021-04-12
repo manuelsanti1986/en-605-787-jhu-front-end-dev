@@ -1,0 +1,116 @@
+<div class="container">
+  <h2 id="menu-categories-title" class="text-center">Sign Up for our Newsletter</h2>
+  <div class="text-center">
+    Do not miss our daily offers and menu updates.
+  </div>
+  <br/>
+  <div class="col-sm-6 col-sm-offset-3 alert alert-success" ng-if="reg.completed">
+    Your information has been saved
+  </div>
+  <div class="col-sm-6 col-sm-offset-3 alert alert-danger" ng-if="reg.isUnknownItem">
+    No such menu number exists
+  </div>
+  <div class="col-sm-6 col-sm-offset-3">
+  <fieldset>
+    <form name='regForm' novalidate>
+      <!--  New Input group    -->
+      <div class="row">
+        <div class="input-group-lg">
+          <input type="text" name="first_name"
+                 class="form-control"
+                 placeholder="First name"
+                 ng-model="reg.user.first_name"
+                 required
+                 minlength="2"
+                 ng-maxlength="30"
+          />
+        </div>
+        <div class="alert alert-danger" role="alert" ng-if="(regForm.first_name.$error.minlength || regForm.first_name.$error.required) && regForm.first_name.$touched">
+              First name must have at least 2 characters
+        </div>
+        <div class="alert alert-danger" ng-if="regForm.first_name.$error.maxlength && regForm.first_name.$touched">
+              First name must not be longer than 30 characters
+        </div>
+      </div>
+      <br/>
+      <!--  New Input group    -->
+      <div class="row">
+        <div class="input-group-lg">
+          <input type="text" name="last_name"
+                 class="form-control"
+                 placeholder="Last name"
+                 ng-model="reg.user.last_name"
+                 required
+                 minlength="2"
+                 ng-maxlength="30"
+          />
+        </div>
+        <div class="alert alert-danger" ng-if="(regForm.last_name.$error.minlength || regForm.last_name.$error.required) && regForm.last_name.$touched">
+              Last name must have at least 2 characters
+        </div>
+        <div class="alert alert-danger" ng-if="regForm.last_name.$error.maxlength && regForm.last_name.$touched">
+              Last name must not be longer than 30 characters
+        </div>
+      </div>
+      <br>
+      <!--  New Input group    -->
+      <div class="row">
+        <div class="input-group-lg">
+          <input type="text" name="fav_dish"
+                 class="form-control"
+                 placeholder="Favorite dish"
+                 ng-model="reg.user.fav_dish"
+                 required
+                 minlength="2"
+                 ng-maxlength="3"
+          />
+        </div>
+        <div class="alert alert-danger" ng-if="(regForm.fav_dish.$error.minlength || regForm.fav_dish.$error.required) && regForm.fav_dish.$touched">
+                    Favorite dish must have at least 2 characters
+        </div>
+        <div class="alert alert-danger" ng-if="regForm.fav_dish.$error.maxlength && regForm.fav_dish.$touched">
+                    Favorite dish must not be longer than 3 characters
+        </div>
+      </div>
+      <br>
+      <!--  New Input group    -->
+      <div class="row">
+        <div class="input-group-lg">
+          <input type="email" name="email"
+                 class="form-control"
+                 placeholder="Email"
+                 ng-model="reg.user.email"
+          />
+        </div>
+        <div class="alert alert-danger" ng-if="regForm.email.$invalid && regForm.email.$touched">
+              Must be a valid email address: handle@domain format
+        </div>
+      </div>
+      <br>
+      <!--  New Input group    -->
+      <div class="row">
+        <div class="input-group-lg">
+          <input type="text" name="phone"
+                 class="form-control"
+                 placeholder="Phone ###-###-####"
+                 ng-model="reg.user.phone"
+                 pattern="(\d{3})-(\d{3})-(\d{4})"
+          />
+        </div>
+        <div class="alert alert-danger" ng-if="regForm.phone.$invalid && regForm.phone.$touched">
+              Phone must be in the format ###-###-####.
+        </div>
+      </div>
+      <br>
+      <button
+              type="button"
+              class="btn-group btn-group-lg"
+              ng-disabled="regForm.$invalid"
+              ng-click="reg.submit()"
+      >
+        Sign Up
+      </button>
+    </form>
+  </fieldset>
+  </div>
+</div>

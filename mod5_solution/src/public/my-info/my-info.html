@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="col-sm-8 col-sm-offset-2">
+    <h2 id="menu-categories-title" class="text-center">User Information</h2>
+    <br/>
+    <br/>
+    <div ng-if="myInfo.isRegistered == true" class="media">
+      <div class="media-left media-middle">
+        <img class="media-object" ng-src="{{myInfo.userInfo.imageUrl}}" />
+      </div>
+      <div class="media-body">
+        <h4 ng-if="myInfo.userInfo.firstName" ><b>First Name:</b> {{myInfo.userInfo.firstName}}</h4>
+        <h4 ng-if="myInfo.userInfo.lastName" ><b>Last Name:</b> {{myInfo.userInfo.lastName}}</h4>
+        <h4 ng-if="myInfo.userInfo.email" ><b>Email:</b> {{myInfo.userInfo.email}}</h4>
+        <h4 ng-if="myInfo.userInfo.phone" ><b>Phone:</b> {{myInfo.userInfo.phone}}</h4>
+        <h4 ng-if="myInfo.userInfo.favoriteDish" ><b>Favorite dish:</b> {{myInfo.userInfo.favoriteDish}}</h4>
+      </div>
+    </div>
+
+    <div class="alert alert-warning" ng-if="myInfo.isRegistered == false">
+      Not Signed Up Yet. <a ui-sref="sign-up">Sign up Now!</a>
+    </div>
+  </div>
+</div>
