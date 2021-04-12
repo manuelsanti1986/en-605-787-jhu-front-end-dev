@@ -20,11 +20,13 @@
                     }else {
                         registration.isUnknownItem = true;
                         registration.completed = false;
+                        SignUpService.clearUserInfo();
                     }
                 })
                 .catch(function (error){
                     registration.isUnknownItem = true;
                     registration.completed = false;
+                    SignUpService.clearUserInfo();
                 });
         };
     }

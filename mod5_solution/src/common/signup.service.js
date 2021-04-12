@@ -55,19 +55,16 @@
             return deferred.promise;
         }
 
-        // service.checkIfItemExists = function (favoriteDish){
-        //     let response = $http({
-        //         method: 'GET',
-        //         url: (ApiPath + `/menu_items/${favoriteDish}.json`)
-        //     })
-        //         .then(function (response) {
-        //             return response.data;
-        //         })
-        //         .catch(function (err) {
-        //             return `Error: Unable to get items. ${err}`
-        //         });
-        //     return response;
-        // }
+        service.clearUserInfo = function() {
+            userInfo = {
+                firstName: "",
+                lastName: "",
+                email: "",
+                phone: "",
+                favoriteDish: ""
+            };
+            registered = false;
+        }
     }
 
 
