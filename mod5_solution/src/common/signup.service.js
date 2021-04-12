@@ -27,7 +27,7 @@
             };
             userInfo.imageUrl = !userInfo.favoriteDish ?
                 undefined :
-                `images/menu/${userInfo.favoriteDish.replace(/[^a-zA-Z]+/g, '')}/${userInfo.favoriteDish}.jpg`;
+                `${ApiPath}/images/${userInfo.favoriteDish}.jpg`;
             registered = true;
         };
 
