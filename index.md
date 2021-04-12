@@ -153,7 +153,7 @@ The following repository contains the assignment solutions prepared by **Manuel 
   - [JHU-EP-Coursera GitHub: Module 10 Assignment](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment5/Assignment-5.md)
 
 - **Solution Link:**
-  - [Module 10 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod5_solution)
+  - [Module 10 Solution](https://manuelsanti1986.github.io/jhu-front-end-dev/mod5_solution/)
 
 - **Description:** This assigment was dedicated to learn the basics of form validation, testing, and a final project in AngularJS (Version 1).
 
