@@ -7,26 +7,23 @@
     function SignUpController(SignUpService) {
         let registration = this;
         registration.isUnknownItem = false;
+        registration.completed = false;
 
         registration.submit = function () {
-            console.log(registration.user)
-            registration.user.fav_dish = registration.user.fav_dish.toUpperCase();
-            SignUpService.checkIfItemExists(registration.user.fav_dish)
+            let itemShortName = registration.user.fav_dish.toUpperCase();
+            SignUpService.checkIfItemExists(itemShortName)
                 .then(function (itemExists){
-                    console.log("itemExists")
-                    console.log(itemExists)
-
-                    if(itemExists.short_name && itemExists.short_name === registration.user.fav_dish){
+                    if(itemExists.short_name && itemExists.short_name === itemShortName){
                         registration.isUnknownItem = false;
-                        console.log("registration.isUnknownItem")
-                        console.log(registration.isUnknownItem)
                         SignUpService.registerUser(registration.user);
                         registration.completed = SignUpService.isRegistered();
+                    }else {
+                        registration.isUnknownItem = true;
+                        registration.completed = false;
                     }
-                    registration.isUnknownItem = true;
-                    registration.completed = false;
                 })
                 .catch(function (error){
+                    registration.isUnknownItem = true;
                     registration.completed = false;
                 });
         };

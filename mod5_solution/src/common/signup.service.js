@@ -4,8 +4,8 @@
     angular.module('common')
         .service('SignUpService', SignUpService);
 
-    SignUpService.$inject = ['$http', 'ApiPath'];
-    function SignUpService($http, ApiPath) {
+    SignUpService.$inject = ['$http', '$q', 'ApiPath'];
+    function SignUpService($http, $q, ApiPath) {
         let service = this;
         let userInfo = {
             firstName: "",
@@ -38,19 +38,36 @@
             return registered;
         }
 
+
         service.checkIfItemExists = function (favoriteDish){
-            let response = $http({
+            let deferred = $q.defer();
+
+            $http({
                 method: 'GET',
                 url: (ApiPath + `/menu_items/${favoriteDish}.json`)
             })
                 .then(function (response) {
-                    return response.data;
+                    deferred.resolve(response.data);
                 })
                 .catch(function (err) {
-                    return `Error: Unable to get items. ${err}`
+                    deferred.reject(`Error: Unable to get items. ${err}`);
                 });
-            return response;
+            return deferred.promise;
         }
+
+        // service.checkIfItemExists = function (favoriteDish){
+        //     let response = $http({
+        //         method: 'GET',
+        //         url: (ApiPath + `/menu_items/${favoriteDish}.json`)
+        //     })
+        //         .then(function (response) {
+        //             return response.data;
+        //         })
+        //         .catch(function (err) {
+        //             return `Error: Unable to get items. ${err}`
+        //         });
+        //     return response;
+        // }
     }
 
 
